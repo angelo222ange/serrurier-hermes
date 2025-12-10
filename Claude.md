@@ -58,7 +58,7 @@ Tous les textes sont externalisés dans des fichiers JSON avec support des varia
    - `content/pages/home.json` : Textes page d'accueil
    - `content/pages/depannage.json` : Textes page dépannage
    - `content/pages/installation.json` : Textes page installation
-4. **Changer les couleurs** : variables CSS dans `app/globals.css`
+4. **Changer les couleurs** : palette dans `tailwind.config.js` (voir section design ci-dessous)
 5. **Remplacer les images** : `public/images/`
 6. **Build** : `npm run build` → génère un site statique dans `out/`
 
@@ -115,20 +115,40 @@ npm run start    # Serveur de production
 
 ### Couleurs
 
-Les couleurs sont définies via des variables CSS dans `app/globals.css` :
+Les couleurs sont définies directement dans `tailwind.config.js` :
 
-```css
-:root {
-  --color-primary-50: #e8f4fc;
-  --color-primary-100: #c5e4f8;
-  /* ... */
-  --color-primary-600: #1976d2;  /* Couleur principale */
-  /* ... */
+```javascript
+colors: {
+  primary: {
+    50: '#e8f4fc',
+    // ...
+    600: '#1976d2',  // ← Couleur principale à modifier
+    // ...
+  },
 }
 ```
 
-**Palettes suggérées** :
-- 🔵 Bleu pro : `#1976d2` (défaut)
+**⚠️ IMPORTANT : Utiliser des couleurs "locales" liées aux références régionales**
+
+Pour renforcer l'identité locale et le SEO, choisir des couleurs qui évoquent la région :
+
+| Ville | Couleur suggérée | Code hex | Inspiration |
+|-------|------------------|----------|-------------|
+| **Marseille** | Bleu Méditerranée | `#0077b6` | Mer, OM |
+| **Lyon** | Rouge Garance | `#c1121f` | Couleur historique lyonnaise |
+| **Bordeaux** | Bordeaux/Vin | `#722f37` | Vignobles |
+| **Nice** | Bleu Azur | `#0096c7` | Côte d'Azur |
+| **Toulouse** | Rose brique | `#c9184a` | Ville rose |
+| **Strasbourg** | Bleu Alsace | `#1d3557` | Tradition alsacienne |
+| **Nantes** | Vert Atlantique | `#2d6a4f` | Loire, nature |
+| **Lille** | Rouge/Or | `#9d0208` | Blason de la ville |
+| **Rennes** | Noir & Blanc | `#1d3557` | Couleurs bretonnes |
+| **Montpellier** | Bleu/Jaune | `#0077b6` | Hérault, Méditerranée |
+
+**Outil recommandé** : [uicolors.app](https://uicolors.app/create) pour générer une palette complète à partir d'une couleur de base.
+
+**Palettes génériques (si pas de référence locale évidente)** :
+- 🔵 Bleu pro : `#1976d2`
 - 🟠 Orange chaleureux : `#ea580c`
 - 🟢 Vert confiance : `#16a34a`
 - 🔴 Rouge urgence : `#dc2626`
