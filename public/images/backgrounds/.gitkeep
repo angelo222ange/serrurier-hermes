@@ -1,0 +1,16 @@
+# Fonds et textures
+# 
+# Fichiers suggérés :
+# - pattern.svg - Motif répétable (pour sections)
+# - texture-metal.webp - Texture métallique
+# - gradient-blue.webp - Dégradé bleu personnalisé
+# - hero-overlay.png - Overlay semi-transparent pour hero
+#
+# Utilisation :
+# - Ajouter de la profondeur aux sections
+# - Créer une ambiance unique
+# - Différencier visuellement des autres sites
+#
+# Format : SVG pour motifs, WebP/PNG pour textures
+# Poids : < 50KB (motifs), < 100KB (textures)
+

@@ -1,0 +1,17 @@
+# Images par Zone/Ville (optionnel)
+# 
+# Fichiers suggérés (nommer selon le slug de la zone) :
+# - lille.webp (800×600)
+# - roubaix.webp (800×600)
+# - tourcoing.webp (800×600)
+# - villeneuve-d-ascq.webp (800×600)
+# - etc.
+#
+# Ces images sont optionnelles mais recommandées pour :
+# - Personnaliser les pages locales
+# - Améliorer le SEO local avec des images géolocalisées
+# - Montrer des interventions réelles dans chaque ville
+#
+# Format : WebP recommandé
+# Poids : < 100KB par image
+

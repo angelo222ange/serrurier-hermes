@@ -1,0 +1,17 @@
+# Icônes personnalisées (optionnel)
+# 
+# Fichiers suggérés :
+# - icon-phone.svg - Icône téléphone
+# - icon-clock.svg - Icône horaires 24h/24
+# - icon-location.svg - Icône localisation
+# - icon-check.svg - Icône validation/avantage
+# - icon-shield.svg - Icône sécurité
+# - icon-key.svg - Icône clé
+# - icon-lock.svg - Icône serrure
+#
+# Note : Le template utilise des emojis par défaut.
+# Ces icônes sont pour une personnalisation avancée.
+#
+# Format : SVG uniquement
+# Couleur : Utiliser currentColor pour hériter de la couleur CSS
+
