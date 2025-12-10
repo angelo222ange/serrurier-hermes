@@ -102,14 +102,43 @@ npm run start    # Serveur de production
 | Route | Description |
 |-------|-------------|
 | `/` | Homepage |
-| `/depannage` | Dépannage urgence 24h/24 |
-| `/installation` | Installation et changement de serrure |
 | `/tarifs` | Grille tarifaire |
 | `/zones` | Toutes les zones d'intervention |
 | `/zones/[slug]` | Page par ville (générée dynamiquement) |
 | `/contact` | Formulaire de contact |
 | `/mentions-legales` | Mentions légales |
 | `/confidentialite` | Politique RGPD |
+
+### 📍 Pages Service × Zone (SEO Local)
+
+Le template génère automatiquement des pages pour chaque combinaison **service × zone** :
+
+| Route | Exemple | Description |
+|-------|---------|-------------|
+| `/[service]` | `/depannage` | Page service pour la ville principale |
+| `/[service]/[zone]` | `/depannage/vincennes` | Page service localisée |
+
+**Services disponibles** (définis dans `config/site.ts`) :
+- `/depannage` - Dépannage urgence 24h/24
+- `/ouverture-de-porte` - Ouverture de porte sans dégât
+- `/changement-serrure` - Remplacement de serrure
+- `/installation-serrure` - Pose de serrures neuves
+- `/blindage-porte` - Blindage de porte existante
+- `/remplacement-cylindre` - Changement de cylindre
+
+**Exemple pour Paris avec 20 arrondissements + banlieue** :
+- `/depannage/paris-11` → Dépannage Paris 11e
+- `/ouverture-de-porte/vincennes` → Ouverture de porte Vincennes
+- `/blindage-porte/boulogne-billancourt` → Blindage porte Boulogne
+
+**📊 Pages générées** : `6 services × N zones` = pages optimisées SEO local
+
+### Contenu des pages service×zone
+
+Les textes sont dans `content/pages/services/[service].json` avec variables :
+- `{zone}` → nom de la zone (ex: "Vincennes")
+- `{zonePostal}` → code postal (ex: "94300")
+- `{service}` → nom du service
 
 ## 🎨 Personnalisation du design
 

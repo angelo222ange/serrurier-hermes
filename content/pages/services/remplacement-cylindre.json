@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "badge": "🔑 Cylindres haute sécurité",
+    "title": "Remplacement de Cylindre {zone}",
+    "subtitle": "Changement de cylindre à {zone} par des professionnels. Cylindres anti-crochetage, anti-perçage et anti-bumping pour une sécurité renforcée."
+  },
+  "intro": {
+    "title": "Spécialiste du cylindre de serrure à {zone}",
+    "paragraphs": [
+      "Le cylindre (ou barillet) est le cœur de votre serrure. C'est la pièce qui reçoit la clé et permet le verrouillage. À {zone}, {name} remplace votre cylindre par un modèle haute sécurité en quelques minutes.",
+      "Le remplacement du cylindre est souvent suffisant pour renforcer votre sécurité sans changer toute la serrure. C'est une solution rapide et économique, particulièrement recommandée après une perte de clés ou un emménagement."
+    ]
+  },
+  "situations": {
+    "title": "Quand remplacer votre cylindre à {zone} ?",
+    "items": [
+      {
+        "icon": "🔑",
+        "title": "Perte de clés",
+        "description": "Pour éviter tout risque, remplacez le cylindre dès que vous perdez vos clés."
+      },
+      {
+        "icon": "🏠",
+        "title": "Nouvel emménagement",
+        "description": "Changez le cylindre pour être sûr d'être le seul à posséder les clés."
+      },
+      {
+        "icon": "⬆️",
+        "title": "Mise à niveau sécurité",
+        "description": "Passage à un cylindre haute sécurité certifié pour plus de protection."
+      },
+      {
+        "icon": "🔧",
+        "title": "Cylindre usé ou grippé",
+        "description": "Clé difficile à tourner ? Remplacez le cylindre avant le blocage complet."
+      }
+    ]
+  },
+  "advantages": {
+    "title": "Nos cylindres haute sécurité à {zone}",
+    "items": [
+      "Cylindres anti-crochetage",
+      "Protection anti-perçage",
+      "Système anti-bumping",
+      "Carte de propriété (reproduction contrôlée)",
+      "Marques reconnues : Vachette, Bricard, Mul-T-Lock",
+      "Installation en 15 minutes"
+    ]
+  },
+  "cta": {
+    "title": "Remplacement de cylindre à {zone}",
+    "subtitle": "Appelez pour un changement de cylindre rapide et sécurisé."
+  }
+}
+

@@ -30,7 +30,7 @@ export function Services({
           {services.map((service) => (
             <Link
               key={service.id}
-              href={service.href}
+              href={`/${service.slug}`}
               className="card group hover:border-primary-200"
             >
               <div className="flex items-start gap-4">

@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "badge": "🚪 Ouverture sans dégât",
+    "title": "Ouverture de Porte {zone}",
+    "subtitle": "Porte claquée, bloquée ou clés perdues à {zone} ? Nos serruriers ouvrent votre porte en 30 minutes, sans abîmer la serrure ni la porte."
+  },
+  "intro": {
+    "title": "Spécialiste ouverture de porte à {zone}",
+    "paragraphs": [
+      "Une porte fermée ne doit jamais vous laisser dehors longtemps. À {zone}, {name} est le spécialiste de l'ouverture de porte sans destruction. Notre technique préserve votre serrure et votre porte dans 95% des cas.",
+      "Que vous ayez claqué la porte, perdu vos clés ou que votre serrure soit défaillante, nous intervenons rapidement à {zone} ({zonePostal}) pour vous permettre de rentrer chez vous en toute sécurité."
+    ]
+  },
+  "situations": {
+    "title": "Types d'ouverture à {zone}",
+    "items": [
+      {
+        "icon": "🏠",
+        "title": "Porte claquée",
+        "description": "La situation la plus fréquente. Nous utilisons des techniques non destructives pour ouvrir sans trace."
+      },
+      {
+        "icon": "🔑",
+        "title": "Clés perdues",
+        "description": "Ouverture immédiate, puis changement de cylindre recommandé pour votre sécurité."
+      },
+      {
+        "icon": "🔒",
+        "title": "Serrure grippée",
+        "description": "Clé qui tourne dans le vide ou serrure bloquée ? Nous diagnostiquons et réparons sur place."
+      },
+      {
+        "icon": "🗝️",
+        "title": "Clé cassée dans la serrure",
+        "description": "Extraction du morceau de clé et vérification du cylindre pour éviter tout dommage."
+      }
+    ]
+  },
+  "advantages": {
+    "title": "Notre méthode d'ouverture à {zone}",
+    "items": [
+      "Techniques non destructives en priorité",
+      "Respect de votre serrure et de votre porte",
+      "Équipement professionnel de dernière génération",
+      "Serruriers formés aux techniques d'ouverture fine",
+      "Devis transparent avant toute intervention",
+      "Garantie de résultat"
+    ]
+  },
+  "cta": {
+    "title": "Porte fermée à {zone} ?",
+    "subtitle": "Appelez maintenant pour une ouverture rapide et sans dégât !"
+  }
+}
+

@@ -116,50 +116,62 @@ export const navigation = [
 ] as const;
 
 // ─────────────────────────────────────────────────────────────────────────
-// SERVICES
+// SERVICES - Chaque service a sa propre page + pages localisées
 // ─────────────────────────────────────────────────────────────────────────
 export const services = [
   {
     id: "depannage",
+    slug: "depannage",
     name: "Dépannage Urgence",
     shortDesc: "Intervention rapide 24h/24",
+    longDesc: "Service de dépannage serrurerie en urgence, disponible 24h/24 et 7j/7.",
     icon: "🔓",
-    href: "/depannage",
+    hasPage: true, // A sa propre page /depannage et des pages localisées
   },
   {
     id: "ouverture-porte",
+    slug: "ouverture-de-porte",
     name: "Ouverture de Porte",
     shortDesc: "Porte claquée ou bloquée",
+    longDesc: "Ouverture de porte claquée, bloquée ou suite à perte de clés. Sans dégât.",
     icon: "🚪",
-    href: "/depannage#ouverture",
+    hasPage: true,
   },
   {
     id: "changement-serrure",
+    slug: "changement-serrure",
     name: "Changement de Serrure",
     shortDesc: "Remplacement toutes marques",
+    longDesc: "Remplacement de serrure usée, cassée ou pour renforcer la sécurité.",
     icon: "🔐",
-    href: "/installation#changement",
+    hasPage: true,
   },
   {
     id: "installation",
+    slug: "installation-serrure",
     name: "Installation Serrure",
     shortDesc: "Pose de serrures sécurisées",
+    longDesc: "Installation de serrures neuves, multipoints, certifiées A2P.",
     icon: "🛠️",
-    href: "/installation",
+    hasPage: true,
   },
   {
     id: "blindage",
+    slug: "blindage-porte",
     name: "Blindage de Porte",
     shortDesc: "Renforcement sécurité",
+    longDesc: "Blindage de porte existante pour une protection anti-effraction maximale.",
     icon: "🛡️",
-    href: "/installation#blindage",
+    hasPage: true,
   },
   {
     id: "cylindre",
+    slug: "remplacement-cylindre",
     name: "Remplacement Cylindre",
     shortDesc: "Cylindres haute sécurité",
+    longDesc: "Remplacement de cylindre par des modèles haute sécurité anti-crochetage.",
     icon: "🔑",
-    href: "/installation#cylindre",
+    hasPage: true,
   },
 ] as const;
 

@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "badge": "🔐 Serrures certifiées",
+    "title": "Changement de Serrure {zone}",
+    "subtitle": "Remplacement de serrure à {zone} par des serruriers qualifiés. Serrures de toutes marques, certifiées A2P pour une sécurité optimale."
+  },
+  "intro": {
+    "title": "Expert en changement de serrure à {zone}",
+    "paragraphs": [
+      "Votre serrure est usée, cassée ou vous souhaitez renforcer votre sécurité ? À {zone}, {name} remplace votre serrure par un modèle adapté à vos besoins et à votre budget.",
+      "Nous travaillons avec les meilleures marques du marché (Fichet, Vachette, Bricard, Mul-T-Lock) et proposons des serrures certifiées A2P, reconnues par les assurances pour leur résistance à l'effraction."
+    ]
+  },
+  "situations": {
+    "title": "Quand changer votre serrure à {zone} ?",
+    "items": [
+      {
+        "icon": "🔧",
+        "title": "Serrure usée",
+        "description": "Clé qui force, serrure qui grince ? Il est temps de la remplacer avant qu'elle ne vous bloque."
+      },
+      {
+        "icon": "🏠",
+        "title": "Emménagement",
+        "description": "Vous venez d'emménager à {zone} ? Changez les serrures pour votre tranquillité."
+      },
+      {
+        "icon": "🔓",
+        "title": "Après effraction",
+        "description": "Suite à un cambriolage, le changement de serrure est indispensable et souvent couvert par l'assurance."
+      },
+      {
+        "icon": "⬆️",
+        "title": "Mise aux normes",
+        "description": "Passage à une serrure multipoints ou A2P pour une meilleure protection."
+      }
+    ]
+  },
+  "advantages": {
+    "title": "Notre service changement de serrure à {zone}",
+    "items": [
+      "Large choix de serrures (3 à 5 points)",
+      "Marques reconnues : Fichet, Vachette, Bricard",
+      "Serrures certifiées A2P (assurance)",
+      "Pose professionnelle garantie",
+      "Devis gratuit et sans engagement",
+      "Intervention rapide à {zone}"
+    ]
+  },
+  "cta": {
+    "title": "Besoin de changer votre serrure à {zone} ?",
+    "subtitle": "Demandez un devis gratuit pour le remplacement de votre serrure."
+  }
+}
+

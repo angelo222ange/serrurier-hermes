@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "badge": "🛡️ Protection maximale",
+    "title": "Blindage de Porte {zone}",
+    "subtitle": "Renforcez la sécurité de votre domicile à {zone} avec un blindage de porte professionnel. Protection anti-effraction certifiée."
+  },
+  "intro": {
+    "title": "Expert blindage de porte à {zone}",
+    "paragraphs": [
+      "Le blindage de porte est la solution la plus efficace pour protéger votre domicile contre les cambriolages. À {zone}, {name} vous propose des solutions de blindage adaptées à votre porte existante.",
+      "Contrairement au remplacement complet de la porte, le blindage consiste à renforcer votre porte actuelle avec une plaque d'acier et une serrure haute sécurité. C'est plus économique et tout aussi efficace."
+    ]
+  },
+  "situations": {
+    "title": "Solutions de blindage à {zone}",
+    "items": [
+      {
+        "icon": "🚪",
+        "title": "Blindage de porte existante",
+        "description": "Renforcement de votre porte en bois avec tôle d'acier et serrure multipoints."
+      },
+      {
+        "icon": "🏠",
+        "title": "Porte blindée complète",
+        "description": "Remplacement par un bloc-porte blindé certifié A2P BP (Bloc Porte)."
+      },
+      {
+        "icon": "🔒",
+        "title": "Blindage + serrure haute sécurité",
+        "description": "Pack complet : blindage + serrure 5 points A2P pour une protection optimale."
+      },
+      {
+        "icon": "🏢",
+        "title": "Blindage porte de cave/garage",
+        "description": "Sécurisation des accès secondaires souvent ciblés par les cambrioleurs."
+      }
+    ]
+  },
+  "advantages": {
+    "title": "Avantages du blindage de porte à {zone}",
+    "items": [
+      "Protection anti-effraction certifiée A2P",
+      "Conservation de l'aspect esthétique de votre porte",
+      "Installation en quelques heures",
+      "Moins coûteux qu'une porte blindée neuve",
+      "Amélioration de l'isolation phonique et thermique",
+      "Devis gratuit et conseils personnalisés"
+    ]
+  },
+  "cta": {
+    "title": "Blindage de porte à {zone}",
+    "subtitle": "Demandez un devis gratuit pour sécuriser votre domicile."
+  }
+}
+

@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "badge": "🚨 Urgence 24h/24",
+    "title": "Dépannage Serrurier {zone}",
+    "subtitle": "Intervention en 30 minutes à {zone}. Porte claquée, serrure bloquée, effraction ? Notre équipe de serruriers professionnels intervient 24h/24 et 7j/7."
+  },
+  "intro": {
+    "title": "Serrurier dépannage à {zone}",
+    "paragraphs": [
+      "Vous êtes bloqué devant votre porte à {zone} ? {name} est votre serrurier de confiance pour tous vos dépannages en urgence. Nous intervenons rapidement, de jour comme de nuit, pour vous sortir de toute situation difficile.",
+      "Notre équipe de serruriers qualifiés connaît parfaitement {zone} ({zonePostal}) et ses environs. Nous arrivons chez vous en 30 minutes maximum avec tout l'équipement nécessaire pour résoudre votre problème."
+    ]
+  },
+  "situations": {
+    "title": "Situations de dépannage à {zone}",
+    "items": [
+      {
+        "icon": "🚪",
+        "title": "Porte claquée",
+        "description": "Vous avez claqué la porte avec les clés à l'intérieur ? Nous ouvrons votre porte sans dégât."
+      },
+      {
+        "icon": "🔒",
+        "title": "Serrure bloquée",
+        "description": "Votre serrure ne tourne plus ou la clé est cassée dans le cylindre ? Nous intervenons immédiatement."
+      },
+      {
+        "icon": "🔓",
+        "title": "Effraction",
+        "description": "Victime d'un cambriolage ? Nous sécurisons votre domicile en urgence et remplaçons la serrure."
+      },
+      {
+        "icon": "🔑",
+        "title": "Clé perdue",
+        "description": "Vous avez perdu vos clés ? Nous ouvrons et changeons la serrure pour votre sécurité."
+      }
+    ]
+  },
+  "advantages": {
+    "title": "Pourquoi choisir {name} pour votre dépannage à {zone} ?",
+    "items": [
+      "Intervention en 30 minutes sur {zone}",
+      "Disponible 24h/24 et 7j/7, même les jours fériés",
+      "Devis gratuit par téléphone avant intervention",
+      "Techniciens qualifiés avec plus de 10 ans d'expérience",
+      "Ouverture sans dégât dans 95% des cas",
+      "Prix transparents, pas de supplément caché"
+    ]
+  },
+  "cta": {
+    "title": "Besoin d'un dépannage à {zone} ?",
+    "subtitle": "Nos serruriers sont disponibles maintenant. Appelez pour une intervention rapide !"
+  }
+}
+

@@ -1,0 +1,55 @@
+{
+  "hero": {
+    "badge": "🛠️ Installation professionnelle",
+    "title": "Installation Serrure {zone}",
+    "subtitle": "Pose de serrures neuves à {zone} par des artisans qualifiés. Serrures multipoints, connectées ou blindées pour une sécurité maximale."
+  },
+  "intro": {
+    "title": "Installation de serrure à {zone}",
+    "paragraphs": [
+      "Vous construisez, rénovez ou souhaitez équiper votre logement d'une nouvelle serrure ? {name} assure l'installation de serrures de qualité à {zone} et ses environs.",
+      "Nous vous conseillons sur le type de serrure adapté à votre porte et à vos besoins de sécurité. De la serrure standard à la serrure connectée, nous installons tous les modèles avec professionnalisme."
+    ]
+  },
+  "situations": {
+    "title": "Types d'installation à {zone}",
+    "items": [
+      {
+        "icon": "🔐",
+        "title": "Serrure multipoints",
+        "description": "Installation de serrures 3, 5 ou 7 points pour une sécurité renforcée de votre domicile."
+      },
+      {
+        "icon": "📱",
+        "title": "Serrure connectée",
+        "description": "Ouverture par smartphone, code ou badge. Idéal pour la location courte durée ou le contrôle d'accès."
+      },
+      {
+        "icon": "🏢",
+        "title": "Serrure de copropriété",
+        "description": "Installation et remplacement de serrures d'immeuble, avec reproduction de clés."
+      },
+      {
+        "icon": "🚪",
+        "title": "Serrure de porte de garage",
+        "description": "Sécurisation des accès secondaires : garage, cave, local technique."
+      }
+    ]
+  },
+  "advantages": {
+    "title": "Pourquoi nous confier l'installation à {zone} ?",
+    "items": [
+      "Conseil personnalisé selon votre situation",
+      "Pose dans les règles de l'art",
+      "Garantie constructeur sur toutes les serrures",
+      "Formation à l'utilisation de votre nouvelle serrure",
+      "SAV réactif en cas de problème",
+      "Prix compétitifs, devis gratuit"
+    ]
+  },
+  "cta": {
+    "title": "Installation de serrure à {zone}",
+    "subtitle": "Contactez-nous pour un devis gratuit et personnalisé."
+  }
+}
+
