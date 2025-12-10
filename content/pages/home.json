@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "badge": "⚡ Intervention 24h/24",
+    "title": "Serrurier {city}",
+    "subtitle": "Intervention rapide en 30 minutes. Dépannage, ouverture de porte, changement de serrure. Disponible 24h/24 et 7j/7."
+  },
+  "trustBadges": [
+    {
+      "icon": "⏱️",
+      "title": "30 min",
+      "subtitle": "Intervention"
+    },
+    {
+      "icon": "🛡️",
+      "title": "Garanti",
+      "subtitle": "Travaux assurés"
+    },
+    {
+      "icon": "💳",
+      "title": "Devis gratuit",
+      "subtitle": "Sans engagement"
+    }
+  ],
+  "whyUs": {
+    "title": "Pourquoi nous choisir ?",
+    "subtitle": "{name}, c'est une équipe de serruriers professionnels à votre service 24h/24.",
+    "advantages": [
+      {
+        "icon": "⚡",
+        "title": "Intervention rapide",
+        "description": "Arrivée sur place en 30 minutes en moyenne dans toute l'agglomération."
+      },
+      {
+        "icon": "🛡️",
+        "title": "Travail garanti",
+        "description": "Tous nos travaux sont couverts par notre assurance responsabilité civile professionnelle."
+      },
+      {
+        "icon": "💰",
+        "title": "Prix transparents",
+        "description": "Devis gratuit communiqué avant intervention. Aucun frais caché."
+      },
+      {
+        "icon": "🏆",
+        "title": "Expertise reconnue",
+        "description": "Artisans qualifiés avec plus de 10 ans d'expérience en serrurerie."
+      }
+    ]
+  }
+}
+

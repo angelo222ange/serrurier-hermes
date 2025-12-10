@@ -1,0 +1,35 @@
+[
+  {
+    "question": "Quel est le délai d'intervention d'un serrurier ?",
+    "answer": "Notre équipe intervient en <strong>30 minutes en moyenne</strong> dans {city} et son agglomération. Nous sommes disponibles 24h/24 et 7j/7, y compris les jours fériés."
+  },
+  {
+    "question": "Combien coûte une ouverture de porte claquée ?",
+    "answer": "Une ouverture de porte claquée (sans destruction) coûte entre <strong>89€ et 150€</strong> en journée. Le tarif exact dépend du type de serrure. Un devis précis vous est communiqué par téléphone avant intervention."
+  },
+  {
+    "question": "Intervenez-vous la nuit et le week-end ?",
+    "answer": "Oui, nous intervenons <strong>24h/24 et 7j/7</strong>, y compris les nuits, week-ends et jours fériés. Un supplément nuit/week-end peut s'appliquer."
+  },
+  {
+    "question": "Quels modes de paiement acceptez-vous ?",
+    "answer": "Nous acceptons les paiements par <strong>carte bancaire, espèces et chèque</strong>. Le paiement s'effectue une fois l'intervention terminée et validée par vos soins."
+  },
+  {
+    "question": "Vos interventions sont-elles garanties ?",
+    "answer": "Oui, toutes nos interventions sont couvertes par notre <strong>assurance responsabilité civile professionnelle</strong>. Les pièces installées bénéficient de la garantie constructeur."
+  },
+  {
+    "question": "Puis-je avoir un devis avant l'intervention ?",
+    "answer": "Absolument ! Nous vous communiquons un <strong>devis gratuit par téléphone</strong> avant de nous déplacer. Une fois sur place, si des éléments changent, nous vous informons avant de commencer les travaux."
+  },
+  {
+    "question": "Travaillez-vous avec les assurances ?",
+    "answer": "Oui, nous travaillons régulièrement avec les compagnies d'assurance. Nous pouvons vous fournir une <strong>facture détaillée</strong> pour votre remboursement."
+  },
+  {
+    "question": "Quelles marques de serrures installez-vous ?",
+    "answer": "Nous installons toutes les grandes marques : <strong>Fichet, Vachette, Pollux, JPM, Abloy, Bricard</strong>, etc. Nous privilégions les serrures certifiées A2P pour une sécurité optimale."
+  }
+]
+

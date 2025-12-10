@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Ouverture porte claquée",
+    "priceFrom": 89,
+    "priceTo": 150,
+    "description": "Sans destruction, serrure standard",
+    "isPopular": true
+  },
+  {
+    "name": "Ouverture porte blindée",
+    "priceFrom": 150,
+    "priceTo": 350,
+    "description": "Technique adaptée au blindage"
+  },
+  {
+    "name": "Changement cylindre",
+    "priceFrom": 89,
+    "priceTo": 180,
+    "description": "Cylindre standard ou haute sécurité"
+  },
+  {
+    "name": "Changement serrure complète",
+    "priceFrom": 150,
+    "priceTo": 450,
+    "description": "Serrure multipoints incluse"
+  },
+  {
+    "name": "Installation serrure 3 points",
+    "priceFrom": 250,
+    "priceTo": 500,
+    "description": "Serrure A2P certifiée"
+  },
+  {
+    "name": "Blindage de porte",
+    "priceFrom": 800,
+    "priceTo": 2000,
+    "description": "Blindage complet ou pivot"
+  }
+]
+

@@ -1,0 +1,49 @@
+{
+  "hero": {
+    "badge": "🚨 Urgence 24h/24",
+    "title": "Dépannage Serrurier {city}",
+    "subtitle": "Porte claquée ? Serrure bloquée ? Effraction ? Notre équipe de serruriers intervient en 30 minutes dans tout {city} et son agglomération."
+  },
+  "stats": [
+    { "value": "30", "label": "min d'intervention" },
+    { "value": "24/7", "label": "Disponibilité" },
+    { "value": "0€", "label": "Devis gratuit" }
+  ],
+  "interventions": [
+    {
+      "icon": "🚪",
+      "title": "Porte claquée",
+      "description": "Ouverture sans destruction de votre porte claquée. Technique fine pour préserver votre serrure."
+    },
+    {
+      "icon": "🔐",
+      "title": "Serrure bloquée",
+      "description": "Diagnostic et réparation de votre serrure défaillante. Remplacement si nécessaire."
+    },
+    {
+      "icon": "🔓",
+      "title": "Clés perdues",
+      "description": "Ouverture de porte et remplacement du cylindre pour sécuriser votre logement."
+    },
+    {
+      "icon": "🛡️",
+      "title": "Après effraction",
+      "description": "Sécurisation immédiate de votre porte après un cambriolage. Remplacement serrure."
+    },
+    {
+      "icon": "🔑",
+      "title": "Clé cassée",
+      "description": "Extraction de la clé cassée dans la serrure et remplacement si nécessaire."
+    },
+    {
+      "icon": "🏠",
+      "title": "Porte blindée",
+      "description": "Spécialistes des portes blindées. Ouverture et réparation toutes marques."
+    }
+  ],
+  "cta": {
+    "title": "Urgence serrurerie ?",
+    "subtitle": "Notre équipe intervient en 30 minutes, 24h/24 et 7j/7"
+  }
+}
+

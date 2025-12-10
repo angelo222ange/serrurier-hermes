@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "badge": "🔐 Installation & Sécurité",
+    "title": "Installation de Serrure {city}",
+    "subtitle": "Sécurisez votre logement avec des serrures de qualité. Installation, changement de cylindre, blindage de porte. Devis gratuit et intervention rapide."
+  },
+  "certifications": [
+    { "icon": "🛡️", "label": "Serrures A2P" },
+    { "icon": "✅", "label": "Garantie 2 ans" },
+    { "icon": "🏆", "label": "Toutes marques" }
+  ],
+  "prestations": [
+    {
+      "icon": "🔑",
+      "title": "Changement de cylindre",
+      "description": "Remplacement du cylindre de votre serrure par un modèle haute sécurité. Solution rapide et économique pour renforcer votre sécurité.",
+      "price": "À partir de 89€"
+    },
+    {
+      "icon": "🔐",
+      "title": "Changement de serrure complète",
+      "description": "Installation d'une nouvelle serrure multipoints (3, 5 ou 7 points). Serrures certifiées A2P pour une protection optimale.",
+      "price": "À partir de 150€"
+    },
+    {
+      "icon": "🛡️",
+      "title": "Blindage de porte",
+      "description": "Renforcement de votre porte existante avec un blindage en acier. Alternative économique à la porte blindée complète.",
+      "price": "À partir de 800€"
+    },
+    {
+      "icon": "🚪",
+      "title": "Porte blindée",
+      "description": "Installation complète d'une porte blindée certifiée. Le plus haut niveau de sécurité pour votre domicile.",
+      "price": "Sur devis"
+    }
+  ],
+  "brands": [
+    "Fichet",
+    "Vachette",
+    "Pollux",
+    "JPM",
+    "Abloy",
+    "Bricard",
+    "Mul-T-Lock",
+    "Picard",
+    "Mottura",
+    "Reelax",
+    "Dom",
+    "Keso"
+  ],
+  "cta": {
+    "title": "Besoin d'installer une serrure ?",
+    "subtitle": "Devis gratuit et sans engagement. Intervention rapide."
+  }
+}
+
