@@ -7,25 +7,32 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Couleurs personnalisables - MODIFIER ICI POUR CHAQUE SITE
+        // ═══════════════════════════════════════════════════════════════
+        // COULEURS PRINCIPALES - MODIFIER ICI POUR CHAQUE SITE
+        // ═══════════════════════════════════════════════════════════════
         primary: {
-          50: 'var(--color-primary-50)',
-          100: 'var(--color-primary-100)',
-          200: 'var(--color-primary-200)',
-          300: 'var(--color-primary-300)',
-          400: 'var(--color-primary-400)',
-          500: 'var(--color-primary-500)',
-          600: 'var(--color-primary-600)',
-          700: 'var(--color-primary-700)',
-          800: 'var(--color-primary-800)',
-          900: 'var(--color-primary-900)',
+          50: '#e8f4fc',
+          100: '#c5e4f8',
+          200: '#9dd2f3',
+          300: '#75c0ee',
+          400: '#4daeea',
+          500: '#2196e3',
+          600: '#1976d2',  // Couleur principale
+          700: '#1565c0',
+          800: '#0d47a1',
+          900: '#0a3d8f',
         },
+        // Vous pouvez ajouter d'autres couleurs personnalisées ici
+        // accent: {
+        //   500: '#ff6b35',
+        //   600: '#e55a2b',
+        // },
       },
       fontFamily: {
-        sans: ['var(--font-sans)', 'system-ui', 'sans-serif'],
+        // Police principale - MODIFIER ICI SI BESOIN
+        sans: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
       },
     },
   },
   plugins: [],
 }
-
