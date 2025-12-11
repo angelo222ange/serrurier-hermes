@@ -63,7 +63,7 @@ export function Footer() {
               {services.slice(0, 6).map((service) => (
                 <li key={service.id}>
                   <Link
-                    href={service.href}
+                    href={`/${service.slug}`}
                     className="text-gray-400 hover:text-white transition-colors text-sm"
                   >
                     {service.name}
