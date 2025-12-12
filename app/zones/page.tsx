@@ -10,8 +10,8 @@ export const metadata: Metadata = {
 
 export default function ZonesPage() {
   // Séparer la ville principale des autres
-  const mainCity = zones.find(z => z.isMain);
-  const otherZones = zones.filter(z => !z.isMain);
+  const mainCity = zones.find(z => 'isMain' in z && z.isMain);
+  const otherZones = zones.filter(z => !('isMain' in z && z.isMain));
 
   return (
     <main className="pt-20">

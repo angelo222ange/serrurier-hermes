@@ -35,14 +35,14 @@ export function Zones({
               className={`
                 flex flex-col items-center p-4 rounded-xl text-center
                 transition-all duration-200 hover:scale-105
-                ${zone.isMain 
+                ${'isMain' in zone && zone.isMain 
                   ? 'bg-primary-600 text-white shadow-lg shadow-primary-600/30' 
                   : 'bg-white shadow-sm hover:shadow-md border border-gray-100'
                 }
               `}
             >
               <svg 
-                className={`w-6 h-6 mb-2 ${zone.isMain ? 'text-white' : 'text-primary-600'}`} 
+                className={`w-6 h-6 mb-2 ${'isMain' in zone && zone.isMain ? 'text-white' : 'text-primary-600'}`} 
                 fill="none" 
                 stroke="currentColor" 
                 viewBox="0 0 24 24"
@@ -50,10 +50,10 @@ export function Zones({
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
-              <span className={`font-medium text-sm ${zone.isMain ? 'text-white' : 'text-gray-900'}`}>
+              <span className={`font-medium text-sm ${'isMain' in zone && zone.isMain ? 'text-white' : 'text-gray-900'}`}>
                 {zone.name}
               </span>
-              <span className={`text-xs ${zone.isMain ? 'text-white/80' : 'text-gray-500'}`}>
+              <span className={`text-xs ${'isMain' in zone && zone.isMain ? 'text-white/80' : 'text-gray-500'}`}>
                 {zone.postalCode}
               </span>
             </Link>

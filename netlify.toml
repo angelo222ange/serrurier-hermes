@@ -1,0 +1,127 @@
+# ═══════════════════════════════════════════════════════════════
+# CONFIGURATION NETLIFY - Optimisation Web Vitals
+# ═══════════════════════════════════════════════════════════════
+
+[build]
+  publish = "out"
+  command = "npm run build"
+
+# Images WebP
+[[headers]]
+  for = "/*.webp"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Vary = "Accept-Encoding"
+    X-Content-Type-Options = "nosniff"
+
+# Images JPEG
+[[headers]]
+  for = "/*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Vary = "Accept-Encoding"
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/*.jpeg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Vary = "Accept-Encoding"
+    X-Content-Type-Options = "nosniff"
+
+# Images PNG
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Vary = "Accept-Encoding"
+    X-Content-Type-Options = "nosniff"
+
+# Images GIF
+[[headers]]
+  for = "/*.gif"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Vary = "Accept-Encoding"
+    X-Content-Type-Options = "nosniff"
+
+# Images SVG
+[[headers]]
+  for = "/*.svg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Vary = "Accept-Encoding"
+    X-Content-Type-Options = "nosniff"
+
+# Favicon
+[[headers]]
+  for = "/*.ico"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Vary = "Accept-Encoding"
+    X-Content-Type-Options = "nosniff"
+
+# Dossier images
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Vary = "Accept-Encoding"
+    X-Content-Type-Options = "nosniff"
+
+# CSS
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Vary = "Accept-Encoding"
+    X-Content-Type-Options = "nosniff"
+
+# JavaScript
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Vary = "Accept-Encoding"
+    X-Content-Type-Options = "nosniff"
+
+# Next.js static assets
+[[headers]]
+  for = "/_next/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Vary = "Accept-Encoding"
+    X-Content-Type-Options = "nosniff"
+
+# Fonts WOFF2
+[[headers]]
+  for = "/*.woff2"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Vary = "Accept-Encoding"
+    X-Content-Type-Options = "nosniff"
+
+# Fonts WOFF
+[[headers]]
+  for = "/*.woff"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Vary = "Accept-Encoding"
+    X-Content-Type-Options = "nosniff"
+
+# Fonts TTF
+[[headers]]
+  for = "/*.ttf"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    Vary = "Accept-Encoding"
+    X-Content-Type-Options = "nosniff"
+
+# Sécurité globale
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+

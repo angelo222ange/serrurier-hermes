@@ -7,7 +7,7 @@ import Image from "next/image";
 import { siteConfig, navigation, zones, services } from "@/config/site";
 
 // Map des services pour identifier les slugs de service dans l'URL
-const servicesSlugs = services.map(s => s.slug);
+const servicesSlugs: string[] = services.map(s => s.slug);
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,13 +21,13 @@ export function Header() {
     // Pattern: /zones/[zone]
     if (segments[0] === 'zones' && segments[1]) {
       const zone = zones.find(z => z.slug === segments[1]);
-      if (zone && !zone.isMain) return zone.slug;
+      if (zone && !('isMain' in zone && zone.isMain)) return zone.slug;
     }
     
     // Pattern: /[service]/[zone]
     if (segments.length >= 2 && servicesSlugs.includes(segments[0])) {
       const zone = zones.find(z => z.slug === segments[1]);
-      if (zone && !zone.isMain) return zone.slug;
+      if (zone && !('isMain' in zone && zone.isMain)) return zone.slug;
     }
     
     return null;

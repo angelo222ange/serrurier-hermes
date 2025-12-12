@@ -4,6 +4,17 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
   ],
+  corePlugins: {
+    preflight: true, // Garder le reset CSS
+  },
+  // Safelist minimale - seulement les classes dynamiques critiques
+  safelist: [
+    'animate-fadeIn',
+    {
+      pattern: /^(bg|text|border)-(primary)-(600|700|800)$/,
+      variants: ['hover'],
+    },
+  ],
   theme: {
     extend: {
       colors: {
@@ -32,7 +43,16 @@ module.exports = {
         // Police principale - MODIFIER ICI SI BESOIN
         sans: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
       },
+      animation: {
+        fadeIn: 'fadeIn 0.3s ease-in-out',
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+      },
     },
   },
   plugins: [],
-}
+};

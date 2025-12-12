@@ -14,7 +14,7 @@ interface Props {
 // Générer les pages statiques pour chaque zone
 export function generateStaticParams() {
   return zones
-    .filter(zone => !zone.isMain)
+    .filter(zone => !('isMain' in zone && zone.isMain))
     .map((zone) => ({
       slug: zone.slug,
     }));

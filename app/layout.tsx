@@ -30,6 +30,53 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
+      <head>
+        {/* Script pour charger le CSS de manière asynchrone et non-bloquante */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                function makeCSSAsync(link) {
+                  if (link.getAttribute('data-async') === 'true') return;
+                  link.setAttribute('data-async', 'true');
+                  if (link.sheet) return;
+                  link.media = 'print';
+                  link.onload = function() {
+                    this.media = 'all';
+                  };
+                  if ('onload' in link === false) {
+                    setTimeout(function() {
+                      link.media = 'all';
+                    }, 0);
+                  }
+                }
+                
+                var cssLinks = document.querySelectorAll('link[rel="stylesheet"]:not([data-async])');
+                for (var i = 0; i < cssLinks.length; i++) {
+                  makeCSSAsync(cssLinks[i]);
+                }
+                
+                var observer = new MutationObserver(function(mutations) {
+                  mutations.forEach(function(mutation) {
+                    mutation.addedNodes.forEach(function(node) {
+                      if (node.nodeName === 'LINK' && node.rel === 'stylesheet') {
+                        makeCSSAsync(node);
+                      }
+                    });
+                  });
+                });
+                
+                if (document.head) {
+                  observer.observe(document.head, {
+                    childList: true,
+                    subtree: true
+                  });
+                }
+              })();
+            `,
+          }}
+        />
+      </head>
       <body className="antialiased">
         <Header />
         {children}
@@ -39,4 +86,3 @@ export default function RootLayout({
     </html>
   );
 }
-
