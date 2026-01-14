@@ -36,7 +36,7 @@ Contient toutes les infos de l'entreprise :
 ### 2. `content/` - Contenu textuel
 
 Tous les textes sont externalisés dans des fichiers JSON avec support des variables :
-- `{city}` → remplacé par la ville (ex: "Lille")
+- `{city}` → remplacé par la ville (ex: "Paris")
 - `{name}` → remplacé par le nom court (ex: "SL59")
 - `{phone}` → remplacé par le téléphone
 - `{department}`, `{region}`, `{postalCode}` → autres infos géographiques
@@ -170,7 +170,7 @@ Pour renforcer l'identité locale et le SEO, choisir des couleurs qui évoquent 
 | **Toulouse** | Rose brique | `#c9184a` | Ville rose |
 | **Strasbourg** | Bleu Alsace | `#1d3557` | Tradition alsacienne |
 | **Nantes** | Vert Atlantique | `#2d6a4f` | Loire, nature |
-| **Lille** | Rouge/Or | `#9d0208` | Blason de la ville |
+| **Paris** | Bleu nuit/Or | `#1E3A5F` | Élégance parisienne |
 | **Rennes** | Noir & Blanc | `#1d3557` | Couleurs bretonnes |
 | **Montpellier** | Bleu/Jaune | `#0077b6` | Hérault, Méditerranée |
 

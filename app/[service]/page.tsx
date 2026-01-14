@@ -5,6 +5,7 @@ import { siteConfig, zones, services } from "@/config/site";
 import { getPageContent, getServiceBySlug } from "@/lib/content";
 import { FAQ } from "@/components/sections/FAQ";
 import { CTA } from "@/components/sections/CTA";
+import { ServiceSchema } from "@/components/seo";
 import faqData from "@/content/faq.json";
 
 // Import des contenus de chaque service
@@ -15,19 +16,35 @@ import installationContent from "@/content/pages/services/installation-serrure.j
 import blindageContent from "@/content/pages/services/blindage-porte.json";
 import cylindreContent from "@/content/pages/services/remplacement-cylindre.json";
 
+// Type générique pour le contenu des services (certains champs optionnels)
+interface ServiceContent {
+  hero: { badge: string; title: string; subtitle: string };
+  intro: { title: string; paragraphs: string[] };
+  situations: { title: string; items: { icon: string; title: string; description: string; price: number }[] };
+  method: { title: string; steps: { number: number; title: string; description: string }[] };
+  advantages: { title: string; items: string[] };
+  brands: { title: string; items: string[] };
+  faq: { question: string; answer: string }[];
+  cta: { title: string; subtitle: string };
+  emergencyTypes?: { title: string; items: { type: string; description: string }[] };
+}
+
 // Map des contenus par slug de service
-const serviceContents: Record<string, typeof depannageContent> = {
-  "depannage": depannageContent,
-  "ouverture-de-porte": ouvertureContent,
-  "changement-serrure": changementContent,
-  "installation-serrure": installationContent,
-  "blindage-porte": blindageContent,
-  "remplacement-cylindre": cylindreContent,
+const serviceContents: Record<string, ServiceContent> = {
+  "depannage": depannageContent as ServiceContent,
+  "ouverture-de-porte": ouvertureContent as ServiceContent,
+  "changement-serrure": changementContent as ServiceContent,
+  "installation-serrure": installationContent as ServiceContent,
+  "blindage-porte": blindageContent as ServiceContent,
+  "remplacement-cylindre": cylindreContent as ServiceContent,
 };
 
 interface Props {
   params: { service: string };
 }
+
+// Force Next.js à ne pas générer dynamiquement des pages non listées
+export const dynamicParams = false;
 
 // Générer les pages statiques pour chaque service
 export function generateStaticParams() {
@@ -38,29 +55,46 @@ export function generateStaticParams() {
     }));
 }
 
-// Générer les métadonnées
+// Générer les métadonnées SEO optimisées
+// Format Title : < 60 caractères | Service + Ville + USP
+// Format Description : < 155 caractères | CTA inclus
 export function generateMetadata({ params }: Props): Metadata {
+  // Rejeter les routes qui commencent par "serrurier-"
+  if (params.service.startsWith('serrurier-')) {
+    return { title: "Page non trouvée" };
+  }
+  
   const service = getServiceBySlug(params.service);
 
   if (!service) {
     return { title: "Service non trouvé" };
   }
 
-  const title = `${service.name} ${siteConfig.city} - ${siteConfig.name}`;
-  const description = `${service.name} à ${siteConfig.city} et environs. ${service.longDesc} Intervention rapide 24h/24. ☎️ ${siteConfig.phone}`;
+  // Meta Title optimisé < 60 caractères (sans ville)
+  const title = `${service.name} 24h/24 Dès ${service.priceFrom}€ | Hermès`;
+  
+  // Meta Description optimisée < 155 caractères avec CTA (sans ville)
+  const description = `${service.name} professionnel 24h/24. ${service.shortDesc} Intervention rapide. Dès ${service.priceFrom}€. Devis gratuit.`;
 
   return {
     title,
     description,
     openGraph: {
-      title,
+      title: `${service.name} - 24h/24`,
       description,
       type: "website",
+      locale: "fr_FR",
+      siteName: "Serrurier Hermès",
     },
   };
 }
 
 export default function ServicePage({ params }: Props) {
+  // Rejeter les routes qui commencent par "serrurier-" (gérées par /serrurier-[city])
+  if (params.service.startsWith('serrurier-')) {
+    notFound();
+  }
+  
   const service = getServiceBySlug(params.service);
 
   if (!service) {
@@ -73,23 +107,48 @@ export default function ServicePage({ params }: Props) {
     notFound();
   }
 
-  // Remplacer les variables avec la ville principale comme zone
+  // Remplacer les variables sans mention de ville (pages génériques)
   const content = getPageContent(rawContent, {
-    zone: siteConfig.city,
-    zoneSlug: siteConfig.city.toLowerCase(),
-    zonePostal: siteConfig.postalCode,
+    zone: "",
+    zoneSlug: "",
+    zonePostal: "",
     service: service.name,
     serviceSlug: service.slug,
-  });
+  }, true);
 
-  // FAQ générale
-  const faq = getPageContent(faqData).slice(0, 5);
+  // FAQ : utiliser les FAQ spécifiques au service si disponibles, sinon FAQ générale (sans ville)
+  const serviceFaq = content.faq ? getPageContent(content.faq, {
+    zone: "",
+    zoneSlug: "",
+    zonePostal: "",
+    service: service.name,
+    serviceSlug: service.slug,
+  }, true) : null;
+  const faq = serviceFaq || getPageContent(faqData.generic, undefined, true).slice(0, 5);
 
   // Autres services pour le maillage
   const otherServices = services.filter(s => s.slug !== service.slug && s.hasPage);
 
   return (
     <main className="pt-20">
+      {/* Schema.org Service - Données structurées */}
+      <ServiceSchema
+        serviceName={service.name}
+        serviceSlug={service.slug}
+        description={service.longDesc}
+        priceFrom={service.priceFrom}
+        cityName="France"
+        citySlug="france"
+        postalCode=""
+        rating={4.9}
+        reviewCount={2847}
+        serviceTypes={content.situations.items.map(s => ({
+          name: s.title,
+          description: s.description,
+          price: s.price,
+        }))}
+      />
+
       {/* Breadcrumb */}
       <nav className="bg-gray-50 py-3 border-b">
         <div className="container">
@@ -155,9 +214,14 @@ export default function ServicePage({ params }: Props) {
                 <h3 className="font-bold text-lg text-gray-900 mb-2">
                   {item.title}
                 </h3>
-                <p className="text-gray-600 text-sm">
+                <p className="text-gray-600 text-sm mb-3">
                   {item.description}
                 </p>
+                {item.price && (
+                  <p className="text-emerald-600 font-bold">
+                    Dès {item.price}€
+                  </p>
+                )}
               </div>
             ))}
           </div>
@@ -185,7 +249,7 @@ export default function ServicePage({ params }: Props) {
                 📞 Contactez-nous
               </h3>
               <p className="text-gray-600 mb-4">
-                Notre équipe est disponible 24h/24 et 7j/7 pour intervenir à {siteConfig.city} et dans tout le {siteConfig.department}.
+                Notre équipe est disponible 24h/24 et 7j/7 pour intervenir partout en France.
               </p>
               <div className="bg-white rounded-xl p-4">
                 <a href={siteConfig.phoneLink} className="text-2xl font-bold text-primary-600 hover:text-primary-700">
@@ -197,39 +261,6 @@ export default function ServicePage({ params }: Props) {
         </div>
       </section>
 
-      {/* Zones d'intervention pour ce service */}
-      <section className="section bg-gray-50">
-        <div className="container">
-          <h2 className="section-title text-center mb-4">
-            {service.name} - Zones d&apos;intervention
-          </h2>
-          <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
-            Nous intervenons pour {service.name.toLowerCase()} dans toutes ces communes du {siteConfig.department}.
-          </p>
-          
-          <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {zones.map((zone) => (
-              <Link
-                key={zone.slug}
-                href={`/${service.slug}/${zone.slug}`}
-                className="bg-white p-4 rounded-xl shadow-sm hover:shadow-md transition-all hover:bg-primary-50 group"
-              >
-                <div className="flex items-center justify-between">
-                  <div>
-                    <p className="font-semibold text-gray-900 group-hover:text-primary-600">
-                      {zone.name}
-                    </p>
-                    <p className="text-sm text-gray-500">{zone.postalCode}</p>
-                  </div>
-                  <span className="text-primary-600 opacity-0 group-hover:opacity-100 transition-opacity">
-                    →
-                  </span>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Autres services */}
       <section className="section bg-white">

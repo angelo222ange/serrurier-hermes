@@ -7,12 +7,13 @@ import { CTA } from "@/components/sections/CTA";
 import faqData from "@/content/faq.json";
 import pageData from "@/content/pages/depannage.json";
 
-// Charger le contenu avec les variables remplacées
-const content = getPageContent(pageData);
+// Charger le contenu avec les variables remplacées (sans ville)
+const content = getPageContent(pageData, undefined, true);
 
+// Meta optimisés < 60 / 155 caractères (sans mention de ville)
 export const metadata: Metadata = {
-  title: `Dépannage Serrurier Urgence 24h/24`,
-  description: `Serrurier d'urgence à ${siteConfig.city}. Intervention en 30 min pour ouverture de porte, serrure bloquée, effraction. Disponible 24h/24 et 7j/7. ☎️ ${siteConfig.phone}`,
+  title: `Dépannage Serrurier 24h/24 - Urgence | Hermès`,
+  description: `Dépannage serrurier urgence. Intervention 20 min. Porte claquée, serrure bloquée. 24h/24 et 7j/7. Devis gratuit.`,
 };
 
 export default function DepannagePage() {
@@ -58,8 +59,8 @@ export default function DepannagePage() {
             <div className="relative">
               <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/images/depannage-urgence.webp"
-                  alt={`Dépannage serrurier urgence ${siteConfig.city}`}
+                  src="/images/services/depannage-serrurier-urgence-nuit-hermes.webp"
+                  alt="Dépannage serrurier urgence"
                   fill
                   className="object-cover"
                   priority
@@ -81,26 +82,53 @@ export default function DepannagePage() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {content.interventions.map((item, index) => (
-              <div key={index} className="card">
-                <div className="w-14 h-14 bg-primary-100 rounded-2xl flex items-center justify-center text-2xl mb-4">
-                  {item.icon}
+            {content.interventions.map((item, index) => {
+              // Map des images pour chaque type d'intervention
+              const interventionImages: Record<string, string> = {
+                "Porte claquée": "/images/services/serrurier-porte-claquer-serrurier-hermes.webp",
+                "Serrure bloquée": "/images/services/porte-bloquer-serrurier.webp",
+                "Clés perdues": "/images/services/ouverture-de-porte-classique-hermes.webp",
+                "Après effraction": "/images/services/apres-effraction-serrurier.webp",
+                "Clé cassée": "/images/services/cle-casse-serrure-serrurier-toulouse.webp",
+                "Porte blindée": "/images/services/serrurier-hermes-ouverture-porte-blind.webp",
+              };
+              
+              return (
+                <div key={index} className="relative overflow-hidden rounded-2xl shadow-md group min-h-[280px] flex items-end">
+                  {/* Image de fond */}
+                  <div className="absolute inset-0">
+                    <Image
+                      src={interventionImages[item.title] || "/images/services/depannage-serrurier-urgence-nuit-hermes.webp"}
+                      alt={item.title}
+                      fill
+                      className="object-cover"
+                    />
+                    {/* Filtre de couleur émeraude */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-emerald-900/90 via-emerald-900/60 to-emerald-900/30 group-hover:from-emerald-900/95 group-hover:via-emerald-900/70 transition-all duration-300" />
+                  </div>
+                  
+                  {/* Contenu */}
+                  <div className="relative z-10 p-6 w-full">
+                    <div className="w-14 h-14 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center text-3xl mb-4">
+                      {item.icon}
+                    </div>
+                    <h3 className="font-bold text-xl text-white mb-2">
+                      {item.title}
+                    </h3>
+                    <p className="text-white/90 text-sm leading-relaxed">
+                      {item.description}
+                    </p>
+                  </div>
                 </div>
-                <h3 className="font-bold text-lg text-gray-900 mb-2">
-                  {item.title}
-                </h3>
-                <p className="text-gray-600 text-sm">
-                  {item.description}
-                </p>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
 
       {/* FAQ */}
       <FAQ 
-        items={getPageContent(faqData).slice(0, 4)}
+        items={getPageContent(faqData.generic, undefined, true).slice(0, 4)}
         title="Questions sur le dépannage"
       />
 

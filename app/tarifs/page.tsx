@@ -3,23 +3,22 @@ import { siteConfig } from "@/config/site";
 import { Tarifs } from "@/components/sections/Tarifs";
 import { FAQ } from "@/components/sections/FAQ";
 import { CTA } from "@/components/sections/CTA";
-import tarifsData from "@/content/tarifs.json";
-import faqData from "@/content/faq.json";
 
+// Meta Title optimisé < 60 caractères | Meta Description < 155 caractères (sans mention de ville)
 export const metadata: Metadata = {
-  title: `Tarifs Serrurier - Prix Transparents`,
-  description: `Découvrez nos tarifs serrurier à ${siteConfig.city}. Prix transparents, devis gratuit avant intervention. Ouverture de porte à partir de 89€. ☎️ ${siteConfig.phone}`,
+  title: `Tarifs Serrurier - Dès 69€ | Hermès`,
+  description: `Tarifs serrurier : ouverture porte dès 69€, changement serrure dès 89€. Prix transparents, devis gratuit. ☎️ ${siteConfig.phone}`,
 };
 
 export default function TarifsPage() {
   return (
     <main className="pt-20">
       {/* Header */}
-      <section className="py-16 bg-gradient-to-br from-primary-50 via-white to-blue-50">
+      <section className="py-16 bg-gradient-to-br from-gray-50 via-white to-gray-50">
         <div className="container text-center">
           <span className="badge-primary mb-4">💰 Prix transparents</span>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Tarifs Serrurier {siteConfig.city}
+            Tarifs Serrurier
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Des prix clairs et transparents. Devis gratuit communiqué avant toute intervention.
@@ -30,7 +29,6 @@ export default function TarifsPage() {
 
       {/* Tarifs */}
       <Tarifs 
-        items={tarifsData}
         title="Nos tarifs indicatifs"
         subtitle="Les prix peuvent varier selon la complexité de l'intervention. Un devis précis vous sera communiqué par téléphone."
       />
@@ -40,8 +38,8 @@ export default function TarifsPage() {
         <div className="container">
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center p-6">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
@@ -80,7 +78,6 @@ export default function TarifsPage() {
 
       {/* FAQ tarifs */}
       <FAQ 
-        items={faqData.filter(q => q.question.toLowerCase().includes('prix') || q.question.toLowerCase().includes('coût') || q.question.toLowerCase().includes('paiement') || q.question.toLowerCase().includes('devis'))}
         title="Questions sur nos tarifs"
       />
 
@@ -89,4 +86,3 @@ export default function TarifsPage() {
     </main>
   );
 }
-

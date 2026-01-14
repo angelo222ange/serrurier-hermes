@@ -1,55 +1,176 @@
 {
   "hero": {
     "badge": "🚨 Urgence 24h/24",
-    "title": "Dépannage Serrurier {zone}",
-    "subtitle": "Intervention en 30 minutes à {zone}. Porte claquée, serrure bloquée, effraction ? Notre équipe de serruriers professionnels intervient 24h/24 et 7j/7."
+    "title": "Dépannage Urgent",
+    "subtitle": "Urgence serrurerie ? Clé cassée, serrure bloquée, porte forcée ? Nos serruriers dépanneurs interviennent en 20 minutes, 24h/24 et 7j/7. Diagnostic et devis gratuit par téléphone."
   },
   "intro": {
-    "title": "Serrurier dépannage à {zone}",
+    "title": "Dépannage serrurier d'urgence à {zone}",
     "paragraphs": [
-      "Vous êtes bloqué devant votre porte à {zone} ? {name} est votre serrurier de confiance pour tous vos dépannages en urgence. Nous intervenons rapidement, de jour comme de nuit, pour vous sortir de toute situation difficile.",
-      "Notre équipe de serruriers qualifiés connaît parfaitement {zone} ({zonePostal}) et ses environs. Nous arrivons chez vous en 30 minutes maximum avec tout l'équipement nécessaire pour résoudre votre problème."
+      "Un problème de serrurerie à {zone} ? {name} est votre spécialiste du dépannage serrurier depuis plus de 15 ans. Clé cassée dans la serrure, mécanisme grippé, cylindre bloqué, porte qui ne ferme plus correctement... Nous intervenons rapidement pour résoudre tous vos problèmes de serrurerie.",
+      "Le dépannage de serrure nécessite un savoir-faire technique précis. Nos serruriers sont formés aux dernières techniques de réparation et disposent d'un équipement professionnel complet. Dans la majorité des cas, nous réparons votre serrure sur place, sans avoir besoin de la remplacer entièrement.",
+      "À {zone} ({zonePostal}), nous intervenons aussi bien chez les particuliers que pour les professionnels : appartements, maisons, commerces, bureaux, locaux industriels. Que ce soit pour une urgence en pleine nuit ou un dépannage planifié, notre équipe est à votre disposition 24 heures sur 24, 7 jours sur 7.",
+      "Avant chaque intervention, nous établissons un diagnostic précis par téléphone et vous communiquons un devis clair. Pas de surprise sur la facture : le prix annoncé est le prix final. Si une réparation n'est pas possible, nous vous proposons un remplacement avec des pièces de qualité, garanties."
     ]
   },
   "situations": {
-    "title": "Situations de dépannage à {zone}",
+    "title": "Types de dépannage serrurier à {zone}",
     "items": [
       {
-        "icon": "🚪",
-        "title": "Porte claquée",
-        "description": "Vous avez claqué la porte avec les clés à l'intérieur ? Nous ouvrons votre porte sans dégât."
+        "icon": "🔑",
+        "title": "Clé cassée dans la serrure",
+        "description": "Votre clé s'est brisée dans le cylindre ? Nous extrayons le morceau délicatement et vérifions l'état de votre serrure. Remplacement du cylindre si nécessaire.",
+        "price": 69
+      },
+      {
+        "icon": "🔧",
+        "title": "Serrure grippée ou difficile",
+        "description": "Clé qui tourne difficilement, mécanisme qui force ? Dégrippage, lubrification et réglage pour retrouver un fonctionnement fluide.",
+        "price": 59
       },
       {
         "icon": "🔒",
         "title": "Serrure bloquée",
-        "description": "Votre serrure ne tourne plus ou la clé est cassée dans le cylindre ? Nous intervenons immédiatement."
+        "description": "Votre serrure ne fonctionne plus du tout ? Diagnostic sur place et réparation du mécanisme ou remplacement du cylindre défaillant.",
+        "price": 79
       },
       {
-        "icon": "🔓",
-        "title": "Effraction",
-        "description": "Victime d'un cambriolage ? Nous sécurisons votre domicile en urgence et remplaçons la serrure."
+        "icon": "🚪",
+        "title": "Porte qui ne ferme plus",
+        "description": "Porte désalignée, pêne qui ne s'enclenche plus ? Réglage de la porte, ajustement de la gâche et vérification du mécanisme complet.",
+        "price": 79
       },
       {
-        "icon": "🔑",
-        "title": "Clé perdue",
-        "description": "Vous avez perdu vos clés ? Nous ouvrons et changeons la serrure pour votre sécurité."
+        "icon": "🛡️",
+        "title": "Sécurisation après effraction",
+        "description": "Victime d'un cambriolage ? Intervention d'urgence pour sécuriser votre domicile : réparation ou remplacement de la serrure forcée.",
+        "price": 89
+      },
+      {
+        "icon": "⚡",
+        "title": "Dépannage serrure multipoints",
+        "description": "Problème sur votre serrure 3, 5 ou 7 points ? Nos spécialistes maîtrisent tous les mécanismes multipoints des grandes marques.",
+        "price": 99
+      }
+    ]
+  },
+  "method": {
+    "title": "Notre méthode de dépannage à {zone}",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Appel et diagnostic",
+        "description": "Décrivez-nous votre problème par téléphone. Nous identifions la panne et préparons l'intervention avec le bon matériel."
+      },
+      {
+        "number": 2,
+        "title": "Devis gratuit",
+        "description": "Avant tout déplacement, nous vous communiquons un devis précis et définitif. Vous savez exactement ce que vous allez payer."
+      },
+      {
+        "number": 3,
+        "title": "Intervention en 20 min",
+        "description": "Un technicien qualifié arrive chez vous à {zone} avec tout l'outillage et les pièces de rechange nécessaires."
+      },
+      {
+        "number": 4,
+        "title": "Diagnostic sur place",
+        "description": "Nous examinons votre serrure pour identifier précisément l'origine du problème et vous proposer la meilleure solution."
+      },
+      {
+        "number": 5,
+        "title": "Réparation ou remplacement",
+        "description": "Selon le diagnostic : réparation du mécanisme existant ou remplacement par une pièce neuve de qualité équivalente ou supérieure."
+      },
+      {
+        "number": 6,
+        "title": "Test et garantie",
+        "description": "Nous testons plusieurs fois le bon fonctionnement de votre serrure. Intervention garantie pièces et main d'œuvre."
       }
     ]
   },
   "advantages": {
     "title": "Pourquoi choisir {name} pour votre dépannage à {zone} ?",
     "items": [
-      "Intervention en 30 minutes sur {zone}",
-      "Disponible 24h/24 et 7j/7, même les jours fériés",
-      "Devis gratuit par téléphone avant intervention",
+      "Intervention en 20 minutes maximum à {zone}",
+      "Disponible 24h/24 et 7j/7, même jours fériés",
+      "Diagnostic gratuit par téléphone avant intervention",
+      "Réparation privilégiée au remplacement quand c'est possible",
       "Techniciens qualifiés avec plus de 10 ans d'expérience",
-      "Ouverture sans dégât dans 95% des cas",
-      "Prix transparents, pas de supplément caché"
+      "Pièces de rechange de qualité, toutes marques",
+      "Prix transparents annoncés avant intervention",
+      "Garantie pièces et main d'œuvre sur toutes nos réparations"
     ]
   },
+  "brands": {
+    "title": "Nous dépannons toutes les marques",
+    "items": ["Fichet", "Vachette", "Bricard", "Picard", "Mul-T-Lock", "Abloy", "JPM", "Pollux", "Mottura", "Dom", "Keso", "Iseo", "Laperche", "Abus"]
+  },
+  "emergencyTypes": {
+    "title": "Types d'urgences que nous traitons",
+    "items": [
+      {
+        "type": "Clé cassée ou coincée",
+        "description": "Extraction du morceau de clé sans abîmer le cylindre. Vérification et remplacement si nécessaire."
+      },
+      {
+        "type": "Serrure grippée",
+        "description": "Dégrippage professionnel, lubrification et réglage du mécanisme pour un fonctionnement optimal."
+      },
+      {
+        "type": "Cylindre usé ou défaillant",
+        "description": "Remplacement du barillet par un modèle équivalent ou de qualité supérieure selon vos besoins."
+      },
+      {
+        "type": "Mécanisme multipoints bloqué",
+        "description": "Diagnostic et réparation des serrures 3, 5 et 7 points. Remplacement des pièces défectueuses."
+      },
+      {
+        "type": "Porte désalignée",
+        "description": "Réglage des gonds, ajustement de la gâche et du pêne pour un fonctionnement fluide."
+      },
+      {
+        "type": "Effraction et sécurisation",
+        "description": "Intervention d'urgence 24h/24 pour sécuriser votre domicile après un cambriolage ou une tentative."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Combien coûte un dépannage de serrure ?",
+      "answer": "Le prix d'un dépannage serrurier dépend de la nature du problème. Pour un <strong>dégrippage simple, comptez à partir de 59€</strong>. L'extraction d'une clé cassée démarre à 69€, et la réparation d'une serrure bloquée à partir de 79€. Nous vous communiquons un devis exact par téléphone avant toute intervention."
+    },
+    {
+      "question": "Intervenez-vous la nuit et le week-end ?",
+      "answer": "Oui, notre service de dépannage est disponible <strong>24h/24 et 7j/7</strong>, y compris les nuits, week-ends et jours fériés. Une serrure bloquée n'attend pas ! Un léger supplément peut s'appliquer pour les interventions nocturnes (après 21h)."
+    },
+    {
+      "question": "Ma clé est cassée dans la serrure, que dois-je faire ?",
+      "answer": "Surtout, <strong>n'essayez pas de retirer le morceau vous-même</strong> avec des outils inadaptés (pinces, aiguilles...). Vous risqueriez d'enfoncer le morceau plus profondément ou d'abîmer le cylindre. Appelez-nous : nos serruriers disposent d'outils d'extraction spécifiques pour retirer la clé sans endommager la serrure."
+    },
+    {
+      "question": "Pouvez-vous réparer une serrure ou faut-il forcément la remplacer ?",
+      "answer": "Dans <strong>70% des cas, la réparation est possible</strong> et moins coûteuse qu'un remplacement. Dégrippage, remplacement d'un ressort, réajustement du mécanisme... Nos techniciens privilégient toujours la réparation quand c'est techniquement viable. Si le remplacement s'impose, nous vous en informons et vous proposons des options adaptées."
+    },
+    {
+      "question": "Quel est le délai d'intervention pour un dépannage ?",
+      "answer": "Nos serruriers interviennent en <strong>20 minutes maximum</strong> dans la zone et ses environs. En cas d'urgence (effraction, personne bloquée dehors), nous priorisons votre appel pour une intervention au plus vite."
+    },
+    {
+      "question": "Que faire si ma serrure est grippée et tourne difficilement ?",
+      "answer": "Une serrure grippée est souvent le signe d'un <strong>manque de lubrification ou d'un début d'usure</strong>. En attendant notre intervention, n'insistez pas en forçant sur la clé : vous risqueriez de la casser. Appelez-nous pour un dégrippage professionnel qui prolongera la durée de vie de votre serrure."
+    },
+    {
+      "question": "Réparez-vous les serrures de portes blindées ?",
+      "answer": "Oui, nos techniciens sont <strong>spécialistes des portes blindées</strong> toutes marques : Fichet, Picard, Tordjman, Bricard... Nous intervenons sur les mécanismes multipoints, les cylindres haute sécurité et les systèmes de verrouillage spécifiques aux portes blindées."
+    },
+    {
+      "question": "Vos dépannages sont-ils garantis ?",
+      "answer": "Oui, toutes nos interventions sont <strong>garanties pièces et main d'œuvre</strong>. Si un problème survient suite à notre dépannage, nous revenons gratuitement pour le résoudre. Nous vous remettons une facture détaillée, utile pour votre assurance si le dépannage fait suite à un sinistre."
+    }
+  ],
   "cta": {
-    "title": "Besoin d'un dépannage à {zone} ?",
-    "subtitle": "Nos serruriers sont disponibles maintenant. Appelez pour une intervention rapide !"
+    "title": "Problème de serrure ?",
+    "subtitle": "Clé cassée, serrure bloquée, porte qui force ? Appelez maintenant pour un dépannage rapide ! Diagnostic gratuit, intervention en 20 min."
   }
 }
-

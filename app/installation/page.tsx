@@ -7,12 +7,13 @@ import { CTA } from "@/components/sections/CTA";
 import faqData from "@/content/faq.json";
 import pageData from "@/content/pages/installation.json";
 
-// Charger le contenu avec les variables remplacées
-const content = getPageContent(pageData);
+// Charger le contenu avec les variables remplacées (sans ville)
+const content = getPageContent(pageData, undefined, true);
 
+// Meta optimisés < 60 / 155 caractères (sans mention de ville)
 export const metadata: Metadata = {
-  title: `Installation & Changement de Serrure`,
-  description: `Installation et changement de serrure à ${siteConfig.city}. Serrures certifiées A2P, cylindres haute sécurité, blindage de porte. Devis gratuit. ☎️ ${siteConfig.phone}`,
+  title: `Installation Serrure - Serrures A2P | Hermès`,
+  description: `Installation serrure professionnelle. Serrures A2P, cylindres haute sécurité, blindage porte. Devis gratuit.`,
 };
 
 export default function InstallationPage() {
@@ -58,8 +59,8 @@ export default function InstallationPage() {
             <div className="relative">
               <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/images/installation-serrure.webp"
-                  alt={`Installation de serrure ${siteConfig.city}`}
+                  src="/images/services/reparation-serrure-serrurier-hermes.webp"
+                  alt="Installation de serrure professionnelle"
                   fill
                   className="object-cover"
                   priority
@@ -81,26 +82,49 @@ export default function InstallationPage() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            {content.prestations.map((item, index) => (
-              <div key={index} className="card border-2 border-gray-100 hover:border-primary-200">
-                <div className="flex items-start gap-4">
-                  <div className="w-14 h-14 bg-primary-100 rounded-2xl flex items-center justify-center text-2xl flex-shrink-0">
-                    {item.icon}
+            {content.prestations.map((item, index) => {
+              // Map des images pour chaque prestation
+              const prestationImages: Record<string, string> = {
+                "Changement de cylindre": "/images/services/changement-de-barillet-serrurier-hermes.webp",
+                "Changement de serrure complète": "/images/services/changement-serrure-serrurier-hermes.webp",
+                "Blindage de porte": "/images/services/serrurier-hermes-ouverture-porte-blind.webp",
+                "Porte blindée": "/images/services/reparation-serrure-serrurier-hermes.webp",
+              };
+              
+              return (
+                <div key={index} className="card border-2 border-gray-100 hover:border-primary-200 relative overflow-hidden group min-h-[200px]">
+                  {/* Image de fond */}
+                  <div className="absolute inset-0">
+                    <Image
+                      src={prestationImages[item.title] || "/images/services/reparation-serrure-serrurier-hermes.webp"}
+                      alt={item.title}
+                      fill
+                      className="object-cover"
+                    />
+                    {/* Filtre bleuté léger */}
+                    <div className="absolute inset-0 bg-blue-600/20 group-hover:bg-blue-600/25 transition-colors duration-300"></div>
                   </div>
-                  <div className="flex-1">
-                    <h3 className="font-bold text-lg text-gray-900 mb-2">
-                      {item.title}
-                    </h3>
-                    <p className="text-gray-600 text-sm mb-3">
-                      {item.description}
-                    </p>
-                    <p className="text-primary-600 font-semibold">
-                      {item.price}
-                    </p>
+                  
+                  {/* Contenu avec fond semi-transparent pour meilleure lisibilité */}
+                  <div className="flex items-start gap-4 relative z-10 p-6">
+                    <div className="w-14 h-14 bg-white/90 backdrop-blur-sm rounded-2xl flex items-center justify-center text-2xl flex-shrink-0 shadow-lg">
+                      {item.icon}
+                    </div>
+                    <div className="flex-1 bg-white/80 backdrop-blur-sm rounded-xl p-4 shadow-lg">
+                      <h3 className="font-bold text-lg text-gray-900 mb-2">
+                        {item.title}
+                      </h3>
+                      <p className="text-gray-700 text-sm mb-3 leading-relaxed">
+                        {item.description}
+                      </p>
+                      <p className="text-primary-600 font-semibold text-base">
+                        {item.price}
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
@@ -115,13 +139,30 @@ export default function InstallationPage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
-            {content.brands.map((brand) => (
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+            {[
+              { name: "Fichet", logo: "/images/logos/brands/serrurier-heracles-serrure.webp" },
+              { name: "Vachette", logo: "/images/logos/brands/serrurier-vachette.webp" },
+              { name: "Pollux", logo: "/images/logos/brands/serrurier-pollux.webp" },
+              { name: "JPM", logo: "/images/logos/brands/serrurier-jpm.webp" },
+              { name: "Abloy", logo: "/images/logos/brands/serrurier-abus-marque.webp" },
+              { name: "Bricard", logo: "/images/logos/brands/serrurier-bricard-serrure.webp" },
+              { name: "Mul-T-Lock", logo: "/images/logos/brands/serrurier-mult-t-lock-serrure.webp" },
+              { name: "Picard", logo: "/images/logos/brands/serrurier-picard-serrure.webp" },
+              { name: "Mottura", logo: "/images/logos/brands/serrurier-motura-serrure.webp" },
+              { name: "Yale", logo: "/images/logos/brands/serrurier-yale-serrure.webp" },
+            ].map((brand) => (
               <div
-                key={brand}
-                className="bg-white rounded-xl p-4 text-center shadow-sm hover:shadow-md transition-shadow"
+                key={brand.name}
+                className="bg-white rounded-xl p-6 flex items-center justify-center shadow-sm hover:shadow-md transition-all hover:scale-105 duration-300"
               >
-                <p className="font-semibold text-gray-900">{brand}</p>
+                <Image
+                  src={brand.logo}
+                  alt={`Logo ${brand.name}`}
+                  width={120}
+                  height={80}
+                  className="object-contain transition-all duration-300 hover:scale-110"
+                />
               </div>
             ))}
           </div>
@@ -130,7 +171,7 @@ export default function InstallationPage() {
 
       {/* FAQ */}
       <FAQ
-        items={getPageContent(faqData).filter(q => 
+        items={getPageContent(faqData.generic, undefined, true).filter((q: { question: string; answer: string }) => 
           q.question.toLowerCase().includes('serrure') || 
           q.question.toLowerCase().includes('marque') ||
           q.question.toLowerCase().includes('garantie')

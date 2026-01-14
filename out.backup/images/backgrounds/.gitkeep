@@ -1,0 +1,15 @@
+# Fonds et textures
+# 
+# Fichiers suggérés :
+# - pattern.png (200×200) - Motif répétable (pour sections)
+# - texture-metal.webp (1920×1080) - Texture métallique
+# - gradient-blue.webp (1920×1080) - Dégradé bleu personnalisé
+# - hero-overlay.png (1920×1080) - Overlay semi-transparent pour hero
+#
+# Utilisation :
+# - Ajouter de la profondeur aux sections
+# - Créer une ambiance unique
+# - Différencier visuellement des autres sites
+#
+# Format : PNG pour motifs (transparence), WebP pour textures
+# Poids : < 50KB (motifs), < 100KB (textures)

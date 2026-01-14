@@ -1,55 +1,176 @@
 {
   "hero": {
     "badge": "🛠️ Installation professionnelle",
-    "title": "Installation Serrure {zone}",
-    "subtitle": "Pose de serrures neuves à {zone} par des artisans qualifiés. Serrures multipoints, connectées ou blindées pour une sécurité maximale."
+    "title": "Installation Serrure",
+    "subtitle": "Pose de serrures neuves par des artisans qualifiés. Serrures multipoints, A2P, connectées ou blindées pour une sécurité maximale. Intervention 24h/24, devis gratuit."
   },
   "intro": {
-    "title": "Installation de serrure à {zone}",
+    "title": "Spécialiste de l'installation de serrure à {zone}",
     "paragraphs": [
-      "Vous construisez, rénovez ou souhaitez équiper votre logement d'une nouvelle serrure ? {name} assure l'installation de serrures de qualité à {zone} et ses environs.",
-      "Nous vous conseillons sur le type de serrure adapté à votre porte et à vos besoins de sécurité. De la serrure standard à la serrure connectée, nous installons tous les modèles avec professionnalisme."
+      "Vous construisez, rénovez ou souhaitez renforcer la sécurité de votre logement ? À {zone}, {name} est votre expert en installation de serrures depuis plus de 15 ans. Nous posons tous types de serrures : encastrées, en applique, multipoints, certifiées A2P ou connectées, pour portes d'entrée, portes de service ou accès secondaires.",
+      "L'installation d'une nouvelle serrure est un investissement pour votre sécurité et votre tranquillité. Une serrure mal posée est une serrure vulnérable. C'est pourquoi nous n'intervenons qu'avec des serruriers formés et expérimentés, capables d'adapter chaque installation à la configuration de votre porte et à vos besoins spécifiques.",
+      "À {zone} ({zonePostal}), notre équipe intervient pour les particuliers comme les professionnels : appartements, maisons, commerces, bureaux, copropriétés. Nous travaillons exclusivement avec des serrures de grandes marques (Fichet, Vachette, Bricard, Mottura, Pollux) garantissant fiabilité et durabilité.",
+      "Avant chaque installation, nous effectuons un diagnostic complet de votre porte et de vos besoins. Nous vous conseillons sur le niveau de sécurité adapté et vous présentons un devis détaillé, sans surprise. Pose soignée, réglages précis, test complet : votre nouvelle serrure fonctionnera parfaitement dès le premier jour."
     ]
   },
   "situations": {
-    "title": "Types d'installation à {zone}",
+    "title": "Types d'installation de serrure à {zone}",
     "items": [
       {
         "icon": "🔐",
         "title": "Serrure multipoints",
-        "description": "Installation de serrures 3, 5 ou 7 points pour une sécurité renforcée de votre domicile."
+        "description": "Installation de serrures 3, 5 ou 7 points de verrouillage. Répartition des points sur toute la hauteur de la porte pour une résistance maximale à l'effraction.",
+        "price": 189
+      },
+      {
+        "icon": "🛡️",
+        "title": "Serrure certifiée A2P",
+        "description": "Pose de serrures testées et certifiées par le CNPP. Reconnues par les assurances, disponibles en A2P*, A2P** ou A2P*** selon le niveau de protection souhaité.",
+        "price": 289
       },
       {
         "icon": "📱",
         "title": "Serrure connectée",
-        "description": "Ouverture par smartphone, code ou badge. Idéal pour la location courte durée ou le contrôle d'accès."
+        "description": "Installation de serrures intelligentes avec ouverture par smartphone, code, badge ou empreinte digitale. Idéal pour la location courte durée, Airbnb ou le contrôle d'accès.",
+        "price": 349
+      },
+      {
+        "icon": "🚪",
+        "title": "Serrure en applique",
+        "description": "Pose sur la surface de la porte, visible côté intérieur. Solution économique et facile à installer sur tous types de portes, y compris anciennes.",
+        "price": 119
+      },
+      {
+        "icon": "🔒",
+        "title": "Serrure encastrée",
+        "description": "Installation intégrée dans l'épaisseur de la porte pour une esthétique parfaite. Invisible de l'extérieur, elle s'adapte aux portes modernes et blindées.",
+        "price": 149
       },
       {
         "icon": "🏢",
         "title": "Serrure de copropriété",
-        "description": "Installation et remplacement de serrures d'immeuble, avec reproduction de clés."
+        "description": "Installation et remplacement de serrures d'immeuble compatibles avec le système existant. Gestion des clés et badges pour les résidents.",
+        "price": 179
+      }
+    ]
+  },
+  "method": {
+    "title": "Notre méthode d'installation de serrure à {zone}",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Évaluation de vos besoins",
+        "description": "Nous discutons de votre projet : type de porte, niveau de sécurité souhaité, budget, contraintes esthétiques. Nous vous conseillons la serrure idéale."
       },
       {
-        "icon": "🚪",
-        "title": "Serrure de porte de garage",
-        "description": "Sécurisation des accès secondaires : garage, cave, local technique."
+        "number": 2,
+        "title": "Devis détaillé gratuit",
+        "description": "Vous recevez un devis complet précisant le modèle de serrure, le prix de la fourniture, le coût de la pose et la durée des travaux. Sans engagement."
+      },
+      {
+        "number": 3,
+        "title": "Préparation de la porte",
+        "description": "Selon le type d'installation, nous préparons la porte : perçage, mortaisage, ajustement du dormant. Travail soigné pour préserver l'intégrité de votre menuiserie."
+      },
+      {
+        "number": 4,
+        "title": "Pose de la serrure",
+        "description": "Installation professionnelle dans les règles de l'art. Fixation solide, alignement parfait du mécanisme, pose des gâches et des éléments de finition."
+      },
+      {
+        "number": 5,
+        "title": "Réglages et ajustements",
+        "description": "Ajustement précis du jeu de la porte, réglage des points de verrouillage, vérification de l'alignement pêne/gâche pour un fonctionnement fluide."
+      },
+      {
+        "number": 6,
+        "title": "Tests et formation",
+        "description": "Tests complets d'ouverture et fermeture. Nous vous expliquons le fonctionnement de votre nouvelle serrure et vous remettons vos clés et la documentation."
       }
     ]
   },
   "advantages": {
-    "title": "Pourquoi nous confier l'installation à {zone} ?",
+    "title": "Pourquoi choisir {name} pour votre installation à {zone} ?",
     "items": [
-      "Conseil personnalisé selon votre situation",
-      "Pose dans les règles de l'art",
-      "Garantie constructeur sur toutes les serrures",
+      "Conseil personnalisé adapté à votre porte et vos besoins",
+      "Installation dans les règles de l'art par des serruriers qualifiés",
+      "Serrures de grandes marques avec garantie constructeur",
+      "Travail soigné préservant l'esthétique de votre porte",
       "Formation à l'utilisation de votre nouvelle serrure",
-      "SAV réactif en cas de problème",
-      "Prix compétitifs, devis gratuit"
+      "SAV réactif et dépannage prioritaire en cas de problème",
+      "Devis gratuit et prix ferme avant intervention",
+      "Intervention possible 24h/24 pour les urgences"
     ]
   },
+  "brands": {
+    "title": "Marques de serrures que nous installons",
+    "items": ["Fichet", "Vachette", "Bricard", "Mottura", "Pollux", "JPM", "Mul-T-Lock", "Picard", "Laperche", "Muel", "DOM", "Abloy", "Yale", "Thirard"]
+  },
+  "lockTypes": {
+    "title": "Types de serrures disponibles",
+    "items": [
+      {
+        "type": "Serrure monopoint",
+        "description": "Un seul point de verrouillage central. Solution économique adaptée aux portes intérieures ou accès secondaires. Peut être complétée par un verrou additionnel."
+      },
+      {
+        "type": "Serrure 3 points",
+        "description": "Trois points de verrouillage (haut, milieu, bas) pour une sécurité renforcée. Le standard minimum recommandé pour une porte d'entrée d'appartement."
+      },
+      {
+        "type": "Serrure 5 points",
+        "description": "Cinq points de verrouillage répartis sur toute la hauteur. Protection optimale pour les maisons individuelles et rez-de-chaussée."
+      },
+      {
+        "type": "Serrure 7 points",
+        "description": "Sept points de verrouillage pour une résistance maximale. Souvent installée sur les portes blindées et les accès à risque."
+      },
+      {
+        "type": "Serrure A2P certifiée",
+        "description": "Testée par le CNPP pour sa résistance à l'effraction. A2P* (5 min), A2P** (10 min) ou A2P*** (15 min) de résistance aux tentatives d'intrusion."
+      },
+      {
+        "type": "Serrure connectée",
+        "description": "Serrure électronique avec ouverture sans clé : smartphone, code, badge RFID ou empreinte. Permet la gestion des accès à distance et l'historique des ouvertures."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Combien coûte l'installation d'une serrure ?",
+      "answer": "Le prix d'une installation de serrure dépend du type de serrure et de la complexité de la pose. Pour une <strong>serrure en applique, comptez à partir de 119€</strong> (fourniture et pose). Une serrure multipoints 3 points démarre à 189€, et une serrure certifiée A2P à partir de 289€. Les serrures connectées sont disponibles à partir de 349€. Un devis gratuit et détaillé vous est remis avant toute intervention."
+    },
+    {
+      "question": "Quelle différence entre serrure en applique et serrure encastrée ?",
+      "answer": "Une <strong>serrure en applique</strong> se fixe sur la surface intérieure de la porte : elle est visible mais facile à installer sur tous types de portes. Une <strong>serrure encastrée</strong> (ou à larder) est intégrée dans l'épaisseur de la porte : invisible et esthétique, elle nécessite un mortaisage et convient aux portes modernes ou blindées."
+    },
+    {
+      "question": "Combien de temps dure l'installation d'une serrure ?",
+      "answer": "La durée varie selon le type de serrure et l'état de la porte. Pour une <strong>serrure en applique simple, comptez 30 à 45 minutes</strong>. L'installation d'une serrure encastrée multipoints peut prendre 1h30 à 2h, incluant le mortaisage et les réglages. Une serrure connectée nécessite environ 1h à 1h30 avec la configuration."
+    },
+    {
+      "question": "Qu'est-ce qu'une serrure A2P et est-ce nécessaire ?",
+      "answer": "La certification <strong>A2P (Assurance Prévention Protection)</strong> est délivrée par le CNPP après des tests de résistance à l'effraction. Elle garantit que la serrure résiste au moins 5 minutes (A2P*), 10 minutes (A2P**) ou 15 minutes (A2P***) aux tentatives d'intrusion. <strong>Recommandée pour les assurances</strong> et indispensable pour une sécurité optimale."
+    },
+    {
+      "question": "Peut-on installer une serrure multipoints sur n'importe quelle porte ?",
+      "answer": "Presque toutes les portes peuvent recevoir une serrure multipoints, mais certaines adaptations sont parfois nécessaires. La porte doit avoir une <strong>épaisseur suffisante</strong> (généralement 40mm minimum) et le dormant doit pouvoir accueillir les gâches. Nous vérifions la compatibilité avant toute installation."
+    },
+    {
+      "question": "Une serrure connectée est-elle sûre et fiable ?",
+      "answer": "Les serrures connectées de qualité offrent un <strong>excellent niveau de sécurité</strong>, souvent équivalent aux serrures mécaniques haut de gamme. Elles intègrent le chiffrement des communications et peuvent être certifiées A2P. Nous installons uniquement des modèles de marques reconnues avec <strong>batterie de secours</strong> et possibilité d'ouverture mécanique en cas de panne."
+    },
+    {
+      "question": "Intervenez-vous pour installer une serrure en urgence ?",
+      "answer": "Oui, nous proposons l'installation de serrures en urgence <strong>24h/24 et 7j/7</strong>. Après un cambriolage, une effraction ou un problème de sécurité urgent, nous intervenons rapidement pour installer une nouvelle serrure et sécuriser votre domicile dans les meilleurs délais."
+    },
+    {
+      "question": "Fournissez-vous une garantie sur l'installation ?",
+      "answer": "Oui, toutes nos installations sont <strong>garanties pièces et main d'œuvre</strong>. Les serrures bénéficient de la garantie constructeur (généralement 2 à 5 ans selon les marques). En cas de dysfonctionnement lié à la pose, nous intervenons gratuitement pour effectuer les ajustements nécessaires."
+    }
+  ],
   "cta": {
-    "title": "Installation de serrure à {zone}",
-    "subtitle": "Contactez-nous pour un devis gratuit et personnalisé."
+    "title": "Besoin d'installer une serrure ?",
+    "subtitle": "Appelez maintenant pour une installation professionnelle. Devis gratuit, conseils personnalisés, pose dans les règles de l'art par des serruriers qualifiés !"
   }
 }
-

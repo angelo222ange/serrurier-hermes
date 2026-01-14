@@ -1,35 +1,178 @@
-[
-  {
-    "question": "Quel est le délai d'intervention d'un serrurier ?",
-    "answer": "Notre équipe intervient en <strong>30 minutes en moyenne</strong> dans {city} et son agglomération. Nous sommes disponibles 24h/24 et 7j/7, y compris les jours fériés."
-  },
-  {
-    "question": "Combien coûte une ouverture de porte claquée ?",
-    "answer": "Une ouverture de porte claquée (sans destruction) coûte entre <strong>89€ et 150€</strong> en journée. Le tarif exact dépend du type de serrure. Un devis précis vous est communiqué par téléphone avant intervention."
-  },
-  {
-    "question": "Intervenez-vous la nuit et le week-end ?",
-    "answer": "Oui, nous intervenons <strong>24h/24 et 7j/7</strong>, y compris les nuits, week-ends et jours fériés. Un supplément nuit/week-end peut s'appliquer."
-  },
-  {
-    "question": "Quels modes de paiement acceptez-vous ?",
-    "answer": "Nous acceptons les paiements par <strong>carte bancaire, espèces et chèque</strong>. Le paiement s'effectue une fois l'intervention terminée et validée par vos soins."
-  },
-  {
-    "question": "Vos interventions sont-elles garanties ?",
-    "answer": "Oui, toutes nos interventions sont couvertes par notre <strong>assurance responsabilité civile professionnelle</strong>. Les pièces installées bénéficient de la garantie constructeur."
-  },
-  {
-    "question": "Puis-je avoir un devis avant l'intervention ?",
-    "answer": "Absolument ! Nous vous communiquons un <strong>devis gratuit par téléphone</strong> avant de nous déplacer. Une fois sur place, si des éléments changent, nous vous informons avant de commencer les travaux."
-  },
-  {
-    "question": "Travaillez-vous avec les assurances ?",
-    "answer": "Oui, nous travaillons régulièrement avec les compagnies d'assurance. Nous pouvons vous fournir une <strong>facture détaillée</strong> pour votre remboursement."
-  },
-  {
-    "question": "Quelles marques de serrures installez-vous ?",
-    "answer": "Nous installons toutes les grandes marques : <strong>Fichet, Vachette, Pollux, JPM, Abloy, Bricard</strong>, etc. Nous privilégions les serrures certifiées A2P pour une sécurité optimale."
+{
+  "generic": [
+    {
+      "question": "Quel est le prix d'un serrurier ?",
+      "answer": "Le prix d'une intervention de serrurerie dépend du type de prestation. Pour une ouverture de porte claquée, comptez <strong>à partir de 69€</strong>. Un changement de cylindre démarre à 89€, et un changement de serrure multipoints à partir de 189€. Nous vous communiquons un devis gratuit et définitif par téléphone avant toute intervention."
+    },
+    {
+      "question": "Quel est le délai d'intervention d'un serrurier ?",
+      "answer": "Nos serruriers interviennent en <strong>20 minutes maximum</strong> à {city} et dans ses environs. Nous disposons d'une équipe répartie stratégiquement sur tout le secteur pour garantir une intervention ultra-rapide, de jour comme de nuit."
+    },
+    {
+      "question": "Intervenez-vous le week-end et les jours fériés ?",
+      "answer": "Oui, nous sommes disponibles <strong>24h/24 et 7j/7</strong> à {city}, y compris les week-ends et jours fériés. Nous comprenons qu'une urgence de serrurerie ne prévient pas. Un léger supplément peut s'appliquer pour les interventions nocturnes."
+    },
+    {
+      "question": "Comment se déroule une intervention de serrurerie ?",
+      "answer": "C'est simple : <strong>1)</strong> Vous nous appelez et décrivez votre problème. <strong>2)</strong> Nous vous communiquons un devis gratuit par téléphone. <strong>3)</strong> Un serrurier qualifié arrive chez vous en 20 minutes. <strong>4)</strong> Il réalise l'intervention et vous remet une facture détaillée."
+    },
+    {
+      "question": "Quels moyens de paiement acceptez-vous ?",
+      "answer": "Nous acceptons les paiements par <strong>carte bancaire, espèces et chèque</strong>. Le paiement s'effectue une fois l'intervention terminée et validée par vos soins. Une facture détaillée vous est systématiquement remise."
+    },
+    {
+      "question": "Proposez-vous un devis avant intervention ?",
+      "answer": "Absolument ! Nous vous communiquons un <strong>devis gratuit et sans engagement</strong> par téléphone avant de nous déplacer. Ce devis est ferme et définitif, sauf si nous découvrons une situation différente sur place (auquel cas nous vous informerons avant d'intervenir)."
+    },
+    {
+      "question": "Intervenez-vous pour les portes blindées ?",
+      "answer": "Oui, nos serruriers sont <strong>spécialistes des portes blindées</strong> toutes marques : Fichet, Picard, Tordjman, Bricard, Mul-T-Lock, etc. L'ouverture d'une porte blindée démarre à partir de 149€. Nous utilisons des techniques adaptées pour préserver votre porte."
+    },
+    {
+      "question": "Que faire si je suis bloqué dehors ?",
+      "answer": "Appelez-nous immédiatement au {phone}. <strong>Restez à proximité de votre porte</strong> et attendez notre serrurier qui arrivera en 20 minutes maximum. Surtout, ne tentez pas d'ouvrir la porte vous-même pour éviter d'aggraver la situation ou d'endommager la serrure."
+    },
+    {
+      "question": "Vos interventions sont-elles garanties ?",
+      "answer": "Oui, toutes nos interventions sont couvertes par notre <strong>assurance responsabilité civile professionnelle</strong>. Les pièces installées (serrures, cylindres) bénéficient de la garantie constructeur. Nous ne quittons jamais un chantier sans nous assurer de votre entière satisfaction."
+    },
+    {
+      "question": "Travaillez-vous avec les assurances ?",
+      "answer": "Oui, nous travaillons régulièrement avec les compagnies d'assurance. Nous vous fournissons une <strong>facture détaillée</strong> mentionnant la nature de l'intervention, le prix des pièces et de la main d'œuvre, pour faciliter votre remboursement."
+    }
+  ],
+  "service_specific": {
+    "ouverture-de-porte": [
+      {
+        "question": "Combien coûte une ouverture de porte ?",
+        "answer": "Le prix d'une ouverture de porte dépend du type de porte. Pour une porte claquée simple, comptez <strong>à partir de 69€</strong>. Une porte fermée à clé démarre à 89€, et une porte blindée à partir de 149€."
+      },
+      {
+        "question": "Pouvez-vous ouvrir une porte sans l'abîmer ?",
+        "answer": "Oui, dans <strong>95% des cas</strong>, nous ouvrons les portes sans aucun dégât grâce à nos techniques d'ouverture fine et notre outillage professionnel."
+      },
+      {
+        "question": "Intervenez-vous pour une clé cassée dans la serrure ?",
+        "answer": "Oui, nous extrayons les morceaux de clé cassée avec un outillage spécifique, puis vérifions le bon fonctionnement de votre serrure. Prix à partir de <strong>69€</strong>."
+      },
+      {
+        "question": "Que faire en cas de porte claquée ?",
+        "answer": "Appelez-nous au {phone}. Ne forcez pas la porte, vous risqueriez de l'endommager. Notre serrurier arrive en 20 minutes et ouvre votre porte sans dégât."
+      },
+      {
+        "question": "Ouvrez-vous les portes blindées ?",
+        "answer": "Oui, nos techniciens sont spécialistes de l'ouverture de portes blindées toutes marques : Fichet, Picard, Tordjman, Bricard. Prix à partir de <strong>149€</strong>."
+      }
+    ],
+    "changement-serrure": [
+      {
+        "question": "Quel est le prix d'un changement de serrure ?",
+        "answer": "Le prix dépend du type de serrure. Changement de cylindre : <strong>à partir de 89€</strong>. Serrure 3 points : à partir de 189€. Serrure 5 points : à partir de 249€. Serrure A2P : à partir de 289€."
+      },
+      {
+        "question": "Quelles marques de serrures installez-vous ?",
+        "answer": "Nous installons toutes les grandes marques : <strong>Fichet, Vachette, Bricard, Picard, Mul-T-Lock, Abloy, JPM, Pollux</strong>. Nous privilégions les serrures certifiées A2P."
+      },
+      {
+        "question": "Combien de temps dure un changement de serrure ?",
+        "answer": "Un changement de cylindre prend environ <strong>15-30 minutes</strong>. Un changement de serrure complète prend entre 30 minutes et 1 heure selon le modèle."
+      },
+      {
+        "question": "Dois-je changer ma serrure après un cambriolage ?",
+        "answer": "Oui, c'est fortement recommandé. Nous pouvons <strong>sécuriser votre porte en urgence</strong> puis installer une serrure plus résistante de type A2P."
+      },
+      {
+        "question": "Qu'est-ce qu'une serrure A2P ?",
+        "answer": "A2P est une <strong>certification officielle</strong> garantissant la résistance de la serrure aux effractions. Il existe 3 niveaux : A2P* (5 min), A2P** (10 min), A2P*** (15 min)."
+      }
+    ],
+    "depannage": [
+      {
+        "question": "Quels types de dépannage proposez-vous ?",
+        "answer": "Nous réparons tous les problèmes de serrurerie : <strong>clé cassée, serrure grippée, serrure bloquée, poignée cassée, cylindre usé</strong>. Diagnostic et réparation sur place."
+      },
+      {
+        "question": "Combien coûte un dépannage de serrure ?",
+        "answer": "Un dépannage simple (dégrippage, ajustement) démarre <strong>à partir de 59€</strong>. L'extraction d'une clé cassée à partir de 69€. Une réparation plus complexe à partir de 79€."
+      },
+      {
+        "question": "Ma serrure est grippée, que faire ?",
+        "answer": "N'utilisez pas de produits inadaptés. Nos serruriers effectuent un <strong>dégrippage professionnel</strong> avec les bons produits et vérifient l'ensemble du mécanisme."
+      },
+      {
+        "question": "Réparez-vous les serrures 3 et 5 points ?",
+        "answer": "Oui, nous intervenons sur tous les types de serrures : <strong>monopoint, 3 points, 5 points, 7 points</strong>, toutes marques."
+      },
+      {
+        "question": "Le dépannage inclut-il les pièces ?",
+        "answer": "Le devis communiqué inclut la <strong>main d'œuvre et les pièces nécessaires</strong>. Aucun surcoût caché ne sera ajouté."
+      }
+    ],
+    "blindage-porte": [
+      {
+        "question": "Combien coûte un blindage de porte ?",
+        "answer": "Un blindage de porte existante démarre <strong>à partir de 890€</strong>. L'installation d'un bloc-porte blindé à partir de 1490€. Le prix varie selon le niveau de sécurité souhaité."
+      },
+      {
+        "question": "Quelle est la différence entre blindage et porte blindée ?",
+        "answer": "Le <strong>blindage</strong> consiste à renforcer votre porte existante avec une plaque d'acier. Un <strong>bloc-porte blindé</strong> est une porte entièrement nouvelle, préfabriquée et certifiée."
+      },
+      {
+        "question": "Qu'est-ce que la certification A2P BP ?",
+        "answer": "C'est la certification des portes blindées : <strong>BP1</strong> (5 min de résistance), <strong>BP2</strong> (10 min), <strong>BP3</strong> (15 min). Plus le niveau est élevé, plus la protection est forte."
+      },
+      {
+        "question": "Le blindage est-il autorisé en copropriété ?",
+        "answer": "Oui, mais vérifiez votre règlement de copropriété. Le <strong>blindage côté intérieur</strong> ne modifie pas l'aspect extérieur de la porte et est généralement autorisé."
+      },
+      {
+        "question": "Combien de temps dure l'installation d'un blindage ?",
+        "answer": "Un blindage de porte prend environ <strong>3 à 4 heures</strong>. L'installation d'un bloc-porte blindé peut prendre une demi-journée."
+      }
+    ],
+    "remplacement-cylindre": [
+      {
+        "question": "Combien coûte un remplacement de cylindre ?",
+        "answer": "Le remplacement d'un cylindre standard coûte <strong>à partir de 89€</strong>. Un cylindre haute sécurité à partir de 149€. Un cylindre A2P à partir de 189€."
+      },
+      {
+        "question": "Quand faut-il changer son cylindre ?",
+        "answer": "Il est recommandé de changer votre cylindre en cas de : <strong>perte de clés, emménagement, clé difficile à tourner, usure visible, cambriolage</strong>."
+      },
+      {
+        "question": "Qu'est-ce qu'un cylindre à carte de propriété ?",
+        "answer": "C'est un cylindre dont les <strong>doubles de clés ne peuvent être faits</strong> qu'avec une carte propriétaire, empêchant toute reproduction non autorisée."
+      },
+      {
+        "question": "Combien de clés sont fournies avec un nouveau cylindre ?",
+        "answer": "Nous fournissons généralement <strong>3 à 5 clés</strong> avec un nouveau cylindre. Des clés supplémentaires peuvent être commandées."
+      },
+      {
+        "question": "Puis-je garder la même serrure et changer juste le cylindre ?",
+        "answer": "Oui, dans la plupart des cas, le <strong>cylindre peut être changé indépendamment</strong> de la serrure. C'est souvent la solution la plus économique."
+      }
+    ],
+    "installation-serrure": [
+      {
+        "question": "Combien coûte l'installation d'une serrure ?",
+        "answer": "L'installation d'une serrure standard coûte <strong>à partir de 119€</strong>. Une serrure multipoints à partir de 189€. Une serrure connectée à partir de 249€."
+      },
+      {
+        "question": "Quels types de serrures installez-vous ?",
+        "answer": "Nous installons : <strong>serrures monopoint, multipoints (3, 5, 7 points), serrures A2P, serrures connectées, serrures carénées</strong>."
+      },
+      {
+        "question": "Quelle serrure choisir pour mon appartement ?",
+        "answer": "Nous recommandons une <strong>serrure 3 ou 5 points certifiée A2P</strong> pour une sécurité optimale. Nos techniciens vous conseillent selon votre budget et vos besoins."
+      },
+      {
+        "question": "Installez-vous des serrures connectées ?",
+        "answer": "Oui, nous installons les principales marques de serrures connectées : <strong>Nuki, Yale, Somfy, Netatmo</strong>. Ouverture par smartphone, code ou badge."
+      },
+      {
+        "question": "L'installation inclut-elle la serrure ?",
+        "answer": "Oui, nos tarifs incluent <strong>la fourniture de la serrure et la pose</strong>. Nous vous présentons plusieurs modèles adaptés à vos besoins."
+      }
+    ]
   }
-]
-
+}

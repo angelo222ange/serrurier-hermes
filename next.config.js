@@ -2,8 +2,30 @@
 const isProduction = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
-  // Export statique pour hébergement simple
-  output: 'export',
+  // Export statique pour hébergement simple (uniquement en production)
+  ...(isProduction && { output: 'export' }),
+
+  // Rewrites pour mapper /serrurier-{ville}/ vers /ville/{ville}/
+  // Fonctionne en mode dev, ignoré en static export (fichiers générés directement)
+  async rewrites() {
+    return [
+      // Pages ville principales
+      {
+        source: '/serrurier-:city/',
+        destination: '/ville/:city/',
+      },
+      // Pages service par ville
+      {
+        source: '/serrurier-:city/:service/',
+        destination: '/ville/:city/:service/',
+      },
+      // Page contact par ville
+      {
+        source: '/serrurier-:city/contact/',
+        destination: '/ville/:city/contact/',
+      },
+    ];
+  },
   
   // Images optimisées
   images: {
@@ -36,6 +58,14 @@ const nextConfig = {
 
   // Configuration Webpack optimisée
   webpack: (config, { dev, isServer }) => {
+    // Exclure les répertoires de build du watcher
+    if (dev) {
+      config.watchOptions = {
+        ...config.watchOptions,
+        ignored: ['**/node_modules', '**/.next', '**/out', '**/.git'],
+      };
+    }
+    
     if (!dev && !isServer) {
       // Cibler ES2020 pour éviter les polyfills inutiles
       config.target = ['web', 'es2020'];

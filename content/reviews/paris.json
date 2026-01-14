@@ -1,0 +1,1650 @@
+{
+  "meta": {
+    "region": "paris",
+    "totalReviews": 200,
+    "reviewsPerZone": 10,
+    "averageRating": 4.9
+  },
+  "reviews": {
+    "paris-1": [
+      {
+        "name": "Thomas L.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Porte claquée rue de Rivoli, le serrurier est arrivé en 12 minutes. Ouverture sans aucun dégât, très professionnel. Je recommande vivement !",
+        "location": "Louvre",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Camille D.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Clé cassée dans la serrure aux Halles à 22h. Intervention rapide et prix annoncé respecté. Merci !",
+        "location": "Les Halles",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Jean-Pierre M.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Changement de serrure 3 points près du Palais Royal. Travail soigné, artisan ponctuel et conseils pertinents sur la sécurité.",
+        "location": "Palais Royal",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Émilie R.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Excellente intervention place du Châtelet. Porte blindée ouverte sans forcer. Serrurier très compétent.",
+        "location": "Châtelet",
+        "service": "Ouverture porte blindée"
+      },
+      {
+        "name": "Nicolas B.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Dépannage urgent rue Saint-Honoré un dimanche matin. Arrivée en 15 min, problème résolu rapidement.",
+        "location": "Paris 1er",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Stéphanie V.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Installation d'une serrure Fichet dans mon appartement du 1er. Prix correct et travail impeccable.",
+        "location": "Louvre",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Alexandre C.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement du cylindre de ma porte d'entrée près des Halles. Artisan très pro, je garde le numéro.",
+        "location": "Les Halles",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Marie-Claire P.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Bloquée devant ma porte rue de Richelieu. Intervention en 20 min, sans dégât. Parfait !",
+        "location": "Paris 1er",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "François G.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Sécurisation après tentative de cambriolage place Vendôme. Réactivité exemplaire, équipe rassurante.",
+        "location": "Place Vendôme",
+        "service": "Sécurisation"
+      },
+      {
+        "name": "Nathalie S.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Serrure grippée dans mon commerce près du Forum. Dégrippage efficace et conseils d'entretien.",
+        "location": "Forum des Halles",
+        "service": "Dépannage"
+      }
+    ],
+    "paris-2": [
+      {
+        "name": "Julien A.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Ouverture de porte express rue Montorgueil. Serrurier arrivé en moins de 15 min, travail impeccable !",
+        "location": "Montorgueil",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Caroline T.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure dans le quartier du Sentier. Artisan très professionnel, devis respecté.",
+        "location": "Sentier",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Marc H.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Clé coincée dans la serrure place des Victoires. Extraction sans casse, intervention rapide.",
+        "location": "Place des Victoires",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Sophie K.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Problème de serrure à la Bourse un samedi soir. Dépannage efficace malgré l'heure tardive. Merci !",
+        "location": "Bourse",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Philippe E.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Pose d'une serrure multipoints dans mon studio rue Étienne Marcel. Excellent rapport qualité-prix.",
+        "location": "Étienne Marcel",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Aude L.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Porte claquée rue Réaumur à 7h du matin. Intervention ultra-rapide, j'ai pu partir au travail à l'heure !",
+        "location": "Réaumur",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Grégoire F.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement de cylindre haute sécurité rue d'Aboukir. Travail soigné et propre.",
+        "location": "Paris 2ème",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Laurence M.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Très satisfaite de l'intervention dans mon appartement rue Montmartre. Serrurier ponctuel et efficace.",
+        "location": "Montmartre",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Yann D.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Serrure bloquée près des Grands Boulevards. Réparation rapide et définitive. Je recommande.",
+        "location": "Grands Boulevards",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Béatrice J.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Blindage de porte dans le quartier de la Bourse. Travail de qualité, je me sens en sécurité.",
+        "location": "Bourse",
+        "service": "Blindage porte"
+      }
+    ],
+    "paris-3": [
+      {
+        "name": "Antoine R.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Serrurier très réactif dans le Marais ! Porte ouverte en 10 minutes sans aucune trace. Parfait !",
+        "location": "Marais",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Céline B.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure rue de Bretagne. Artisan à l'écoute et travail soigné. Très satisfaite.",
+        "location": "Arts et Métiers",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Vincent P.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Intervention rapide place de la République côté 3ème. Prix conforme au devis téléphonique.",
+        "location": "Temple",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Élise D.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Clé cassée dans ma serrure rue de Turenne. Extraction propre et conseils pour éviter que ça se reproduise.",
+        "location": "Marais",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Mathieu L.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Pose d'une serrure 5 points rue Charlot. Travail méticuleux, très content du résultat.",
+        "location": "Haut Marais",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Pauline H.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Bloquée chez moi rue du Temple à 23h. Le serrurier est arrivé en 15 min. Service au top !",
+        "location": "Temple",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Olivier M.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement cylindre Bricard rue Réaumur. Artisan compétent et agréable.",
+        "location": "Paris 3ème",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Sandrine C.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Sécurisation de mon appartement après effraction rue Vieille du Temple. Travail rassurant et rapide.",
+        "location": "Marais",
+        "service": "Sécurisation"
+      },
+      {
+        "name": "Damien G.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Serrure grippée rue des Archives. Dégrippage efficace, prix très correct.",
+        "location": "Archives",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Claire F.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Installation verrou de sécurité rue de Picardie. Serrurier professionnel et ponctuel.",
+        "location": "Paris 3ème",
+        "service": "Installation verrou"
+      }
+    ],
+    "paris-4": [
+      {
+        "name": "Lucas T.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Porte claquée rue Saint-Antoine, intervention en 10 min. Ouverture propre et rapide. Excellent !",
+        "location": "Saint-Paul",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Emma V.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure sur l'Île de la Cité. Artisan très compétent, je recommande fortement.",
+        "location": "Île de la Cité",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Hugo B.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Problème de serrure près de Notre-Dame un dimanche. Dépannage rapide et prix honnête.",
+        "location": "Notre-Dame",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Léa M.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Extraction de clé cassée place des Vosges. Travail impeccable, aucun dégât sur la serrure.",
+        "location": "Place des Vosges",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Maxime D.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Installation serrure Vachette rue de Rivoli côté 4ème. Excellent travail et bon conseil.",
+        "location": "Marais",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Julie C.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Bloquée dehors rue François Miron à minuit. Serrurier arrivé rapidement, très pro.",
+        "location": "Saint-Gervais",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Romain A.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement cylindre haute sécurité quai de l'Hôtel de Ville. Service irréprochable.",
+        "location": "Hôtel de Ville",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Sarah L.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Ouverture porte blindée rue du Roi de Sicile. Intervention technique parfaitement maîtrisée.",
+        "location": "Marais",
+        "service": "Ouverture porte blindée"
+      },
+      {
+        "name": "Benjamin P.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Serrure défaillante quai des Célestins. Réparation rapide et durable. Très satisfait.",
+        "location": "Île Saint-Louis",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Manon G.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Pose d'un verrou de sécurité rue du Temple. Travail propre et prix annoncé respecté.",
+        "location": "Paris 4ème",
+        "service": "Installation verrou"
+      }
+    ],
+    "paris-5": [
+      {
+        "name": "Gabriel S.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Porte claquée rue Mouffetard, serrurier arrivé en 12 min. Travail propre et efficace !",
+        "location": "Mouffetard",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Chloé R.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure au Quartier Latin. Artisan sympathique et professionnel.",
+        "location": "Quartier Latin",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Théo M.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Dépannage près du Panthéon un jour férié. Intervention rapide, tarif correct. Merci !",
+        "location": "Panthéon",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Inès B.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Clé coincée place Maubert. Extraction sans abîmer ma serrure. Très bon serrurier.",
+        "location": "Maubert-Mutualité",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Arthur D.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Installation serrure 3 points rue des Écoles. Travail soigné, je recommande.",
+        "location": "Jardin des Plantes",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Zoé L.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Bloquée devant chez moi boulevard Saint-Michel à 6h du matin. Intervention express !",
+        "location": "Saint-Michel",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Louis C.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement cylindre rue Monge. Artisan ponctuel et travail de qualité.",
+        "location": "Monge",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Alice P.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Sécurisation après tentative d'effraction rue de la Montagne Sainte-Geneviève. Très réactif.",
+        "location": "Panthéon",
+        "service": "Sécurisation"
+      },
+      {
+        "name": "Nathan H.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Serrure bloquée rue Descartes. Réparation efficace et prix raisonnable.",
+        "location": "Place de la Contrescarpe",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Léna F.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Excellent service rue Claude Bernard. Changement complet de serrure sans souci.",
+        "location": "Paris 5ème",
+        "service": "Changement serrure"
+      }
+    ],
+    "paris-6": [
+      {
+        "name": "Raphaël T.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Porte claquée boulevard Saint-Germain, ouverture en 8 minutes. Service impeccable !",
+        "location": "Saint-Germain-des-Prés",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Charlotte V.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure près du Luxembourg. Artisan très professionnel et courtois.",
+        "location": "Luxembourg",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Victor M.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Urgence serrure rue de Rennes un samedi soir. Intervention rapide malgré l'heure.",
+        "location": "Rennes",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Margot D.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Clé cassée dans la serrure rue de Sèvres. Extraction parfaite, aucun dommage.",
+        "location": "Sèvres-Babylone",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Axel B.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Installation serrure haute sécurité place de l'Odéon. Excellent rapport qualité-prix.",
+        "location": "Odéon",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Élodie C.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Bloquée rue Bonaparte à 23h. Serrurier arrivé en 15 min, très rassurant.",
+        "location": "Saint-Sulpice",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Thibault L.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement cylindre Mul-T-Lock rue du Four. Travail précis et propre.",
+        "location": "Paris 6ème",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Justine A.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Ouverture porte blindée rue Mazarine. Technique et sans dégât. Bravo !",
+        "location": "Monnaie",
+        "service": "Ouverture porte blindée"
+      },
+      {
+        "name": "Clément P.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Dépannage serrure grippée rue du Cherche-Midi. Intervention rapide et efficace.",
+        "location": "Cherche-Midi",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Anaïs G.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Pose de verrou de sécurité carrefour de l'Odéon. Artisan compétent et sympa.",
+        "location": "Odéon",
+        "service": "Installation verrou"
+      }
+    ],
+    "paris-7": [
+      {
+        "name": "Pierre-Louis H.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Porte claquée avenue de la Bourdonnais près de la Tour Eiffel. Intervention en 10 min !",
+        "location": "Tour Eiffel",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Mathilde R.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure rue de Grenelle. Travail impeccable et artisan très pro.",
+        "location": "Invalides",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Édouard M.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Dépannage urgent esplanade des Invalides. Réactivité exceptionnelle, merci !",
+        "location": "Esplanade des Invalides",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Constance B.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Clé cassée rue du Bac. Extraction rapide et propre. Service au top !",
+        "location": "Rue du Bac",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Augustin D.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Installation serrure Fichet avenue de Ségur. Excellent travail.",
+        "location": "Ségur",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Gabrielle L.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Bloquée devant mon immeuble rue Saint-Dominique à minuit. Dépannage express !",
+        "location": "Saint-Dominique",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Henri C.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement cylindre haute sécurité boulevard de La Tour-Maubourg. Parfait.",
+        "location": "École Militaire",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Agathe P.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Blindage de porte avenue Bosquet. Travail de qualité professionnelle.",
+        "location": "Champ de Mars",
+        "service": "Blindage porte"
+      },
+      {
+        "name": "Bastien F.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Serrure défaillante rue de Varenne. Réparation efficace et durable.",
+        "location": "Varenne",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Victoire G.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Installation complète rue de l'Université. Serrurier compétent et ponctuel.",
+        "location": "Paris 7ème",
+        "service": "Installation serrure"
+      }
+    ],
+    "paris-8": [
+      {
+        "name": "Charles M.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Porte claquée avenue des Champs-Élysées, serrurier arrivé en 8 minutes. Parfait !",
+        "location": "Champs-Élysées",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Adèle T.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure rue du Faubourg Saint-Honoré. Artisan très professionnel.",
+        "location": "Faubourg Saint-Honoré",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Guillaume B.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Urgence serrure près de la Madeleine. Intervention rapide et prix transparent.",
+        "location": "Madeleine",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Louise D.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Clé cassée boulevard Haussmann. Extraction sans dégât, très pro !",
+        "location": "Haussmann",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Stanislas L.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Installation serrure multipoints avenue Montaigne. Travail haut de gamme.",
+        "location": "Montaigne",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Diane C.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Bloquée parc Monceau à 22h. Serrurier efficace et rassurant. Merci !",
+        "location": "Parc Monceau",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Arnaud P.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement cylindre A2P rue de Courcelles. Sécurité renforcée !",
+        "location": "Courcelles",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Bérénice H.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Ouverture porte blindée place de l'Étoile. Intervention technique parfaite.",
+        "location": "Étoile",
+        "service": "Ouverture porte blindée"
+      },
+      {
+        "name": "Tristan F.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Dépannage serrure rue la Boétie. Artisan ponctuel et efficace.",
+        "location": "La Boétie",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Apolline G.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Sécurisation complète avenue George V. Service premium, très satisfaite.",
+        "location": "George V",
+        "service": "Sécurisation"
+      }
+    ],
+    "paris-9": [
+      {
+        "name": "Romain K.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Porte claquée près de l'Opéra, intervention en 12 min. Service au top !",
+        "location": "Opéra",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Camille S.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure rue des Martyrs. Artisan sympathique et professionnel.",
+        "location": "Martyrs",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Florian M.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Dépannage urgent place Pigalle à 3h du matin. Disponibilité 24h/24 confirmée !",
+        "location": "Pigalle",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Marine D.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Clé cassée rue de Châteaudun. Extraction rapide et soignée. Merci !",
+        "location": "Châteaudun",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Fabien B.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Installation serrure Bricard boulevard Haussmann côté 9ème. Excellent !",
+        "location": "Grands Boulevards",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Aurélie L.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Bloquée rue La Fayette à 20h. Serrurier arrivé très vite, super pro.",
+        "location": "La Fayette",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Kevin C.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement cylindre sécurisé rue de Clichy. Travail parfait.",
+        "location": "Clichy",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Virginie P.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Pose verrou rue Notre-Dame de Lorette. Serrurier efficace et souriant.",
+        "location": "Notre-Dame de Lorette",
+        "service": "Installation verrou"
+      },
+      {
+        "name": "Sylvain H.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Serrure grippée rue Saint-Lazare. Réparation express, prix correct.",
+        "location": "Saint-Lazare",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Jessica F.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Sécurisation après cambriolage rue de Londres. Équipe réactive et rassurante.",
+        "location": "Europe",
+        "service": "Sécurisation"
+      }
+    ],
+    "paris-10": [
+      {
+        "name": "Jérémy A.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Porte claquée rue du Faubourg Saint-Denis. Serrurier arrivé en 10 min, parfait !",
+        "location": "Faubourg Saint-Denis",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Lucie T.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure canal Saint-Martin. Artisan pro et travail soigné.",
+        "location": "Canal Saint-Martin",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Michaël B.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Urgence gare du Nord à minuit. Intervention rapide malgré l'affluence.",
+        "location": "Gare du Nord",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Aurore D.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Clé cassée rue de Lancry. Extraction impeccable. Je recommande vivement.",
+        "location": "Lancry",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Thomas L.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Installation serrure multipoints gare de l'Est. Service excellent.",
+        "location": "Gare de l'Est",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Mélanie C.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Bloquée quai de Valmy à 7h. Dépannage ultra-rapide, j'étais au travail à l'heure.",
+        "location": "Quai de Valmy",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Sébastien P.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement cylindre rue de Paradis. Artisan compétent et agréable.",
+        "location": "Paradis",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Émeline H.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Ouverture porte blindée rue d'Hauteville. Technique et sans casse. Bravo !",
+        "location": "Hauteville",
+        "service": "Ouverture porte blindée"
+      },
+      {
+        "name": "Anthony F.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Serrure défaillante rue des Petites Écuries. Réparation durable.",
+        "location": "Petites Écuries",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Laetitia G.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Blindage porte rue du Château d'Eau. Sécurité renforcée, très satisfaite.",
+        "location": "Château d'Eau",
+        "service": "Blindage porte"
+      }
+    ],
+    "paris-11": [
+      {
+        "name": "Kévin R.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Porte claquée rue Oberkampf, serrurier arrivé en 10 min. Super réactif !",
+        "location": "Oberkampf",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Amélie S.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure place de la Bastille. Travail propre et rapide.",
+        "location": "Bastille",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Jordan M.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Dépannage urgent République un samedi soir. Prix annoncé respecté. Parfait !",
+        "location": "République",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Laura D.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Clé cassée boulevard Voltaire. Extraction propre, aucun dégât. Merci !",
+        "location": "Voltaire",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Quentin B.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Installation serrure 5 points rue de la Roquette. Excellent travail.",
+        "location": "Roquette",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Pauline L.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Bloquée rue Jean-Pierre Timbaud à 1h du matin. Serrurier sympa et efficace.",
+        "location": "Parmentier",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Dylan C.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement cylindre avenue Parmentier. Service irréprochable.",
+        "location": "Parmentier",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Manon P.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Sécurisation après tentative d'effraction rue de Charonne. Très réactif.",
+        "location": "Charonne",
+        "service": "Sécurisation"
+      },
+      {
+        "name": "Alexis H.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Serrure bloquée passage Saint-Sébastien. Dépannage rapide et efficace.",
+        "location": "Saint-Sébastien",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Océane F.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Changement complet rue du Chemin Vert. Artisan pro et ponctuel.",
+        "location": "Chemin Vert",
+        "service": "Changement serrure"
+      }
+    ],
+    "paris-12": [
+      {
+        "name": "Cédric M.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Porte claquée gare de Lyon, serrurier arrivé en 15 min. Efficace et pro !",
+        "location": "Gare de Lyon",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Élodie T.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure parc de Bercy. Travail soigné et prix correct.",
+        "location": "Bercy",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Matthieu B.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Urgence serrure place de la Nation un dimanche. Service au top !",
+        "location": "Nation",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Clémence D.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Clé cassée avenue Daumesnil. Extraction rapide, serrurier compétent.",
+        "location": "Daumesnil",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Steven L.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Installation serrure Vachette rue de Reuilly. Excellent rapport qualité-prix.",
+        "location": "Reuilly",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Marion C.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Bloquée avenue Ledru-Rollin à 22h. Intervention rapide et rassurante.",
+        "location": "Ledru-Rollin",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Maxence P.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement cylindre sécurisé cours de Vincennes. Parfait !",
+        "location": "Cours de Vincennes",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Coralie H.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Ouverture porte blindée rue de Picpus. Intervention technique maîtrisée.",
+        "location": "Picpus",
+        "service": "Ouverture porte blindée"
+      },
+      {
+        "name": "Gaëtan F.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Serrure grippée rue du Faubourg Saint-Antoine. Dégrippage efficace.",
+        "location": "Faubourg Saint-Antoine",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Noémie G.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Pose verrou de sécurité rue Abel. Travail propre et professionnel.",
+        "location": "Nation",
+        "service": "Installation verrou"
+      }
+    ],
+    "paris-13": [
+      {
+        "name": "Florent A.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Porte claquée quartier asiatique, intervention en 12 min. Excellent service !",
+        "location": "Chinatown",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Audrey T.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure Butte aux Cailles. Artisan super pro et sympa.",
+        "location": "Butte aux Cailles",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Jérémie M.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Dépannage urgent près de la BNF à 23h. Réactivité exemplaire.",
+        "location": "Bibliothèque",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Leslie D.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Clé cassée avenue d'Italie. Extraction impeccable. Je recommande !",
+        "location": "Place d'Italie",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "William B.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Installation serrure 3 points avenue de Choisy. Travail de qualité.",
+        "location": "Choisy",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Mégane L.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Bloquée rue de Tolbiac à 6h du matin. Serrurier rapide et efficace.",
+        "location": "Tolbiac",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Christopher C.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement cylindre boulevard Arago. Artisan compétent.",
+        "location": "Gobelins",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Jennifer P.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Sécurisation porte rue Bobillot après effraction. Travail rassurant.",
+        "location": "Maison Blanche",
+        "service": "Sécurisation"
+      },
+      {
+        "name": "Loïc H.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Serrure défaillante rue de la Glacière. Réparation durable.",
+        "location": "Glacière",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Amandine F.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Blindage porte rue Nationale. Excellent travail de sécurisation.",
+        "location": "Olympiades",
+        "service": "Blindage porte"
+      }
+    ],
+    "paris-14": [
+      {
+        "name": "Nicolas V.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Porte claquée gare Montparnasse, serrurier arrivé en 12 min. Super !",
+        "location": "Montparnasse",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Stéphanie R.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure rue Daguerre. Artisan professionnel et ponctuel.",
+        "location": "Denfert-Rochereau",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Frédéric M.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Urgence serrure rue d'Alésia un samedi. Prix correct, travail soigné.",
+        "location": "Alésia",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Carole D.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Clé cassée avenue du Maine. Extraction sans dégât. Merci !",
+        "location": "Maine",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "David B.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Installation serrure haute sécurité rue de la Gaîté. Excellent !",
+        "location": "Gaîté",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Vanessa L.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Bloquée avenue Jean Moulin à 21h. Intervention rapide et pro.",
+        "location": "Jean Moulin",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Christophe C.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement cylindre rue Froidevaux. Travail propre et précis.",
+        "location": "Raspail",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Angélique P.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Ouverture porte blindée rue Raymond Losserand. Parfaitement maîtrisé.",
+        "location": "Pernety",
+        "service": "Ouverture porte blindée"
+      },
+      {
+        "name": "Ludovic H.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Dépannage serrure rue Didot. Artisan réactif et compétent.",
+        "location": "Porte de Vanves",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Sabrina F.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Pose de verrou rue des Plantes. Service impeccable.",
+        "location": "Plaisance",
+        "service": "Installation verrou"
+      }
+    ],
+    "paris-15": [
+      {
+        "name": "Fabrice K.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Porte claquée rue de Vaugirard, intervention en 15 min. Très pro !",
+        "location": "Vaugirard",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Cindy T.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure rue du Commerce. Travail impeccable.",
+        "location": "Commerce",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Yohan M.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Dépannage urgent porte de Versailles un dimanche. Super réactif !",
+        "location": "Porte de Versailles",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Delphine D.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Clé cassée rue Lecourbe. Extraction rapide et propre. Merci !",
+        "location": "Lecourbe",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Johan B.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Installation serrure 5 points rue de Javel. Excellent travail.",
+        "location": "Javel",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Sandra L.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Bloquée boulevard de Grenelle à 23h. Serrurier arrivé vite, très pro.",
+        "location": "Grenelle",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Benjamin C.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement cylindre rue de la Convention. Service au top.",
+        "location": "Convention",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Maryline P.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Sécurisation après cambriolage rue de Lourmel. Équipe rassurante.",
+        "location": "Lourmel",
+        "service": "Sécurisation"
+      },
+      {
+        "name": "Cédric H.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Serrure grippée rue Blomet. Dégrippage efficace et conseils utiles.",
+        "location": "Vaugirard",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Émilie F.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Blindage de porte rue Cambronne. Travail de qualité professionnelle.",
+        "location": "Cambronne",
+        "service": "Blindage porte"
+      }
+    ],
+    "paris-16": [
+      {
+        "name": "Laurent G.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Porte claquée place du Trocadéro, serrurier arrivé en 10 min. Parfait !",
+        "location": "Trocadéro",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Nathalie V.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure rue de Passy. Artisan haut de gamme.",
+        "location": "Passy",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "François B.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Urgence serrure avenue Victor Hugo. Intervention express et pro.",
+        "location": "Victor Hugo",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Isabelle D.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Clé cassée rue d'Auteuil. Extraction impeccable. Je recommande.",
+        "location": "Auteuil",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Arnaud L.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Installation serrure Fichet avenue Foch. Travail d'exception.",
+        "location": "Foch",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Valérie C.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Bloquée avenue Mozart à minuit. Serrurier discret et efficace.",
+        "location": "Mozart",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Philippe P.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement cylindre haute sécurité rue de la Pompe. Excellent.",
+        "location": "La Pompe",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Sophie H.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Ouverture porte blindée avenue Kléber. Technique parfaite.",
+        "location": "Kléber",
+        "service": "Ouverture porte blindée"
+      },
+      {
+        "name": "Olivier F.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Dépannage serrure rue de Longchamp. Service premium.",
+        "location": "Longchamp",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Christine G.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Sécurisation complète avenue Henri Martin. Très satisfaite.",
+        "location": "Henri Martin",
+        "service": "Sécurisation"
+      }
+    ],
+    "paris-17": [
+      {
+        "name": "Éric M.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Porte claquée quartier des Batignolles, serrurier rapide et efficace !",
+        "location": "Batignolles",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Sandrine T.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure avenue de Wagram. Travail professionnel.",
+        "location": "Wagram",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Patrick B.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Dépannage urgent place des Ternes à 2h du matin. Disponibilité au top.",
+        "location": "Ternes",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Céline D.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Clé cassée rue de Lévis. Extraction parfaite, aucun dommage.",
+        "location": "Monceau",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Bruno L.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Installation serrure multipoints rue Cardinet. Excellent rapport qualité-prix.",
+        "location": "Cardinet",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Corinne C.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Bloquée avenue de Clichy à 20h. Intervention très rapide. Merci !",
+        "location": "Clichy",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Thierry P.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement cylindre rue Bayen. Artisan sérieux et compétent.",
+        "location": "Étoile",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Marie-Pierre H.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Blindage porte boulevard Pereire. Sécurité renforcée, très bien.",
+        "location": "Pereire",
+        "service": "Blindage porte"
+      },
+      {
+        "name": "Gilles F.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Serrure bloquée rue de Tocqueville. Réparation efficace.",
+        "location": "Villiers",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Véronique G.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Pose de verrou rue de Rome. Service impeccable.",
+        "location": "Rome",
+        "service": "Installation verrou"
+      }
+    ],
+    "paris-18": [
+      {
+        "name": "Mehdi A.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Porte claquée Montmartre, serrurier arrivé en 12 min. Génial !",
+        "location": "Montmartre",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Jessica T.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure rue Lepic. Artisan sympa et travail soigné.",
+        "location": "Abbesses",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Yannick M.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Dépannage urgent porte de Clignancourt à 4h du matin. Super réactif.",
+        "location": "Clignancourt",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Priscilla D.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Clé cassée boulevard Barbès. Extraction rapide et propre.",
+        "location": "Barbès",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Jonathan B.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Installation serrure rue Ordener. Bon rapport qualité-prix.",
+        "location": "Jules Joffrin",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Léa L.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Bloquée rue Caulaincourt à 23h. Serrurier efficace et rassurant.",
+        "location": "Caulaincourt",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Hakim C.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement cylindre rue Marcadet. Service au top.",
+        "location": "Marcadet",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Morgane P.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Sécurisation après tentative de vol rue Lamarck. Travail rassurant.",
+        "location": "Lamarck",
+        "service": "Sécurisation"
+      },
+      {
+        "name": "Adrien H.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Serrure grippée rue Damrémont. Dégrippage efficace.",
+        "location": "Simplon",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Kelly F.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Ouverture porte blindée rue du Poteau. Technique irréprochable.",
+        "location": "Porte de Saint-Ouen",
+        "service": "Ouverture porte blindée"
+      }
+    ],
+    "paris-19": [
+      {
+        "name": "Franck R.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Porte claquée parc des Buttes-Chaumont, intervention en 10 min !",
+        "location": "Buttes-Chaumont",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Aurélie S.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure bassin de la Villette. Artisan professionnel.",
+        "location": "La Villette",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Karim M.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Dépannage urgent rue de Belleville à minuit. Très réactif.",
+        "location": "Belleville",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Laetitia D.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Clé cassée avenue Jean Jaurès. Extraction impeccable. Merci !",
+        "location": "Jaurès",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Mickaël B.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Installation serrure 3 points rue de Crimée. Excellent travail.",
+        "location": "Crimée",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Ophélie L.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Bloquée rue Manin à 7h. Dépannage ultra-rapide pour aller au travail.",
+        "location": "Manin",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Romain C.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement cylindre avenue Secrétan. Artisan compétent.",
+        "location": "Secrétan",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Fanny P.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Blindage de porte rue de Meaux. Travail de qualité.",
+        "location": "Laumière",
+        "service": "Blindage porte"
+      },
+      {
+        "name": "Jérémy H.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Serrure défaillante rue Riquet. Réparation durable.",
+        "location": "Riquet",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Charlène F.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Pose verrou rue d'Aubervilliers. Service au top.",
+        "location": "Stalingrad",
+        "service": "Installation verrou"
+      }
+    ],
+    "paris-20": [
+      {
+        "name": "Sébastien A.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Porte claquée rue de Belleville, serrurier arrivé en 12 min. Super !",
+        "location": "Belleville",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Julie T.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure près du Père Lachaise. Travail soigné.",
+        "location": "Père-Lachaise",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Guillaume M.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Dépannage urgent Ménilmontant un samedi soir. Prix correct.",
+        "location": "Ménilmontant",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Clara D.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Clé cassée rue des Pyrénées. Extraction parfaite, aucun dégât.",
+        "location": "Pyrénées",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Tony B.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Installation serrure rue de Bagnolet. Excellent travail.",
+        "location": "Gambetta",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Aurélia L.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Bloquée rue de la Mare à 22h. Intervention rapide et rassurante.",
+        "location": "Jourdain",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Mathias C.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement cylindre rue des Amandiers. Service impeccable.",
+        "location": "Amandiers",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Pauline P.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Sécurisation après effraction rue de Ménilmontant. Très réactif.",
+        "location": "Ménilmontant",
+        "service": "Sécurisation"
+      },
+      {
+        "name": "Valentin H.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Serrure bloquée avenue Gambetta. Réparation efficace.",
+        "location": "Gambetta",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Alicia F.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Pose de verrou rue de la Chine. Artisan professionnel.",
+        "location": "Pelleport",
+        "service": "Installation verrou"
+      }
+    ]
+  }
+}

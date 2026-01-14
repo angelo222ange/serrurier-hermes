@@ -4,16 +4,72 @@
 
 /*
  * ═══════════════════════════════════════════════════════════════════════════
+ * VARIABLES CSS - THEMING PAR VILLE
+ * ═══════════════════════════════════════════════════════════════════════════
+ */
+:root {
+  /* Paris - Bleu nuit + Or */
+  --color-paris-primary: 30 58 95;      /* #1E3A5F */
+  --color-paris-secondary: 201 162 39;   /* #C9A227 */
+  --color-paris-bg: 248 250 252;         /* #F8FAFC */
+
+  /* Bordeaux - Lie de vin + Pierre */
+  --color-bordeaux-primary: 114 47 55;   /* #722F37 */
+  --color-bordeaux-secondary: 212 165 116; /* #D4A574 */
+  --color-bordeaux-bg: 253 248 245;      /* #FDF8F5 */
+
+  /* Montpellier - Bleu méditerranée + Soleil */
+  --color-montpellier-primary: 14 165 233; /* #0EA5E9 */
+  --color-montpellier-secondary: 251 191 36; /* #FBBF24 */
+  --color-montpellier-bg: 240 249 255;   /* #F0F9FF */
+
+  /* Couleurs communes */
+  --color-cta-orange: 249 115 22;        /* #F97316 */
+  --color-cta-green: 34 197 94;          /* #22C55E */
+  --color-text: 31 41 55;                /* #1F2937 */
+  --color-text-light: 107 114 128;       /* #6B7280 */
+
+  /* Couleur primaire par défaut (Paris) */
+  --color-primary: var(--color-paris-primary);
+  --color-secondary: var(--color-paris-secondary);
+  --color-bg: var(--color-paris-bg);
+}
+
+/* Thème Bordeaux */
+[data-theme="bordeaux"] {
+  --color-primary: var(--color-bordeaux-primary);
+  --color-secondary: var(--color-bordeaux-secondary);
+  --color-bg: var(--color-bordeaux-bg);
+}
+
+/* Thème Montpellier */
+[data-theme="montpellier"] {
+  --color-primary: var(--color-montpellier-primary);
+  --color-secondary: var(--color-montpellier-secondary);
+  --color-bg: var(--color-montpellier-bg);
+}
+
+/*
+ * ═══════════════════════════════════════════════════════════════════════════
  * STYLES DE BASE
  * ═══════════════════════════════════════════════════════════════════════════
  */
 @layer base {
   html {
     @apply scroll-smooth;
+    /* Optimisation performance - éviter les reflows */
+    text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
   }
 
   body {
     @apply bg-white text-gray-900 antialiased;
+    /* Utiliser la variable de police next/font pour font-display: swap automatique */
+    font-family: var(--font-inter), system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    /* Optimisation du rendu des polices */
+    text-rendering: optimizeSpeed;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -21,15 +77,15 @@
   }
 
   h1 {
-    @apply text-4xl md:text-5xl;
+    @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl;
   }
 
   h2 {
-    @apply text-3xl md:text-4xl;
+    @apply text-2xl sm:text-3xl md:text-4xl;
   }
 
   h3 {
-    @apply text-2xl md:text-3xl;
+    @apply text-xl sm:text-2xl md:text-3xl;
   }
 }
 
@@ -44,49 +100,81 @@
     max-width: 1280px;
   }
 
-  /* Bouton principal */
+  /* Bouton principal - Orange vif pour conversion */
   .btn-primary {
     @apply inline-flex items-center justify-center 
-           rounded-full bg-primary-600 px-6 py-3 
-           text-base font-semibold text-white 
-           shadow-lg shadow-primary-600/30 
-           hover:bg-primary-700 
+           rounded-xl bg-orange-500 px-6 py-3.5
+           text-base font-bold text-white 
+           shadow-lg shadow-orange-500/30 
+           hover:bg-orange-600 hover:shadow-xl hover:shadow-orange-500/40
+           active:scale-[0.98]
            transition-all duration-200
-           focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+           focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2;
   }
 
   /* Bouton secondaire */
   .btn-secondary {
     @apply inline-flex items-center justify-center 
-           rounded-full border-2 border-primary-600 
-           px-6 py-3 text-base font-semibold 
-           text-primary-700 bg-white
-           hover:bg-primary-50 
+           rounded-xl border-2 border-gray-900
+           px-6 py-3 text-base font-bold 
+           text-gray-900 bg-white
+           hover:bg-gray-900 hover:text-white
            transition-all duration-200;
   }
 
-  /* Bouton téléphone (vert urgence) */
+  /* Bouton téléphone (vert urgence) - TRÈS visible */
   .btn-phone {
-    @apply inline-flex items-center justify-center 
-           rounded-full bg-green-600 px-6 py-3 
-           text-base font-semibold text-white 
-           shadow-lg shadow-green-600/30 
-           hover:bg-green-700 
-           transition-all duration-200
-           animate-pulse hover:animate-none;
+    @apply inline-flex items-center justify-center gap-2
+           rounded-xl bg-emerald-500 px-6 py-3.5
+           text-base font-bold text-white 
+           shadow-lg shadow-emerald-500/30 
+           hover:bg-emerald-600 hover:shadow-xl hover:shadow-emerald-500/40
+           active:scale-[0.98]
+           transition-all duration-200;
+  }
+
+  /* Bouton téléphone animé */
+  .btn-phone-pulse {
+    @apply btn-phone;
+    animation: pulse-ring 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  @keyframes pulse-ring {
+    0%, 100% {
+      box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+    }
+    50% {
+      box-shadow: 0 0 0 8px rgba(16, 185, 129, 0);
+    }
   }
 
   /* Card */
   .card {
     @apply bg-white rounded-2xl p-6 
-           shadow-lg border border-gray-100
-           hover:shadow-xl transition-shadow duration-300;
+           shadow-sm border border-gray-100
+           hover:shadow-lg hover:border-gray-200
+           transition-all duration-300;
+  }
+
+  /* Card avec image de fond */
+  .card-image {
+    @apply relative overflow-hidden rounded-2xl
+           bg-gray-900 text-white;
+  }
+
+  .card-image::before {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-t from-gray-900/90 via-gray-900/50 to-transparent z-10;
+  }
+
+  .card-image > * {
+    @apply relative z-20;
   }
 
   /* Badge */
   .badge {
-    @apply inline-flex items-center px-3 py-1 
-           rounded-full text-sm font-medium;
+    @apply inline-flex items-center px-3 py-1.5
+           rounded-full text-sm font-semibold;
   }
 
   .badge-primary {
@@ -94,20 +182,64 @@
   }
 
   .badge-success {
-    @apply badge bg-green-100 text-green-800;
+    @apply badge bg-emerald-100 text-emerald-800;
+  }
+
+  .badge-warning {
+    @apply badge bg-amber-100 text-amber-800;
   }
 
   /* Section */
   .section {
-    @apply py-16 md:py-24;
+    @apply py-12 sm:py-16 md:py-20 lg:py-24;
   }
 
   .section-title {
-    @apply text-3xl md:text-4xl font-bold text-gray-900 mb-4;
+    @apply text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4;
   }
 
   .section-subtitle {
-    @apply text-lg text-gray-600 max-w-2xl;
+    @apply text-base sm:text-lg text-gray-600 max-w-2xl;
+  }
+
+  /* Réassurance badge */
+  .reassurance-badge {
+    @apply flex items-center gap-2 px-3 py-2 
+           bg-white/90 backdrop-blur-sm rounded-lg 
+           shadow-sm text-sm font-medium text-gray-900;
+  }
+
+  /* Prix highlight */
+  .price-tag {
+    @apply inline-flex items-baseline gap-1;
+  }
+
+  .price-tag .from {
+    @apply text-sm text-gray-500;
+  }
+
+  .price-tag .amount {
+    @apply text-2xl sm:text-3xl font-bold text-emerald-600;
+  }
+
+  /* Carrousel styles */
+  .carousel-container {
+    @apply overflow-x-auto scrollbar-hide snap-x snap-mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .carousel-item {
+    @apply snap-center flex-shrink-0;
+  }
+
+  /* Hide scrollbar */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
   }
 }
 
@@ -121,6 +253,105 @@
   50% { transform: translateY(-10px); }
 }
 
+@keyframes slide-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
 .animate-float {
   animation: float 3s ease-in-out infinite;
+}
+
+.animate-slide-in-left {
+  animation: slide-in-left 0.5s ease-out forwards;
+}
+
+.animate-slide-in-up {
+  animation: slide-in-up 0.5s ease-out forwards;
+}
+
+.animate-scale-in {
+  animation: scale-in 0.3s ease-out forwards;
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+/* Staggered animations */
+.stagger-1 { animation-delay: 0.1s; }
+.stagger-2 { animation-delay: 0.2s; }
+.stagger-3 { animation-delay: 0.3s; }
+.stagger-4 { animation-delay: 0.4s; }
+.stagger-5 { animation-delay: 0.5s; }
+.stagger-6 { animation-delay: 0.6s; }
+
+/*
+ * ═══════════════════════════════════════════════════════════════════════════
+ * UTILITAIRES PERSONNALISÉS
+ * ═══════════════════════════════════════════════════════════════════════════
+ */
+@layer utilities {
+  /* Gradient text */
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-600 to-primary-800;
+  }
+
+  /* Glass effect */
+  .glass {
+    @apply bg-white/80 backdrop-blur-md;
+  }
+
+  /* Focus visible ring */
+  .focus-ring {
+    @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2;
+  }
+
+  /* Line clamp */
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
 }

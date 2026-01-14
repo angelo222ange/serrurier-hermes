@@ -19,7 +19,7 @@ set -e  # Arrêter en cas d'erreur
 # CONFIGURATION - À MODIFIER
 # ─────────────────────────────────────────────────────────────────────────────
 
-DOMAIN="serrurier-lille-59.fr"        # Votre domaine
+DOMAIN="serrurier-hermes.com"          # Votre domaine (à personnaliser)
 VPS_USER="root"                        # Utilisateur SSH du VPS
 VPS_HOST="123.456.789.0"              # IP ou hostname du VPS
 VPS_PATH="/var/www/${DOMAIN}"         # Chemin sur le VPS

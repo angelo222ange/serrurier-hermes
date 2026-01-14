@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002F[service]","\u002F[service]\u002F[zone]","\u002Fserrurier-[city]\u002F[service]","\u002Fzones\u002F[slug]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

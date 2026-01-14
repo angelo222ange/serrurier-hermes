@@ -1,8 +1,8 @@
 {
   "hero": {
     "badge": "🚨 Urgence 24h/24",
-    "title": "Dépannage Serrurier {city}",
-    "subtitle": "Porte claquée ? Serrure bloquée ? Effraction ? Notre équipe de serruriers intervient en 30 minutes dans tout {city} et son agglomération."
+    "title": "Dépannage Urgent",
+    "subtitle": "Porte claquée ? Serrure bloquée ? Effraction ? Notre équipe de serruriers intervient en 30 minutes, 24h/24 et 7j/7."
   },
   "stats": [
     { "value": "30", "label": "min d'intervention" },

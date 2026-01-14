@@ -1,0 +1,18 @@
+# Robots.txt - Serrurier Hermès
+# https://serrurier-hermes.fr
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://serrurier-hermes.fr/sitemap.xml
+
+# Pages légales (pas d'indexation directe mais crawlables)
+# Ces pages sont déjà en noindex via meta tags
+
+# Bloquer les ressources internes
+Disallow: /_next/
+Disallow: /api/
+
+# Autoriser les images
+Allow: /images/

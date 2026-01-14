@@ -1,55 +1,142 @@
 {
   "hero": {
     "badge": "🚪 Ouverture sans dégât",
-    "title": "Ouverture de Porte {zone}",
-    "subtitle": "Porte claquée, bloquée ou clés perdues à {zone} ? Nos serruriers ouvrent votre porte en 30 minutes, sans abîmer la serrure ni la porte."
+    "title": "Ouverture de Porte",
+    "subtitle": "Porte claquée, bloquée ou clés perdues ? Nos serruriers ouvrent votre porte en 20 minutes, sans abîmer la serrure ni la porte. Intervention 24h/24, 7j/7."
   },
   "intro": {
     "title": "Spécialiste ouverture de porte à {zone}",
     "paragraphs": [
-      "Une porte fermée ne doit jamais vous laisser dehors longtemps. À {zone}, {name} est le spécialiste de l'ouverture de porte sans destruction. Notre technique préserve votre serrure et votre porte dans 95% des cas.",
-      "Que vous ayez claqué la porte, perdu vos clés ou que votre serrure soit défaillante, nous intervenons rapidement à {zone} ({zonePostal}) pour vous permettre de rentrer chez vous en toute sécurité."
+      "Vous êtes bloqué devant votre porte à {zone} ? Pas de panique ! {name} est le spécialiste de l'ouverture de porte depuis plus de 15 ans dans le département. Notre équipe de serruriers qualifiés intervient en 20 minutes maximum pour vous permettre de rentrer chez vous en toute sécurité.",
+      "L'ouverture de porte est notre spécialité. Nous maîtrisons toutes les techniques d'ouverture non destructives qui permettent de préserver votre serrure et votre porte dans 95% des cas. Que vous ayez une porte standard, une porte blindée, une porte 3 points ou 5 points, nos techniciens sont formés aux dernières techniques et équipés d'un outillage professionnel de pointe.",
+      "À {zone} ({zonePostal}), nous intervenons aussi bien chez les particuliers que pour les professionnels : appartements, maisons, locaux commerciaux, bureaux. Notre service est disponible 24 heures sur 24, 7 jours sur 7, y compris les week-ends et jours fériés. Parce qu'une porte fermée ne prévient jamais !",
+      "Avant toute intervention, nous vous communiquons un devis clair et précis par téléphone. Pas de mauvaise surprise : le prix annoncé est le prix final. Nous acceptons les paiements par carte bancaire, espèces ou chèque, et vous remettons une facture détaillée pour votre assurance si nécessaire."
     ]
   },
   "situations": {
-    "title": "Types d'ouverture à {zone}",
+    "title": "Types d'ouverture de porte à {zone}",
     "items": [
       {
         "icon": "🏠",
         "title": "Porte claquée",
-        "description": "La situation la plus fréquente. Nous utilisons des techniques non destructives pour ouvrir sans trace."
+        "description": "Vous avez claqué la porte avec les clés à l'intérieur ? C'est la situation la plus fréquente. Nous ouvrons sans dégât en quelques minutes.",
+        "price": 69
       },
       {
         "icon": "🔑",
-        "title": "Clés perdues",
-        "description": "Ouverture immédiate, puis changement de cylindre recommandé pour votre sécurité."
+        "title": "Clés perdues ou volées",
+        "description": "Clés égarées ou dérobées ? Ouverture immédiate puis changement de cylindre recommandé pour votre sécurité.",
+        "price": 89
       },
       {
-        "icon": "🔒",
-        "title": "Serrure grippée",
-        "description": "Clé qui tourne dans le vide ou serrure bloquée ? Nous diagnostiquons et réparons sur place."
+        "icon": "🚪",
+        "title": "Porte fermée à clé",
+        "description": "Porte verrouillée de l'intérieur ou serrure à double entrée ? Techniques adaptées pour ouvrir sans forcer.",
+        "price": 89
+      },
+      {
+        "icon": "🛡️",
+        "title": "Porte blindée",
+        "description": "Ouverture de portes blindées toutes marques : Fichet, Picard, Tordjman, Bricard. Intervention par des spécialistes.",
+        "price": 149
       },
       {
         "icon": "🗝️",
         "title": "Clé cassée dans la serrure",
-        "description": "Extraction du morceau de clé et vérification du cylindre pour éviter tout dommage."
+        "description": "Extraction délicate du morceau de clé, vérification du cylindre et test complet avant de vous rendre les clés.",
+        "price": 69
+      },
+      {
+        "icon": "🔒",
+        "title": "Serrure bloquée ou grippée",
+        "description": "Clé qui ne tourne plus, serrure coincée ? Diagnostic sur place et réparation ou remplacement selon les cas.",
+        "price": 79
+      }
+    ]
+  },
+  "method": {
+    "title": "Notre méthode d'ouverture à {zone}",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Appel et diagnostic",
+        "description": "Décrivez-nous votre situation par téléphone. Nous identifions le type de porte et de serrure pour préparer l'intervention."
+      },
+      {
+        "number": 2,
+        "title": "Devis gratuit",
+        "description": "Avant de nous déplacer, nous vous communiquons un devis précis et définitif. Aucune surprise à l'arrivée."
+      },
+      {
+        "number": 3,
+        "title": "Arrivée en 20 min",
+        "description": "Un technicien qualifié arrive chez vous à {zone} avec tout le matériel nécessaire pour ouvrir votre porte."
+      },
+      {
+        "number": 4,
+        "title": "Ouverture sans dégât",
+        "description": "Grâce à nos techniques professionnelles, nous ouvrons votre porte sans l'abîmer dans 95% des cas."
+      },
+      {
+        "number": 5,
+        "title": "Vérification et conseils",
+        "description": "Nous testons le bon fonctionnement de votre serrure et vous conseillons si un remplacement est nécessaire."
       }
     ]
   },
   "advantages": {
-    "title": "Notre méthode d'ouverture à {zone}",
+    "title": "Pourquoi choisir {name} pour votre ouverture de porte à {zone} ?",
     "items": [
-      "Techniques non destructives en priorité",
-      "Respect de votre serrure et de votre porte",
-      "Équipement professionnel de dernière génération",
-      "Serruriers formés aux techniques d'ouverture fine",
-      "Devis transparent avant toute intervention",
-      "Garantie de résultat"
+      "Ouverture sans destruction dans 95% des cas",
+      "Intervention en 20 minutes maximum à {zone}",
+      "Disponible 24h/24 et 7j/7, même jours fériés",
+      "Devis gratuit et prix fixe annoncé par téléphone",
+      "Serruriers qualifiés avec plus de 10 ans d'expérience",
+      "Équipement professionnel dernière génération",
+      "Toutes portes : standard, blindée, 3 points, 5 points",
+      "Paiement CB, espèces, chèque - Facture fournie"
     ]
   },
+  "brands": {
+    "title": "Nous ouvrons toutes les marques",
+    "items": ["Fichet", "Vachette", "Bricard", "Picard", "Mul-T-Lock", "Abloy", "JPM", "Pollux", "Tordjman", "Dom"]
+  },
+  "faq": [
+    {
+      "question": "Combien coûte une ouverture de porte ?",
+      "answer": "Le prix d'une ouverture de porte dépend du type de porte et de serrure. Pour une porte claquée simple, comptez <strong>à partir de 69€</strong>. Une porte fermée à clé démarre à 89€, et une porte blindée à partir de 149€. Nous vous communiquons un devis exact par téléphone avant intervention."
+    },
+    {
+      "question": "Quel est le délai d'intervention pour une ouverture de porte ?",
+      "answer": "Nos serruriers interviennent en <strong>20 minutes maximum</strong> dans la zone et ses environs. Nous sommes disponibles 24h/24, 7j/7, y compris les nuits, week-ends et jours fériés."
+    },
+    {
+      "question": "Pouvez-vous ouvrir une porte blindée ?",
+      "answer": "Oui, nos techniciens sont spécialistes de l'ouverture de <strong>portes blindées</strong> toutes marques : Fichet, Picard, Tordjman, Bricard, etc. Nous utilisons des techniques adaptées à chaque type de blindage pour préserver votre porte."
+    },
+    {
+      "question": "L'ouverture de porte abîme-t-elle la serrure ?",
+      "answer": "Non, dans <strong>95% des cas</strong>, nous ouvrons la porte sans aucun dégât grâce à nos techniques d'ouverture fine. Si un dommage est inévitable (serrure endommagée, effraction...), nous vous en informons avant d'intervenir."
+    },
+    {
+      "question": "Que faire si j'ai perdu mes clés ?",
+      "answer": "En cas de perte de clés, nous procédons d'abord à l'ouverture de votre porte. Nous vous recommandons ensuite fortement de <strong>changer le cylindre</strong> de votre serrure pour éviter qu'une personne ayant trouvé vos clés puisse entrer chez vous."
+    },
+    {
+      "question": "Intervenez-vous la nuit et le week-end ?",
+      "answer": "Oui, notre service d'ouverture de porte est disponible <strong>24h/24 et 7j/7</strong>. Nuit, week-end, jour férié : nous intervenons à toute heure. Un léger supplément peut s'appliquer pour les interventions nocturnes."
+    },
+    {
+      "question": "Puis-je payer par carte bancaire ?",
+      "answer": "Oui, nous acceptons les paiements par <strong>carte bancaire, espèces et chèque</strong>. Le paiement s'effectue une fois l'intervention terminée. Nous vous remettons une facture détaillée pour votre assurance si nécessaire."
+    },
+    {
+      "question": "Ma clé est cassée dans la serrure, que faire ?",
+      "answer": "Surtout, <strong>n'essayez pas de forcer</strong> avec des outils inadaptés, vous risqueriez d'endommager le cylindre. Appelez-nous : nos serruriers extraient le morceau de clé avec un outillage spécifique, puis vérifient le bon fonctionnement de votre serrure."
+    }
+  ],
   "cta": {
-    "title": "Porte fermée à {zone} ?",
-    "subtitle": "Appelez maintenant pour une ouverture rapide et sans dégât !"
+    "title": "Porte fermée ?",
+    "subtitle": "Appelez maintenant pour une ouverture rapide et sans dégât ! Intervention en 20 min, devis gratuit."
   }
 }
-

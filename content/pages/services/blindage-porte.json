@@ -1,14 +1,16 @@
 {
   "hero": {
-    "badge": "🛡️ Protection maximale",
-    "title": "Blindage de Porte {zone}",
-    "subtitle": "Renforcez la sécurité de votre domicile à {zone} avec un blindage de porte professionnel. Protection anti-effraction certifiée."
+    "badge": "🛡️ Sécurité anti-effraction",
+    "title": "Blindage de Porte",
+    "subtitle": "Protégez votre domicile avec un blindage de porte professionnel. Renforcement de porte existante ou installation de porte blindée complète. Certifications A2P BP, intervention par des experts."
   },
   "intro": {
     "title": "Expert blindage de porte à {zone}",
     "paragraphs": [
-      "Le blindage de porte est la solution la plus efficace pour protéger votre domicile contre les cambriolages. À {zone}, {name} vous propose des solutions de blindage adaptées à votre porte existante.",
-      "Contrairement au remplacement complet de la porte, le blindage consiste à renforcer votre porte actuelle avec une plaque d'acier et une serrure haute sécurité. C'est plus économique et tout aussi efficace."
+      "Vous souhaitez renforcer la sécurité de votre logement à {zone} ? Le blindage de porte est la solution la plus efficace contre les cambriolages. {name} vous propose des solutions de blindage adaptées à votre porte existante et à votre budget, avec des certifications reconnues par les assurances.",
+      "Le blindage de porte consiste à renforcer votre porte actuelle avec une tôle d'acier, des paumelles renforcées et une serrure haute sécurité multipoints. C'est une alternative économique et tout aussi efficace que le remplacement complet de la porte. Nous intervenons aussi pour l'installation de blocs-portes blindés neufs certifiés A2P BP.",
+      "À {zone} ({zonePostal}), notre équipe de techniciens qualifiés intervient aussi bien chez les particuliers que pour les professionnels : appartements, maisons, locaux commerciaux, copropriétés. Chaque projet fait l'objet d'une étude personnalisée pour vous recommander le niveau de protection adapté à votre environnement.",
+      "Toutes nos installations sont garanties pièces et main d'œuvre. Nous travaillons avec les meilleures marques du marché : Fichet, Picard, Tordjman, Bricard, Vachette. Un devis détaillé vous est remis avant chaque intervention, sans engagement de votre part."
     ]
   },
   "situations": {
@@ -17,39 +19,178 @@
       {
         "icon": "🚪",
         "title": "Blindage de porte existante",
-        "description": "Renforcement de votre porte en bois avec tôle d'acier et serrure multipoints."
+        "description": "Renforcement de votre porte en bois avec tôle d'acier (1,5 à 2 mm), paumelles renforcées et serrure multipoints. Conservation de l'aspect extérieur.",
+        "price": 890
       },
       {
-        "icon": "🏠",
+        "icon": "🛡️",
         "title": "Porte blindée complète",
-        "description": "Remplacement par un bloc-porte blindé certifié A2P BP (Bloc Porte)."
+        "description": "Remplacement par un bloc-porte blindé certifié A2P BP. Niveau de sécurité maximal avec huisserie renforcée et serrure intégrée.",
+        "price": 1490
       },
       {
-        "icon": "🔒",
-        "title": "Blindage + serrure haute sécurité",
-        "description": "Pack complet : blindage + serrure 5 points A2P pour une protection optimale."
+        "icon": "🔐",
+        "title": "Blindage pivot",
+        "description": "Blindage avec système de pivot au sol pour une meilleure résistance à l'arrachement. Idéal pour les grandes portes.",
+        "price": 1190
       },
       {
         "icon": "🏢",
-        "title": "Blindage porte de cave/garage",
-        "description": "Sécurisation des accès secondaires souvent ciblés par les cambrioleurs."
+        "title": "Blindage porte de cave",
+        "description": "Sécurisation des portes de cave, souvent ciblées par les cambrioleurs. Blindage adapté aux accès secondaires.",
+        "price": 490
+      },
+      {
+        "icon": "🚗",
+        "title": "Blindage porte de garage",
+        "description": "Renforcement des portes de garage et accès techniques. Verrous haute sécurité et blindage sur mesure.",
+        "price": 690
+      },
+      {
+        "icon": "🔒",
+        "title": "Serrure haute sécurité seule",
+        "description": "Installation d'une serrure multipoints A2P sur votre porte existante. Premier niveau de sécurisation.",
+        "price": 289
+      }
+    ]
+  },
+  "method": {
+    "title": "Notre méthode de blindage à {zone}",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Visite technique gratuite",
+        "description": "Un technicien se déplace à {zone} pour évaluer votre porte, mesurer les dimensions et identifier vos besoins de sécurité."
+      },
+      {
+        "number": 2,
+        "title": "Devis détaillé personnalisé",
+        "description": "Nous vous proposons plusieurs solutions avec un devis clair : blindage de porte existante, bloc-porte blindé, niveau de certification."
+      },
+      {
+        "number": 3,
+        "title": "Commande et fabrication",
+        "description": "Une fois le devis accepté, nous commandons les éléments nécessaires. Délai habituel : 1 à 2 semaines pour le matériel."
+      },
+      {
+        "number": 4,
+        "title": "Préparation de la porte",
+        "description": "Nous préparons votre porte pour recevoir le blindage : dépose de l'ancienne serrure, renforcement du bâti si nécessaire."
+      },
+      {
+        "number": 5,
+        "title": "Installation du blindage",
+        "description": "Pose de la tôle d'acier, installation des paumelles renforcées, fixation de la serrure multipoints et des cornières anti-pinces."
+      },
+      {
+        "number": 6,
+        "title": "Finitions et réglages",
+        "description": "Réglages de précision, test de tous les points de fermeture, remise des clés et explication du fonctionnement."
       }
     ]
   },
   "advantages": {
-    "title": "Avantages du blindage de porte à {zone}",
+    "title": "Pourquoi choisir {name} pour votre blindage à {zone} ?",
     "items": [
-      "Protection anti-effraction certifiée A2P",
+      "Protection certifiée A2P BP reconnue par les assurances",
       "Conservation de l'aspect esthétique de votre porte",
-      "Installation en quelques heures",
-      "Moins coûteux qu'une porte blindée neuve",
+      "Installation en une demi-journée (blindage porte existante)",
+      "Solution 30 à 50% moins chère qu'une porte blindée neuve",
       "Amélioration de l'isolation phonique et thermique",
-      "Devis gratuit et conseils personnalisés"
+      "Serrures multipoints 3, 5 ou 7 points incluses",
+      "Garantie pièces et main d'œuvre sur toutes nos installations",
+      "Devis gratuit sans engagement après visite technique"
     ]
   },
+  "brands": {
+    "title": "Marques de portes blindées que nous installons",
+    "items": ["Fichet", "Picard", "Tordjman", "Bricard", "Vachette", "Dierre", "Vighi", "Point Fort Fichet", "Abloy", "Mottura", "MétaliX", "DMBP"]
+  },
+  "blindingTypes": {
+    "title": "Types de blindage disponibles",
+    "items": [
+      {
+        "type": "Blindage plat (à plat)",
+        "description": "Tôle d'acier de 1,5 à 2 mm fixée sur la face intérieure de votre porte. Discret et efficace, il ne modifie pas l'aspect extérieur."
+      },
+      {
+        "type": "Blindage pivot",
+        "description": "Système avec pivot encastré dans le sol pour une meilleure résistance. Recommandé pour les portes lourdes ou hautes."
+      },
+      {
+        "type": "Fourreau métallique",
+        "description": "Encadrement complet de la porte par un fourreau en acier. Protection maximale du bâti contre l'arrachement."
+      },
+      {
+        "type": "Bloc-porte blindé A2P BP1",
+        "description": "Porte blindée complète avec huisserie. Certification BP1 : résistance 5 min à l'effraction. Idéal pour les appartements."
+      },
+      {
+        "type": "Bloc-porte blindé A2P BP2",
+        "description": "Niveau de sécurité supérieur : résistance 10 min à l'effraction. Recommandé pour les rez-de-chaussée et zones sensibles."
+      },
+      {
+        "type": "Bloc-porte blindé A2P BP3",
+        "description": "Le plus haut niveau de protection : résistance 15 min. Préconisé pour les bijouteries, banques et sites sensibles."
+      }
+    ]
+  },
+  "certifications": {
+    "title": "Comprendre les certifications A2P",
+    "items": [
+      {
+        "level": "A2P BP1",
+        "description": "Résistance 5 minutes à l'effraction",
+        "recommendation": "Appartements en étage, zones calmes"
+      },
+      {
+        "level": "A2P BP2",
+        "description": "Résistance 10 minutes à l'effraction",
+        "recommendation": "Rez-de-chaussée, zones urbaines"
+      },
+      {
+        "level": "A2P BP3",
+        "description": "Résistance 15 minutes à l'effraction",
+        "recommendation": "Sites sensibles, valeurs importantes"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Combien coûte un blindage de porte ?",
+      "answer": "Le prix d'un blindage de porte dépend du type de solution choisie. Le <strong>blindage d'une porte existante démarre à partir de 890€</strong> (tôle, serrure et pose incluses). Un <strong>bloc-porte blindé complet coûte à partir de 1 490€</strong>. Nous vous proposons un devis gratuit après visite technique."
+    },
+    {
+      "question": "Quelle est la différence entre blindage et porte blindée ?",
+      "answer": "Le <strong>blindage</strong> consiste à renforcer votre porte existante avec une tôle d'acier, des paumelles renforcées et une serrure multipoints. Vous conservez votre porte. La <strong>porte blindée</strong> (ou bloc-porte) est une porte neuve entièrement en acier, avec son propre cadre. Le blindage est <strong>30 à 50% moins cher</strong> qu'un bloc-porte neuf."
+    },
+    {
+      "question": "Le blindage modifie-t-il l'aspect de ma porte ?",
+      "answer": "Non, le blindage est réalisé <strong>côté intérieur</strong> de votre porte. L'aspect extérieur (palier, rue) reste identique. Côté intérieur, la tôle d'acier peut être peinte ou habillée selon vos souhaits. Pour un bloc-porte neuf, de nombreuses finitions sont disponibles : bois, couleur, panneaux décoratifs."
+    },
+    {
+      "question": "Combien de temps dure l'installation d'un blindage ?",
+      "answer": "Le <strong>blindage d'une porte existante</strong> prend généralement une demi-journée (3 à 5 heures). L'installation d'un <strong>bloc-porte blindé complet</strong> nécessite une journée entière. Dans les deux cas, vous pouvez utiliser votre porte normalement dès la fin des travaux."
+    },
+    {
+      "question": "Le blindage est-il reconnu par mon assurance ?",
+      "answer": "Oui, un blindage avec <strong>serrure certifiée A2P</strong> est reconnu par les assurances. Les blocs-portes blindés A2P BP bénéficient d'une certification complète. Une porte blindée peut même <strong>réduire votre prime d'assurance</strong>. Nous vous remettons une attestation d'installation."
+    },
+    {
+      "question": "Mon propriétaire peut-il refuser un blindage de porte ?",
+      "answer": "En tant que locataire, vous pouvez <strong>blinder votre porte existante</strong> sans autorisation car il s'agit d'une amélioration de sécurité. Par contre, le remplacement par un bloc-porte neuf modifie les parties communes et peut nécessiter <strong>l'accord du propriétaire ou du syndic</strong>."
+    },
+    {
+      "question": "Le blindage améliore-t-il l'isolation de ma porte ?",
+      "answer": "Oui, le blindage apporte une <strong>amélioration significative de l'isolation</strong> phonique et thermique. La tôle d'acier et les joints périphériques réduisent les ponts thermiques et les bruits de palier. Les blocs-portes blindés modernes offrent d'excellentes performances isolantes."
+    },
+    {
+      "question": "Quelle certification A2P choisir pour mon blindage ?",
+      "answer": "Le niveau de certification dépend de votre situation. <strong>A2P BP1</strong> (5 min de résistance) suffit pour un appartement en étage. <strong>A2P BP2</strong> (10 min) est recommandé pour les rez-de-chaussée et zones urbaines. <strong>A2P BP3</strong> (15 min) est réservé aux sites sensibles. Nous vous conseillons lors de la visite technique."
+    }
+  ],
   "cta": {
-    "title": "Blindage de porte à {zone}",
-    "subtitle": "Demandez un devis gratuit pour sécuriser votre domicile."
+    "title": "Besoin de sécuriser votre porte ?",
+    "subtitle": "Demandez votre visite technique gratuite pour un devis personnalisé. Blindage de porte existante ou bloc-porte blindé, nous avons la solution adaptée à vos besoins !"
   }
 }
-

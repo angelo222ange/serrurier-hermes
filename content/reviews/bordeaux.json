@@ -1,0 +1,994 @@
+{
+  "meta": {
+    "region": "bordeaux",
+    "totalReviews": 120,
+    "reviewsPerZone": 10,
+    "averageRating": 4.9
+  },
+  "reviews": {
+    "bordeaux": [
+      {
+        "name": "Jean-Marc P.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Porte claquée rue Sainte-Catherine, le serrurier est arrivé en 10 minutes. Ouverture sans aucun dégât, très professionnel !",
+        "location": "Saint-Pierre",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Isabelle D.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Clé cassée dans la serrure place de la Victoire à 23h. Intervention rapide et prix annoncé respecté. Excellent service !",
+        "location": "Victoire",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "François M.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Changement de serrure 3 points près des Chartrons. Travail soigné, artisan ponctuel et conseils pertinents sur la sécurité.",
+        "location": "Chartrons",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Nathalie R.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Excellente intervention cours de l'Intendance. Porte blindée ouverte sans forcer. Serrurier très compétent.",
+        "location": "Triangle d'Or",
+        "service": "Ouverture porte blindée"
+      },
+      {
+        "name": "Philippe B.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Dépannage urgent place Gambetta un dimanche matin. Arrivée en 15 min, problème résolu rapidement.",
+        "location": "Gambetta",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Sylvie V.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Installation d'une serrure Fichet dans mon appartement du centre-ville. Prix correct et travail impeccable.",
+        "location": "Saint-Michel",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Christophe C.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement du cylindre de ma porte d'entrée près des quais. Artisan très pro, je garde le numéro.",
+        "location": "Quinconces",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Marie-Claire L.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Bloquée devant ma porte rue du Pas-Saint-Georges. Intervention en 20 min, sans dégât. Parfait !",
+        "location": "Bordeaux Centre",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Thierry G.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Sécurisation après tentative de cambriolage rue Judaïque. Réactivité exemplaire, équipe rassurante.",
+        "location": "Judaïque",
+        "service": "Sécurisation"
+      },
+      {
+        "name": "Véronique S.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Serrure grippée dans mon commerce place Pey-Berland. Dégrippage efficace et conseils d'entretien.",
+        "location": "Pey-Berland",
+        "service": "Dépannage"
+      }
+    ],
+    "merignac": [
+      {
+        "name": "Julien A.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Ouverture de porte express avenue de la Libération. Serrurier arrivé en moins de 15 min, travail impeccable !",
+        "location": "Centre-ville Mérignac",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Caroline T.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure quartier Capeyron. Artisan très professionnel, devis respecté.",
+        "location": "Capeyron",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Marc H.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Clé coincée dans la serrure près de l'aéroport. Extraction sans casse, intervention rapide.",
+        "location": "Mérignac Aéroport",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Sophie K.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Problème de serrure avenue de l'Yser un samedi soir. Dépannage efficace malgré l'heure tardive. Merci !",
+        "location": "Yser",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Pierre E.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Pose d'une serrure multipoints avenue de la Somme. Excellent rapport qualité-prix.",
+        "location": "Chemin Long",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Aude L.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Porte claquée avenue d'Arès à 7h du matin. Intervention ultra-rapide, j'ai pu partir au travail à l'heure !",
+        "location": "Arlac",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Grégoire F.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement de cylindre haute sécurité route de Pessac. Travail soigné et propre.",
+        "location": "Mérignac",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Laurence M.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Très satisfaite de l'intervention à Bourranville. Serrurier ponctuel et efficace.",
+        "location": "Bourranville",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Yann D.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Serrure bloquée quartier Beutre. Réparation rapide et définitive. Je recommande.",
+        "location": "Beutre",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Béatrice J.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Blindage de porte avenue de Magudas. Travail de qualité, je me sens en sécurité.",
+        "location": "Magudas",
+        "service": "Blindage porte"
+      }
+    ],
+    "pessac": [
+      {
+        "name": "Antoine R.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Serrurier très réactif à Pessac ! Porte ouverte en 10 minutes sans aucune trace. Parfait !",
+        "location": "Centre Pessac",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Céline B.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure avenue Jean Jaurès. Artisan à l'écoute et travail soigné. Très satisfaite.",
+        "location": "Alouette",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Vincent P.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Intervention rapide quartier Campus. Prix conforme au devis téléphonique.",
+        "location": "Campus Universitaire",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Élise D.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Clé cassée dans ma serrure avenue Pasteur. Extraction propre et conseils pour éviter que ça se reproduise.",
+        "location": "Pessac Centre",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Mathieu L.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Pose d'une serrure 5 points avenue de la Princesse. Travail méticuleux, très content du résultat.",
+        "location": "Saige",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Pauline H.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Bloquée chez moi route de Toulouse à 23h. Le serrurier est arrivé en 15 min. Service au top !",
+        "location": "Cap de Bos",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Olivier M.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement cylindre Bricard avenue Bougnard. Artisan compétent et agréable.",
+        "location": "Pessac",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Sandrine C.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Sécurisation de mon appartement après effraction chemin de Canéjan. Travail rassurant et rapide.",
+        "location": "Canéjan",
+        "service": "Sécurisation"
+      },
+      {
+        "name": "Damien G.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Serrure grippée allée de Montesquieu. Dégrippage efficace, prix très correct.",
+        "location": "Montesquieu",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Claire F.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Installation verrou de sécurité quartier du Bourgailh. Serrurier professionnel et ponctuel.",
+        "location": "Bourgailh",
+        "service": "Installation verrou"
+      }
+    ],
+    "talence": [
+      {
+        "name": "Lucas T.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Porte claquée cours Gambetta, intervention en 10 min. Ouverture propre et rapide. Excellent !",
+        "location": "Forum",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Emma V.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure près du domaine universitaire. Artisan très compétent, je recommande fortement.",
+        "location": "Domaine universitaire",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Hugo B.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Problème de serrure avenue de Thouars un dimanche. Dépannage rapide et prix honnête.",
+        "location": "Thouars",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Léa M.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Extraction de clé cassée cours de la Libération. Travail impeccable, aucun dégât sur la serrure.",
+        "location": "Talence Centre",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Maxime D.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Installation serrure Vachette rue du Professeur Arnozan. Excellent travail et bon conseil.",
+        "location": "CHU Pellegrin",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Julie C.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Bloquée dehors avenue Roul à minuit. Serrurier arrivé rapidement, très pro.",
+        "location": "Roul",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Romain A.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement cylindre haute sécurité allée de Brienne. Service irréprochable.",
+        "location": "Brienne",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Sarah L.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Ouverture porte blindée quartier de Bagatelle. Intervention technique parfaitement maîtrisée.",
+        "location": "Bagatelle",
+        "service": "Ouverture porte blindée"
+      },
+      {
+        "name": "Benjamin P.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Serrure défaillante avenue de la Marne. Réparation rapide et durable. Très satisfait.",
+        "location": "La Marne",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Manon G.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Pose d'un verrou de sécurité chemin de Leysotte. Travail propre et prix annoncé respecté.",
+        "location": "Leysotte",
+        "service": "Installation verrou"
+      }
+    ],
+    "begles": [
+      {
+        "name": "Gabriel S.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Porte claquée près de la place du 14 juillet, serrurier arrivé en 12 min. Travail propre et efficace !",
+        "location": "Centre Bègles",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Chloé R.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure rue Calixte Camelle. Artisan sympathique et professionnel.",
+        "location": "Musard",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Théo M.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Dépannage près de la mairie un jour férié. Intervention rapide, tarif correct. Merci !",
+        "location": "Mairie de Bègles",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Inès B.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Clé coincée avenue du Maréchal Leclerc. Extraction sans abîmer ma serrure. Très bon serrurier.",
+        "location": "Terres Neuves",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Arthur D.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Installation serrure 3 points rue Fernand Braudel. Travail soigné, je recommande.",
+        "location": "Hourcade",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Zoé L.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Bloquée devant chez moi rue de Fleurance à 6h du matin. Intervention express !",
+        "location": "Bègles",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Louis C.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement cylindre chemin de la Drève. Artisan ponctuel et travail de qualité.",
+        "location": "La Drève",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Alice P.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Sécurisation après tentative d'effraction rue de la Belle Rose. Très réactif.",
+        "location": "Belle Rose",
+        "service": "Sécurisation"
+      },
+      {
+        "name": "Nathan H.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Serrure bloquée avenue Pierre Mendès France. Réparation efficace et prix raisonnable.",
+        "location": "Centujean",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Léna F.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Excellent service quartier Rives d'Arcins. Changement complet de serrure sans souci.",
+        "location": "Rives d'Arcins",
+        "service": "Changement serrure"
+      }
+    ],
+    "villenave-d-ornon": [
+      {
+        "name": "Raphaël T.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Porte claquée avenue Mirieu de Labarre, ouverture en 10 minutes. Service impeccable !",
+        "location": "Centre Villenave",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Charlotte V.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure quartier Chambéry. Artisan très professionnel et courtois.",
+        "location": "Chambéry",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Victor M.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Urgence serrure route de Léognan un samedi soir. Intervention rapide malgré l'heure.",
+        "location": "Léognan",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Margot D.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Clé cassée dans la serrure avenue du Maréchal Juin. Extraction parfaite, aucun dommage.",
+        "location": "Pont de la Maye",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Axel B.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Installation serrure haute sécurité rue de Chambéry. Excellent rapport qualité-prix.",
+        "location": "Sarcignan",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Élodie C.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Bloquée avenue de la Liberté à 23h. Serrurier arrivé en 15 min, très rassurant.",
+        "location": "Villenave-d'Ornon",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Thibault L.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement cylindre Mul-T-Lock chemin de Couhins. Travail précis et propre.",
+        "location": "Couhins",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Justine A.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Ouverture porte blindée avenue des Pyrénées. Technique et sans dégât. Bravo !",
+        "location": "Bocage",
+        "service": "Ouverture porte blindée"
+      },
+      {
+        "name": "Clément P.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Dépannage serrure grippée route de Toulouse. Intervention rapide et efficace.",
+        "location": "Villenave",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Anaïs G.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Pose de verrou de sécurité quartier de la Maye. Artisan compétent et sympa.",
+        "location": "La Maye",
+        "service": "Installation verrou"
+      }
+    ],
+    "le-bouscat": [
+      {
+        "name": "Pierre-Louis H.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Porte claquée avenue de la Libération. Intervention en 10 min, très professionnel !",
+        "location": "Centre Le Bouscat",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Mathilde R.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure avenue d'Eysines. Travail impeccable et artisan très pro.",
+        "location": "Parc Bordelais",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Édouard M.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Dépannage urgent avenue Charles de Gaulle. Réactivité exceptionnelle, merci !",
+        "location": "Le Bouscat Centre",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Constance B.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Clé cassée boulevard du Président Wilson. Extraction rapide et propre. Service au top !",
+        "location": "Wilson",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Augustin D.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Installation serrure Fichet rue de Raymond. Excellent travail.",
+        "location": "Raymond",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Gabrielle L.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Bloquée devant mon immeuble avenue de la République à minuit. Dépannage express !",
+        "location": "République",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Henri C.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement cylindre haute sécurité rue de Tivoli. Parfait.",
+        "location": "Tivoli",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Agathe P.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Blindage de porte chemin du Béquet. Travail de qualité professionnelle.",
+        "location": "Béquet",
+        "service": "Blindage porte"
+      },
+      {
+        "name": "Bastien F.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Serrure défaillante rue Émile Zola. Réparation efficace et durable.",
+        "location": "Le Bouscat",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Victoire G.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Installation complète avenue de Germignan. Serrurier compétent et ponctuel.",
+        "location": "Germignan",
+        "service": "Installation serrure"
+      }
+    ],
+    "gradignan": [
+      {
+        "name": "Charles M.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Porte claquée avenue de Bonneau, serrurier arrivé en 15 minutes. Parfait !",
+        "location": "Bonneau",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Adèle T.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure cours du Général de Gaulle. Artisan très professionnel.",
+        "location": "Centre Gradignan",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Guillaume B.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Urgence serrure près du campus universitaire. Intervention rapide et prix transparent.",
+        "location": "Campus",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Louise D.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Clé cassée avenue de la Liberté. Extraction sans dégât, très pro !",
+        "location": "Liberté",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Stanislas L.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Installation serrure multipoints allée de Bouliac. Travail haut de gamme.",
+        "location": "Bouliac",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Diane C.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Bloquée quartier Mandavit à 22h. Serrurier efficace et rassurant. Merci !",
+        "location": "Mandavit",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Arnaud P.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement cylindre A2P chemin de Laborie. Sécurité renforcée !",
+        "location": "Laborie",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Bérénice H.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Ouverture porte blindée avenue de Magudas. Intervention technique parfaite.",
+        "location": "Magudas",
+        "service": "Ouverture porte blindée"
+      },
+      {
+        "name": "Tristan F.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Dépannage serrure route de Canéjan. Artisan ponctuel et efficace.",
+        "location": "Canéjan",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Apolline G.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Sécurisation complète chemin de Monjous. Service premium, très satisfaite.",
+        "location": "Monjous",
+        "service": "Sécurisation"
+      }
+    ],
+    "cenon": [
+      {
+        "name": "Romain K.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Porte claquée avenue Jean Jaurès, intervention en 12 min. Service au top !",
+        "location": "Centre Cenon",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Camille S.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure cours Victor Hugo. Artisan sympathique et professionnel.",
+        "location": "Palmer",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Florian M.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Dépannage urgent avenue René Cassagne à 3h du matin. Disponibilité 24h/24 confirmée !",
+        "location": "Pont de la Maye",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Marine D.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Clé cassée rue de la Morlette. Extraction rapide et soignée. Merci !",
+        "location": "Morlette",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Fabien B.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Installation serrure Bricard avenue Carnot. Excellent !",
+        "location": "Carnot",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Aurélie L.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Bloquée rue du 8 Mai 1945 à 20h. Serrurier arrivé très vite, super pro.",
+        "location": "Cenon",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Kevin C.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement cylindre sécurisé boulevard Pierre 1er. Travail parfait.",
+        "location": "Pierre 1er",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Virginie P.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Pose verrou chemin du Loret. Serrurier efficace et souriant.",
+        "location": "Loret",
+        "service": "Installation verrou"
+      },
+      {
+        "name": "Sylvain H.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Serrure grippée avenue du Commandant Cousteau. Réparation express, prix correct.",
+        "location": "La Marègue",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Jessica F.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Sécurisation après cambriolage rue du Grand Pré. Équipe réactive et rassurante.",
+        "location": "Grand Pré",
+        "service": "Sécurisation"
+      }
+    ],
+    "lormont": [
+      {
+        "name": "Jérémy A.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Porte claquée quai des Queyries. Serrurier arrivé en 10 min, parfait !",
+        "location": "Queyries",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Lucie T.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure rue de la Cité. Artisan pro et travail soigné.",
+        "location": "Génicart",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Michaël B.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Urgence boulevard de la République à minuit. Intervention rapide malgré l'heure.",
+        "location": "Lormont Centre",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Aurore D.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Clé cassée avenue du Port. Extraction impeccable. Je recommande vivement.",
+        "location": "Port de Lormont",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Thomas L.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Installation serrure multipoints chemin de la Sablière. Service excellent.",
+        "location": "Carriet",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Mélanie C.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Bloquée rue de Ferret à 7h. Dépannage ultra-rapide, j'étais au travail à l'heure.",
+        "location": "Lissandre",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Sébastien P.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement cylindre avenue du Vieux Lormont. Artisan compétent et agréable.",
+        "location": "Vieux Lormont",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Émeline H.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Ouverture porte blindée rue des Iris. Technique et sans casse. Bravo !",
+        "location": "Les Iris",
+        "service": "Ouverture porte blindée"
+      },
+      {
+        "name": "Anthony F.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Serrure défaillante chemin de la Buttinière. Réparation durable.",
+        "location": "Buttinière",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Laetitia G.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Blindage porte avenue de Paris. Sécurité renforcée, très satisfaite.",
+        "location": "Lormont",
+        "service": "Blindage porte"
+      }
+    ],
+    "floirac": [
+      {
+        "name": "Kévin R.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Porte claquée avenue Jean Lurçat, serrurier arrivé en 10 min. Super réactif !",
+        "location": "Centre Floirac",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Amélie S.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure avenue Marcel Paul. Travail propre et rapide.",
+        "location": "Dravemont",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Jordan M.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Dépannage urgent quartier Libération un samedi soir. Prix annoncé respecté. Parfait !",
+        "location": "Libération",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Laura D.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Clé cassée boulevard Pierre Mendès France. Extraction propre, aucun dégât. Merci !",
+        "location": "Jean Jaurès",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Quentin B.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Installation serrure 5 points chemin du Grand Jean. Excellent travail.",
+        "location": "Grand Jean",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Pauline L.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Bloquée avenue de Bordeaux à 1h du matin. Serrurier sympa et efficace.",
+        "location": "Floirac",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Dylan C.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement cylindre rue Voltaire. Service irréprochable.",
+        "location": "Voltaire",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Manon P.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Sécurisation après tentative d'effraction chemin du Bourg. Très réactif.",
+        "location": "Le Bourg",
+        "service": "Sécurisation"
+      },
+      {
+        "name": "Alexis H.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Serrure bloquée avenue Georges Clemenceau. Dépannage rapide et efficace.",
+        "location": "Clemenceau",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Océane F.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Changement complet allée des Acacias. Artisan pro et ponctuel.",
+        "location": "Acacias",
+        "service": "Changement serrure"
+      }
+    ],
+    "blanquefort": [
+      {
+        "name": "Cédric M.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "text": "Porte claquée rue de Labarde, serrurier arrivé en 15 min. Efficace et pro !",
+        "location": "Centre Blanquefort",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Élodie T.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "text": "Changement de serrure avenue du 11 novembre. Travail soigné et prix correct.",
+        "location": "Maurian",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Matthieu B.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "text": "Urgence serrure chemin de Breillan un dimanche. Service au top !",
+        "location": "Breillan",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Clémence D.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Clé cassée rue Tastet Girard. Extraction rapide, serrurier compétent.",
+        "location": "Tastet Girard",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Steven L.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "text": "Installation serrure Vachette allée de Pessac. Excellent rapport qualité-prix.",
+        "location": "Pessac",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Marion C.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Bloquée avenue du Général de Gaulle à 22h. Intervention rapide et rassurante.",
+        "location": "Blanquefort",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Maxence P.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "text": "Remplacement cylindre sécurisé chemin du Déhez. Parfait !",
+        "location": "Déhez",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Coralie H.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "text": "Ouverture porte blindée rue Jean Moulin. Intervention technique maîtrisée.",
+        "location": "Jean Moulin",
+        "service": "Ouverture porte blindée"
+      },
+      {
+        "name": "Gaëtan F.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "text": "Serrure grippée avenue du Pont de la Maye. Dégrippage efficace.",
+        "location": "Pont de la Maye",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Noémie G.",
+        "rating": 5,
+        "date": "il y a 5 mois",
+        "text": "Pose verrou de sécurité allée de Dulamon. Travail propre et professionnel.",
+        "location": "Dulamon",
+        "service": "Installation verrou"
+      }
+    ]
+  }
+}

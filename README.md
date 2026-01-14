@@ -64,24 +64,24 @@ C'est le fichier principal à modifier. Il contient toutes les informations du s
 ```typescript
 export const siteConfig = {
   // Informations entreprise
-  name: "SL59",                         // Nom court
-  fullName: "Serrurier Lille 59",       // Nom complet
-  domain: "serrurier-lille-59.fr",      // Domaine
+  name: "Serrurier Hermès",             // Nom court
+  fullName: "Serrurier Hermès Paris",   // Nom complet
+  domain: "serrurier-hermes.com",        // Domaine
   
   // Contact
-  phone: "03 74 09 51 31",
-  email: "contact@serrurier-lille-59.fr",
+  phone: "01 XX XX XX XX",
+  email: "contact@serrurier-hermes.com",
   
   // Localisation
-  city: "Lille",
-  postalCode: "59000",
-  department: "Nord",
-  region: "Hauts-de-France",
+  city: "Paris",
+  postalCode: "75000",
+  department: "Paris",
+  region: "Île-de-France",
   
   // Avis Google
   reviews: {
     rating: 4.9,
-    count: 127,
+    count: 847,
   },
   
   // Couleurs (modifiables dans globals.css)
@@ -95,8 +95,8 @@ Modifier la liste `zones` pour les communes desservies :
 
 ```typescript
 export const zones = [
-  { name: "Lille", slug: "lille", postalCode: "59000", isMain: true },
-  { name: "Roubaix", slug: "roubaix", postalCode: "59100" },
+  { name: "Paris 1er", slug: "paris-1", postalCode: "75001", time: "15 min" },
+  { name: "Paris 2ème", slug: "paris-2", postalCode: "75002", time: "15 min" },
   // Ajouter vos zones...
 ]
 ```

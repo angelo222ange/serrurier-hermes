@@ -1,14 +1,16 @@
 {
   "hero": {
     "badge": "🔑 Cylindres haute sécurité",
-    "title": "Remplacement de Cylindre {zone}",
-    "subtitle": "Changement de cylindre à {zone} par des professionnels. Cylindres anti-crochetage, anti-perçage et anti-bumping pour une sécurité renforcée."
+    "title": "Remplacement Cylindre",
+    "subtitle": "Changement de cylindre par des professionnels. Cylindres anti-crochetage, anti-perçage et anti-bumping pour une sécurité renforcée. Intervention en 20 minutes, 24h/24."
   },
   "intro": {
-    "title": "Spécialiste du cylindre de serrure à {zone}",
+    "title": "Spécialiste du remplacement de cylindre à {zone}",
     "paragraphs": [
-      "Le cylindre (ou barillet) est le cœur de votre serrure. C'est la pièce qui reçoit la clé et permet le verrouillage. À {zone}, {name} remplace votre cylindre par un modèle haute sécurité en quelques minutes.",
-      "Le remplacement du cylindre est souvent suffisant pour renforcer votre sécurité sans changer toute la serrure. C'est une solution rapide et économique, particulièrement recommandée après une perte de clés ou un emménagement."
+      "Le cylindre (ou barillet) est le cœur de votre serrure : c'est la pièce qui reçoit la clé et commande le verrouillage. À {zone}, {name} est votre expert du remplacement de cylindre depuis plus de 15 ans. Nous intervenons en 20 minutes pour remplacer votre cylindre par un modèle haute sécurité adapté à vos besoins.",
+      "Changer le cylindre plutôt que toute la serrure est souvent la solution la plus pertinente. C'est plus rapide, plus économique, et tout aussi efficace pour votre sécurité. Après une perte de clés, un emménagement, ou simplement pour renforcer votre protection, le remplacement du cylindre vous garantit d'être le seul à posséder les clés de chez vous.",
+      "À {zone} ({zonePostal}), notre équipe de serruriers qualifiés intervient pour tous types de cylindres : standard, haute sécurité, européen, à bouton, à carte de propriété... Nous installons exclusivement des cylindres de grandes marques (Vachette, Bricard, Mul-T-Lock, Abus) offrant les meilleures protections anti-effraction du marché.",
+      "Nous vous conseillons sur le niveau de sécurité adapté à votre situation : appartement, maison, local commercial. Un devis clair vous est communiqué avant intervention, sans surprise. Nous acceptons le paiement par carte bancaire, espèces ou chèque, et vous remettons une facture détaillée pour votre assurance si nécessaire."
     ]
   },
   "situations": {
@@ -16,40 +18,159 @@
     "items": [
       {
         "icon": "🔑",
-        "title": "Perte de clés",
-        "description": "Pour éviter tout risque, remplacez le cylindre dès que vous perdez vos clés."
+        "title": "Perte ou vol de clés",
+        "description": "Ne prenez aucun risque ! Remplacez le cylindre immédiatement pour éviter qu'une personne mal intentionnée puisse entrer chez vous.",
+        "price": 89
       },
       {
         "icon": "🏠",
         "title": "Nouvel emménagement",
-        "description": "Changez le cylindre pour être sûr d'être le seul à posséder les clés."
+        "description": "Ancien locataire, agent immobilier, artisans... Beaucoup de gens ont peut-être un double de vos clés. Changez le cylindre pour votre tranquillité.",
+        "price": 89
       },
       {
         "icon": "⬆️",
         "title": "Mise à niveau sécurité",
-        "description": "Passage à un cylindre haute sécurité certifié pour plus de protection."
+        "description": "Passez à un cylindre haute sécurité certifié avec protections anti-crochetage, anti-perçage et anti-bumping.",
+        "price": 129
       },
       {
         "icon": "🔧",
         "title": "Cylindre usé ou grippé",
-        "description": "Clé difficile à tourner ? Remplacez le cylindre avant le blocage complet."
+        "description": "Clé difficile à tourner, cylindre qui accroche ? N'attendez pas le blocage complet, faites-le remplacer préventivement.",
+        "price": 89
+      },
+      {
+        "icon": "🗝️",
+        "title": "Clé cassée dans le cylindre",
+        "description": "Après extraction du morceau de clé, le cylindre peut être endommagé. Le remplacement garantit un fonctionnement optimal.",
+        "price": 99
+      },
+      {
+        "icon": "📋",
+        "title": "Exigence assurance",
+        "description": "Votre assurance exige un cylindre certifié A2P ? Nous installons des cylindres homologués reconnus par toutes les compagnies.",
+        "price": 149
+      }
+    ]
+  },
+  "method": {
+    "title": "Notre méthode de remplacement de cylindre à {zone}",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Diagnostic téléphonique",
+        "description": "Décrivez-nous votre serrure et votre besoin. Nous identifions le type de cylindre et vous conseillons sur le niveau de sécurité adapté."
+      },
+      {
+        "number": 2,
+        "title": "Devis gratuit et clair",
+        "description": "Avant intervention, nous vous communiquons un devis précis incluant le cylindre et la pose. Pas de frais cachés."
+      },
+      {
+        "number": 3,
+        "title": "Intervention rapide",
+        "description": "Un serrurier qualifié arrive chez vous à {zone} en 20 minutes avec le cylindre choisi et tout le matériel nécessaire."
+      },
+      {
+        "number": 4,
+        "title": "Dépose de l'ancien cylindre",
+        "description": "Nous retirons délicatement votre ancien cylindre en préservant le mécanisme de votre serrure existante."
+      },
+      {
+        "number": 5,
+        "title": "Pose et réglages",
+        "description": "Installation du nouveau cylindre avec ajustement précis. Nous vérifions l'alignement et le bon fonctionnement de la clé."
+      },
+      {
+        "number": 6,
+        "title": "Test et remise des clés",
+        "description": "Tests complets de verrouillage/déverrouillage depuis l'intérieur et l'extérieur. Remise de votre nouveau jeu de clés."
       }
     ]
   },
   "advantages": {
-    "title": "Nos cylindres haute sécurité à {zone}",
+    "title": "Pourquoi choisir {name} pour votre cylindre à {zone} ?",
     "items": [
-      "Cylindres anti-crochetage",
-      "Protection anti-perçage",
-      "Système anti-bumping",
-      "Carte de propriété (reproduction contrôlée)",
-      "Marques reconnues : Vachette, Bricard, Mul-T-Lock",
-      "Installation en 15 minutes"
+      "Cylindres haute sécurité certifiés anti-effraction",
+      "Intervention en 20 minutes à {zone}",
+      "Grandes marques : Vachette, Bricard, Mul-T-Lock, Abus",
+      "Protection anti-crochetage, anti-perçage, anti-bumping",
+      "Carte de propriété pour reproduction contrôlée des clés",
+      "Pose professionnelle garantie pièces et main d'œuvre",
+      "Disponible 24h/24 et 7j/7, même jours fériés",
+      "Devis gratuit et prix définitif avant intervention"
     ]
   },
+  "brands": {
+    "title": "Marques de cylindres que nous installons",
+    "items": ["Vachette", "Bricard", "Mul-T-Lock", "Abus", "Keso", "Fichet", "Abloy", "Dom", "Pollux", "Anker", "Iseo", "Mottura", "JPM", "City"]
+  },
+  "cylinderTypes": {
+    "title": "Types de cylindres disponibles",
+    "items": [
+      {
+        "type": "Cylindre européen standard",
+        "description": "Le format le plus répandu (profil européen). Compatible avec la majorité des serrures. Solution économique pour un remplacement simple."
+      },
+      {
+        "type": "Cylindre à bouton",
+        "description": "Bouton rotatif côté intérieur pour ouvrir sans clé depuis chez vous. Pratique au quotidien, déconseillé si la porte a un vitrage."
+      },
+      {
+        "type": "Cylindre haute sécurité",
+        "description": "Protections anti-crochetage, anti-perçage et anti-bumping intégrées. Clés brevetées à reproduction contrôlée."
+      },
+      {
+        "type": "Cylindre à carte de propriété",
+        "description": "Reproduction de clés uniquement sur présentation de la carte fournie. Garantit que vous êtes le seul à pouvoir faire des doubles."
+      },
+      {
+        "type": "Cylindre A2P (certifié)",
+        "description": "Testé et certifié par le CNPP pour sa résistance à l'effraction. Reconnu par les assurances, disponible en 1, 2 ou 3 étoiles."
+      },
+      {
+        "type": "Cylindre débrayable",
+        "description": "Permet d'ouvrir de l'extérieur même si une clé est engagée à l'intérieur. Indispensable pour les personnes âgées ou les enfants."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Combien coûte un remplacement de cylindre ?",
+      "answer": "Le prix d'un remplacement de cylindre dépend du type de cylindre choisi. Pour un <strong>cylindre standard, comptez à partir de 89€</strong> (fourniture et pose). Un cylindre haute sécurité avec carte de propriété démarre à 129€, et un cylindre certifié A2P à partir de 149€. Le devis est gratuit et communiqué avant intervention."
+    },
+    {
+      "question": "Quelle est la différence entre cylindre et serrure ?",
+      "answer": "Le <strong>cylindre (ou barillet)</strong> est la partie où vous insérez la clé. C'est lui qui commande le verrouillage. <strong>La serrure</strong> est l'ensemble du mécanisme (boîtier, pêne, gâche). Changer uniquement le cylindre est souvent suffisant pour avoir de nouvelles clés et renforcer la sécurité, sans remplacer toute la serrure."
+    },
+    {
+      "question": "Combien de temps dure un remplacement de cylindre ?",
+      "answer": "Le remplacement d'un cylindre est une opération rapide. Comptez <strong>15 à 30 minutes</strong> pour un cylindre standard, incluant la dépose, la pose et les tests. Pour un cylindre haute sécurité nécessitant des réglages particuliers, prévoyez 30 à 45 minutes maximum."
+    },
+    {
+      "question": "C'est quoi un cylindre à carte de propriété ?",
+      "answer": "Un cylindre à <strong>carte de propriété</strong> est livré avec une carte codée qui vous est remise. Pour faire reproduire vos clés, vous devez présenter cette carte chez un serrurier agréé. Cela <strong>garantit que personne ne peut faire de double</strong> sans votre autorisation."
+    },
+    {
+      "question": "Qu'est-ce qu'un cylindre débrayable et en ai-je besoin ?",
+      "answer": "Un cylindre <strong>débrayable</strong> permet d'ouvrir la porte de l'extérieur même si une clé est déjà engagée côté intérieur. C'est très utile si une personne fait un malaise chez elle ou si un enfant s'enferme. <strong>Recommandé pour les familles et les personnes âgées</strong>."
+    },
+    {
+      "question": "Mon cylindre est grippé, faut-il le remplacer ?",
+      "answer": "Un cylindre qui <strong>accroche ou devient difficile à tourner</strong> est un signe d'usure. Un simple graissage peut parfois suffire, mais si le problème persiste, le remplacement est recommandé. N'attendez pas le blocage complet qui pourrait vous enfermer dehors !"
+    },
+    {
+      "question": "Puis-je remplacer mon cylindre par un modèle haute sécurité ?",
+      "answer": "Oui, dans la grande majorité des cas. Les cylindres haute sécurité sont disponibles dans les <strong>mêmes dimensions standard</strong> (format européen). Nous mesurons votre cylindre actuel pour vous installer un modèle haute sécurité compatible avec votre serrure existante."
+    },
+    {
+      "question": "Intervenez-vous pour un remplacement de cylindre en urgence ?",
+      "answer": "Oui, notre service de remplacement de cylindre est disponible <strong>24h/24 et 7j/7</strong>. Perte de clés, cylindre cassé, besoin urgent de sécurisation après un cambriolage : nous intervenons en 20 minutes avec un stock de cylindres standards et haute sécurité."
+    }
+  ],
   "cta": {
-    "title": "Remplacement de cylindre à {zone}",
-    "subtitle": "Appelez pour un changement de cylindre rapide et sécurisé."
+    "title": "Besoin de remplacer votre cylindre ?",
+    "subtitle": "Appelez maintenant pour un remplacement de cylindre rapide et sécurisé. Devis gratuit, intervention en 20 min, cylindres haute sécurité !"
   }
 }
-

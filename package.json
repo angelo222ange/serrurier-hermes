@@ -5,14 +5,16 @@
   "description": "Template Next.js pour sites de serrurerie",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && node scripts/render-city-pages.js",
     "start": "next start",
+    "serve": "cd out && python3 -m http.server 8080",
+    "preview": "npm run build && npm run serve",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "optimize-images": "node scripts/optimize-images.js"
   },
   "dependencies": {
-    "next": "^14.2.0",
+    "next": "^14.2.18",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

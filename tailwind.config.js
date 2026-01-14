@@ -40,8 +40,8 @@ module.exports = {
         // },
       },
       fontFamily: {
-        // Police principale - MODIFIER ICI SI BESOIN
-        sans: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+        // Police principale optimisée avec next/font
+        sans: ['var(--font-inter)', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
       },
       animation: {
         fadeIn: 'fadeIn 0.3s ease-in-out',

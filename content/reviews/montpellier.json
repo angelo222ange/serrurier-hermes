@@ -1,0 +1,930 @@
+{
+  "meta": {
+    "region": "montpellier",
+    "totalReviews": 100,
+    "reviewsPerZone": 10,
+    "averageRating": 4.9
+  },
+  "reviews": {
+    "montpellier": [
+      {
+        "name": "Julien M.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "visitDate": "janvier 2026",
+        "text": "Porte claquée place de la Comédie à 22h. Le serrurier est arrivé en 12 minutes. Ouverture propre et rapide, je recommande vivement !",
+        "location": "Écusson",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Marie-Sophie D.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "visitDate": "janvier 2026",
+        "text": "Changement de serrure 3 points dans mon appartement rue de la Loge. Artisan ponctuel et travail soigné. Prix conforme au devis.",
+        "location": "Centre historique",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Thomas R.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "visitDate": "décembre 2025",
+        "text": "Clé cassée dans la serrure près des Arceaux. Extraction impeccable, aucun dégât sur la porte. Serrurier très professionnel.",
+        "location": "Arceaux",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Camille B.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "visitDate": "décembre 2025",
+        "text": "Intervention rapide quartier Antigone un dimanche. Serrure bloquée, réparation efficace. Merci pour la disponibilité 24h/24 !",
+        "location": "Antigone",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Philippe V.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "visitDate": "décembre 2025",
+        "text": "Installation serrure haute sécurité Fichet quartier Boutonnet. Excellent travail, je me sens en sécurité maintenant.",
+        "location": "Boutonnet",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Nathalie L.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "visitDate": "novembre 2025",
+        "text": "Remplacement cylindre avenue Foch après perte de clés. Intervention en moins de 20 minutes, serrurier très réactif.",
+        "location": "Foch",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Antoine C.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "visitDate": "novembre 2025",
+        "text": "Bloqué dehors rue du Faubourg Figuerolles à 1h du matin. Arrivée express et ouverture sans casse. Excellent service !",
+        "location": "Figuerolles",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Élodie S.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "visitDate": "octobre 2025",
+        "text": "Sécurisation de mon commerce près du Polygone après tentative d'effraction. Équipe réactive et rassurante.",
+        "location": "Polygone",
+        "service": "Sécurisation"
+      },
+      {
+        "name": "François G.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "visitDate": "octobre 2025",
+        "text": "Changement complet de la serrure de ma porte d'entrée quartier Port Marianne. Travail de qualité, prix transparent.",
+        "location": "Port Marianne",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Isabelle P.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "visitDate": "septembre 2025",
+        "text": "Dégrippage serrure avenue du Pirée. Serrurier compétent et sympathique. Problème résolu rapidement.",
+        "location": "Richter",
+        "service": "Dépannage"
+      }
+    ],
+    "lattes": [
+      {
+        "name": "Guillaume H.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "visitDate": "janvier 2026",
+        "text": "Porte claquée avenue de Montpellier. Serrurier arrivé en 15 min depuis Montpellier. Ouverture sans dégât, parfait !",
+        "location": "Centre Lattes",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Stéphanie M.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "visitDate": "janvier 2026",
+        "text": "Changement de serrure près de la mairie de Lattes. Artisan professionnel et à l'écoute. Je recommande.",
+        "location": "Maurin",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Marc A.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "visitDate": "décembre 2025",
+        "text": "Urgence serrure Boirargues un samedi soir. Intervention rapide et tarif correct malgré l'heure.",
+        "location": "Boirargues",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Caroline T.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "visitDate": "décembre 2025",
+        "text": "Clé cassée avenue de l'Europe. Extraction propre et rapide. Serrurier très compétent.",
+        "location": "Lattes",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "David L.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "visitDate": "décembre 2025",
+        "text": "Installation serrure multipoints Cougourlude. Excellent travail, finitions impeccables.",
+        "location": "Cougourlude",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Aurélie B.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "visitDate": "novembre 2025",
+        "text": "Remplacement cylindre haute sécurité Grand Patus. Service rapide et professionnel.",
+        "location": "Grand Patus",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Nicolas F.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "visitDate": "novembre 2025",
+        "text": "Bloqué devant chez moi rue du Méjanelle à 7h. Dépannage express, j'ai pu partir au travail à l'heure.",
+        "location": "Méjanelle",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Sophie R.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "visitDate": "octobre 2025",
+        "text": "Pose verrou de sécurité Parc Expo. Travail soigné et artisan ponctuel.",
+        "location": "Parc Expo",
+        "service": "Installation verrou"
+      },
+      {
+        "name": "Jérôme D.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "visitDate": "octobre 2025",
+        "text": "Serrure grippée avenue Georges Frêche. Dégrippage efficace et prix raisonnable.",
+        "location": "Lattes",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Virginie C.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "visitDate": "septembre 2025",
+        "text": "Blindage de porte près du tramway. Travail de qualité, je me sens en sécurité.",
+        "location": "Tramway",
+        "service": "Blindage porte"
+      }
+    ],
+    "castelnau-le-lez": [
+      {
+        "name": "Pierre-Antoine M.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "visitDate": "janvier 2026",
+        "text": "Porte claquée avenue de l'Europe. Serrurier arrivé en 12 minutes. Intervention impeccable !",
+        "location": "Centre Castelnau",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Laure D.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "visitDate": "janvier 2026",
+        "text": "Changement serrure 5 points quartier Pompignane. Artisan très professionnel et soigné.",
+        "location": "Pompignane",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Maxime V.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "visitDate": "décembre 2025",
+        "text": "Dépannage urgent avenue de Castelnau un dimanche. Réactivité impressionnante !",
+        "location": "Sablassou",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Céline B.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "visitDate": "décembre 2025",
+        "text": "Clé cassée dans ma serrure rue de la Monnaie. Extraction sans dégât. Merci !",
+        "location": "Castelnau Centre",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Arnaud L.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "visitDate": "décembre 2025",
+        "text": "Installation serrure Vachette avenue de la Fontaine. Travail haut de gamme.",
+        "location": "Fontaine",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Marion S.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "visitDate": "novembre 2025",
+        "text": "Remplacement cylindre A2P chemin du Mas de Rochet. Sécurité renforcée !",
+        "location": "Mas de Rochet",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Fabien G.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "visitDate": "novembre 2025",
+        "text": "Bloqué quartier Substantion à minuit. Dépannage express, très satisfait.",
+        "location": "Substantion",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Julie P.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "visitDate": "octobre 2025",
+        "text": "Sécurisation après effraction route de Nîmes. Équipe réactive et rassurante.",
+        "location": "Route de Nîmes",
+        "service": "Sécurisation"
+      },
+      {
+        "name": "Thomas H.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "visitDate": "octobre 2025",
+        "text": "Serrure bloquée avenue Charles de Gaulle. Réparation rapide et durable.",
+        "location": "Charles de Gaulle",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Hélène R.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "visitDate": "septembre 2025",
+        "text": "Pose serrure connectée Devèze. Installation parfaite, très moderne !",
+        "location": "Devèze",
+        "service": "Installation serrure"
+      }
+    ],
+    "juvignac": [
+      {
+        "name": "Sébastien C.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "visitDate": "janvier 2026",
+        "text": "Porte claquée avenue de la Fontaine. Intervention en 15 min, travail propre. Excellent !",
+        "location": "Centre Juvignac",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Émilie M.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "visitDate": "janvier 2026",
+        "text": "Changement serrure quartier Val de Juvignac. Artisan à l'écoute et professionnel.",
+        "location": "Val de Juvignac",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Laurent B.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "visitDate": "décembre 2025",
+        "text": "Urgence serrure grippée un samedi. Dépannage efficace et prix transparent.",
+        "location": "Juvignac",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Anne-Sophie T.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "visitDate": "décembre 2025",
+        "text": "Clé cassée dans la serrure avenue du Golf. Extraction parfaite, merci !",
+        "location": "Golf",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Christophe V.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "visitDate": "décembre 2025",
+        "text": "Installation serrure multipoints Fontcaude. Travail de qualité professionnelle.",
+        "location": "Fontcaude",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Delphine L.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "visitDate": "novembre 2025",
+        "text": "Remplacement cylindre Bricard allée des Iris. Service rapide et soigné.",
+        "location": "Les Iris",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Yannick D.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "visitDate": "novembre 2025",
+        "text": "Bloqué à 23h chemin de Coulondres. Serrurier arrivé très vite, super pro.",
+        "location": "Coulondres",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Sandrine P.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "visitDate": "octobre 2025",
+        "text": "Pose verrou sécurisé quartier du Lac. Travail impeccable, je recommande.",
+        "location": "Le Lac",
+        "service": "Installation verrou"
+      },
+      {
+        "name": "Olivier G.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "visitDate": "octobre 2025",
+        "text": "Serrure défaillante avenue de la Liberté. Réparation rapide et définitive.",
+        "location": "Juvignac",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Nadia H.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "visitDate": "septembre 2025",
+        "text": "Blindage porte d'entrée Bel Air. Sécurité renforcée, très satisfaite !",
+        "location": "Bel Air",
+        "service": "Blindage porte"
+      }
+    ],
+    "le-cres": [
+      {
+        "name": "Damien R.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "visitDate": "janvier 2026",
+        "text": "Porte claquée avenue de la Gare. Intervention en 10 minutes, impeccable !",
+        "location": "Centre Le Crès",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Valérie S.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "visitDate": "janvier 2026",
+        "text": "Changement serrure 3 points quartier des Musiciens. Excellent artisan.",
+        "location": "Les Musiciens",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Florian M.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "visitDate": "décembre 2025",
+        "text": "Dépannage urgent avenue du Crès un dimanche matin. Service au top !",
+        "location": "Le Crès",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Élodie B.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "visitDate": "décembre 2025",
+        "text": "Extraction clé cassée rue du Pont. Travail minutieux, aucun dégât.",
+        "location": "Pont",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Grégory L.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "visitDate": "décembre 2025",
+        "text": "Installation serrure Fichet chemin des Vignes. Qualité professionnelle.",
+        "location": "Les Vignes",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Magali T.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "visitDate": "novembre 2025",
+        "text": "Remplacement cylindre avenue des Sports. Rapide et efficace.",
+        "location": "Sports",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Cédric V.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "visitDate": "novembre 2025",
+        "text": "Bloqué devant ma porte à 6h du matin. Dépannage express, merci !",
+        "location": "Le Crès",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Nathalie D.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "visitDate": "octobre 2025",
+        "text": "Sécurisation après tentative d'effraction. Équipe rassurante.",
+        "location": "Centre",
+        "service": "Sécurisation"
+      },
+      {
+        "name": "Kevin P.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "visitDate": "octobre 2025",
+        "text": "Serrure grippée rue des Lilas. Dégrippage efficace et conseils.",
+        "location": "Les Lilas",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Sandra G.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "visitDate": "septembre 2025",
+        "text": "Installation verrou haute sécurité. Travail propre et professionnel.",
+        "location": "Le Crès",
+        "service": "Installation verrou"
+      }
+    ],
+    "perols": [
+      {
+        "name": "Anthony M.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "visitDate": "janvier 2026",
+        "text": "Porte claquée avenue du Languedoc. Serrurier arrivé en 15 min. Super service !",
+        "location": "Centre Pérols",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Mélanie S.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "visitDate": "janvier 2026",
+        "text": "Changement serrure près du port. Travail soigné et tarif correct.",
+        "location": "Port",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Benjamin R.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "visitDate": "décembre 2025",
+        "text": "Urgence serrure Étang de l'Or un samedi soir. Intervention rapide !",
+        "location": "Étang de l'Or",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Audrey B.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "visitDate": "décembre 2025",
+        "text": "Clé cassée avenue de la Mer. Extraction propre et professionnelle.",
+        "location": "La Mer",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Vincent L.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "visitDate": "décembre 2025",
+        "text": "Installation serrure multipoints chemin du Grès. Excellent travail.",
+        "location": "Le Grès",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Pauline T.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "visitDate": "novembre 2025",
+        "text": "Remplacement cylindre sécurisé Pérols plage. Service impeccable.",
+        "location": "Pérols Plage",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Romain D.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "visitDate": "novembre 2025",
+        "text": "Bloqué chez moi rue de la Méditerranée. Dépannage express, merci !",
+        "location": "Pérols",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Christine V.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "visitDate": "octobre 2025",
+        "text": "Pose verrou supplémentaire. Artisan compétent et sympathique.",
+        "location": "Centre",
+        "service": "Installation verrou"
+      },
+      {
+        "name": "Stéphane G.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "visitDate": "octobre 2025",
+        "text": "Serrure bloquée avenue de la Plage. Réparation rapide et durable.",
+        "location": "Plage",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Laurence P.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "visitDate": "septembre 2025",
+        "text": "Sécurisation de ma résidence secondaire. Travail de qualité !",
+        "location": "Pérols",
+        "service": "Sécurisation"
+      }
+    ],
+    "mauguio": [
+      {
+        "name": "Frédéric M.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "visitDate": "janvier 2026",
+        "text": "Porte claquée place de la Libération. Intervention en 15 min, parfait !",
+        "location": "Centre Mauguio",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Alexandra S.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "visitDate": "janvier 2026",
+        "text": "Changement serrure avenue de la Gare. Artisan professionnel et soigné.",
+        "location": "Gare",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Emmanuel R.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "visitDate": "décembre 2025",
+        "text": "Dépannage urgent près de l'aéroport un dimanche. Service impeccable !",
+        "location": "Aéroport",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Ingrid B.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "visitDate": "décembre 2025",
+        "text": "Clé cassée dans ma serrure chemin des Étangs. Extraction parfaite.",
+        "location": "Étangs",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Michaël L.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "visitDate": "décembre 2025",
+        "text": "Installation serrure 5 points avenue du Pont Trincat. Excellent !",
+        "location": "Pont Trincat",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Carole T.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "visitDate": "novembre 2025",
+        "text": "Remplacement cylindre Carnon Plage. Service rapide et efficace.",
+        "location": "Carnon Plage",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Jérémie D.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "visitDate": "novembre 2025",
+        "text": "Bloqué à 22h rue du Marché. Dépannage express et prix correct.",
+        "location": "Mauguio",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Isabelle V.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "visitDate": "octobre 2025",
+        "text": "Pose verrou de sécurité La Grande Motte. Travail impeccable.",
+        "location": "Grande Motte",
+        "service": "Installation verrou"
+      },
+      {
+        "name": "Pascal G.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "visitDate": "octobre 2025",
+        "text": "Serrure grippée avenue du Général de Gaulle. Réparation efficace.",
+        "location": "Centre",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Béatrice P.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "visitDate": "septembre 2025",
+        "text": "Blindage porte d'entrée. Sécurité maximale, très satisfaite !",
+        "location": "Mauguio",
+        "service": "Blindage porte"
+      }
+    ],
+    "grabels": [
+      {
+        "name": "Alexandre C.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "visitDate": "janvier 2026",
+        "text": "Porte claquée avenue Paul Valéry. Serrurier arrivé en 15 min. Top !",
+        "location": "Centre Grabels",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Marine M.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "visitDate": "janvier 2026",
+        "text": "Changement serrure quartier des Music. Artisan très compétent.",
+        "location": "Les Music",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Jonathan R.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "visitDate": "décembre 2025",
+        "text": "Urgence serrure avenue de la Liberté un samedi. Service réactif !",
+        "location": "Liberté",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Lucie B.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "visitDate": "décembre 2025",
+        "text": "Extraction clé cassée rue du Moulin. Travail soigné, aucun dégât.",
+        "location": "Moulin",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Matthieu L.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "visitDate": "décembre 2025",
+        "text": "Installation serrure connectée chemin de Combaillaux. Moderne et sécurisé !",
+        "location": "Combaillaux",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Anaïs T.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "visitDate": "novembre 2025",
+        "text": "Remplacement cylindre Mul-T-Lock. Sécurité renforcée, parfait.",
+        "location": "Grabels",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Cyril D.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "visitDate": "novembre 2025",
+        "text": "Bloqué devant chez moi à minuit. Intervention express, merci !",
+        "location": "Centre",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Sabrina V.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "visitDate": "octobre 2025",
+        "text": "Sécurisation après cambriolage voisin. Équipe très pro.",
+        "location": "Grabels",
+        "service": "Sécurisation"
+      },
+      {
+        "name": "Éric G.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "visitDate": "octobre 2025",
+        "text": "Serrure défaillante avenue du Pic Saint-Loup. Réparation durable.",
+        "location": "Pic Saint-Loup",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Florence P.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "visitDate": "septembre 2025",
+        "text": "Installation verrou haute sécurité. Travail propre et professionnel.",
+        "location": "Grabels",
+        "service": "Installation verrou"
+      }
+    ],
+    "saint-jean-de-vedas": [
+      {
+        "name": "Julien D.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "visitDate": "janvier 2026",
+        "text": "Porte claquée avenue de la Gare. Intervention en 10 min, impeccable !",
+        "location": "Centre Saint-Jean",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Amandine S.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "visitDate": "janvier 2026",
+        "text": "Changement serrure 3 points près du tram. Travail soigné et rapide.",
+        "location": "Tramway",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Thibault R.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "visitDate": "décembre 2025",
+        "text": "Dépannage urgent avenue de la Méditerranée. Service excellent !",
+        "location": "Méditerranée",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Élodie B.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "visitDate": "décembre 2025",
+        "text": "Clé cassée dans la serrure rue du Château. Extraction parfaite.",
+        "location": "Château",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Romain L.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "visitDate": "décembre 2025",
+        "text": "Installation serrure Fichet quartier Roque de Peyrou. Excellent !",
+        "location": "Roque de Peyrou",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Célia T.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "visitDate": "novembre 2025",
+        "text": "Remplacement cylindre avenue de Toulouse. Rapide et professionnel.",
+        "location": "Toulouse",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Fabrice D.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "visitDate": "novembre 2025",
+        "text": "Bloqué à 7h chemin de la Mosson. Dépannage express pour partir au travail.",
+        "location": "Mosson",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Nolwenn V.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "visitDate": "octobre 2025",
+        "text": "Pose verrou de sécurité route de Sète. Travail impeccable.",
+        "location": "Route de Sète",
+        "service": "Installation verrou"
+      },
+      {
+        "name": "Gaël G.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "visitDate": "octobre 2025",
+        "text": "Serrure grippée avenue de la Condamine. Dégrippage efficace.",
+        "location": "Condamine",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Morgane P.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "visitDate": "septembre 2025",
+        "text": "Blindage porte d'entrée. Travail de qualité, je recommande !",
+        "location": "Saint-Jean",
+        "service": "Blindage porte"
+      }
+    ],
+    "villeneuve-les-maguelone": [
+      {
+        "name": "Clément M.",
+        "rating": 5,
+        "date": "il y a 1 semaine",
+        "visitDate": "janvier 2026",
+        "text": "Porte claquée avenue de la Mer. Serrurier arrivé rapidement. Excellent !",
+        "location": "Centre Villeneuve",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Aurore S.",
+        "rating": 5,
+        "date": "il y a 2 semaines",
+        "visitDate": "janvier 2026",
+        "text": "Changement serrure près de la cathédrale. Artisan très professionnel.",
+        "location": "Cathédrale",
+        "service": "Changement serrure"
+      },
+      {
+        "name": "Loïc R.",
+        "rating": 5,
+        "date": "il y a 3 semaines",
+        "visitDate": "décembre 2025",
+        "text": "Urgence serrure route de Palavas un samedi. Intervention rapide !",
+        "location": "Palavas",
+        "service": "Dépannage urgent"
+      },
+      {
+        "name": "Manon B.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "visitDate": "décembre 2025",
+        "text": "Clé cassée avenue de Mireval. Extraction propre et soignée.",
+        "location": "Mireval",
+        "service": "Extraction clé"
+      },
+      {
+        "name": "Quentin L.",
+        "rating": 5,
+        "date": "il y a 1 mois",
+        "visitDate": "décembre 2025",
+        "text": "Installation serrure haute sécurité chemin de Maurin. Super travail !",
+        "location": "Maurin",
+        "service": "Installation serrure"
+      },
+      {
+        "name": "Justine T.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "visitDate": "novembre 2025",
+        "text": "Remplacement cylindre A2P Frontignan. Sécurité renforcée.",
+        "location": "Frontignan",
+        "service": "Remplacement cylindre"
+      },
+      {
+        "name": "Sylvain D.",
+        "rating": 5,
+        "date": "il y a 2 mois",
+        "visitDate": "novembre 2025",
+        "text": "Bloqué chez moi à 23h rue des Pêcheurs. Dépannage express, merci !",
+        "location": "Pêcheurs",
+        "service": "Ouverture de porte"
+      },
+      {
+        "name": "Laetitia V.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "visitDate": "octobre 2025",
+        "text": "Sécurisation maison de vacances. Travail de qualité.",
+        "location": "Villeneuve",
+        "service": "Sécurisation"
+      },
+      {
+        "name": "Benoît G.",
+        "rating": 5,
+        "date": "il y a 3 mois",
+        "visitDate": "octobre 2025",
+        "text": "Serrure bloquée avenue de la Plage. Réparation efficace.",
+        "location": "Plage",
+        "service": "Dépannage"
+      },
+      {
+        "name": "Coralie P.",
+        "rating": 5,
+        "date": "il y a 4 mois",
+        "visitDate": "septembre 2025",
+        "text": "Pose verrou supplémentaire. Artisan ponctuel et professionnel.",
+        "location": "Villeneuve",
+        "service": "Installation verrou"
+      }
+    ]
+  }
+}

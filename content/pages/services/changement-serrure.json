@@ -1,55 +1,176 @@
 {
   "hero": {
-    "badge": "🔐 Serrures certifiées",
-    "title": "Changement de Serrure {zone}",
-    "subtitle": "Remplacement de serrure à {zone} par des serruriers qualifiés. Serrures de toutes marques, certifiées A2P pour une sécurité optimale."
+    "badge": "🔐 Serrures certifiées A2P",
+    "title": "Changement de Serrure",
+    "subtitle": "Besoin de remplacer votre serrure ? Nos serruriers experts installent des serrures de toutes marques, certifiées A2P pour une sécurité maximale. Intervention rapide 24h/24, 7j/7."
   },
   "intro": {
     "title": "Expert en changement de serrure à {zone}",
     "paragraphs": [
-      "Votre serrure est usée, cassée ou vous souhaitez renforcer votre sécurité ? À {zone}, {name} remplace votre serrure par un modèle adapté à vos besoins et à votre budget.",
-      "Nous travaillons avec les meilleures marques du marché (Fichet, Vachette, Bricard, Mul-T-Lock) et proposons des serrures certifiées A2P, reconnues par les assurances pour leur résistance à l'effraction."
+      "Votre serrure est usée, cassée ou vous venez de subir une effraction à {zone} ? {name} est votre spécialiste du changement de serrure depuis plus de 15 ans. Nous remplaçons tous types de serrures par des modèles adaptés à vos besoins de sécurité et à votre budget.",
+      "Le choix d'une bonne serrure est essentiel pour protéger votre domicile ou votre commerce. Nous vous conseillons sur les meilleures options : serrure 3 points, 5 points, 7 points, cylindre haute sécurité, serrure certifiée A2P... Nos techniciens maîtrisent l'installation de toutes les grandes marques du marché.",
+      "À {zone} ({zonePostal}), nous intervenons aussi bien pour les particuliers que pour les professionnels. Appartements, maisons individuelles, locaux commerciaux, immeubles de bureaux : chaque projet bénéficie d'une étude personnalisée pour vous proposer la solution de sécurité la plus adaptée.",
+      "Nous vous garantissons un travail soigné avec une pose dans les règles de l'art. Toutes nos interventions sont couvertes par une garantie pièces et main d'œuvre. Nous vous remettons une facture détaillée, indispensable pour votre assurance en cas de changement suite à un cambriolage."
     ]
   },
   "situations": {
-    "title": "Quand changer votre serrure à {zone} ?",
+    "title": "Types de changement de serrure à {zone}",
     "items": [
       {
         "icon": "🔧",
-        "title": "Serrure usée",
-        "description": "Clé qui force, serrure qui grince ? Il est temps de la remplacer avant qu'elle ne vous bloque."
+        "title": "Cylindre simple",
+        "description": "Remplacement du cylindre (barillet) de votre serrure. Solution rapide et économique pour changer vos clés sans remplacer toute la serrure.",
+        "price": 89
       },
       {
-        "icon": "🏠",
-        "title": "Emménagement",
-        "description": "Vous venez d'emménager à {zone} ? Changez les serrures pour votre tranquillité."
+        "icon": "🔒",
+        "title": "Serrure standard",
+        "description": "Changement d'une serrure à encastrer ou en applique. Idéal pour les portes d'intérieur ou les portes de cave.",
+        "price": 119
       },
       {
-        "icon": "🔓",
-        "title": "Après effraction",
-        "description": "Suite à un cambriolage, le changement de serrure est indispensable et souvent couvert par l'assurance."
+        "icon": "🛡️",
+        "title": "Serrure 3 points",
+        "description": "Installation d'une serrure multipoints à 3 points d'ancrage. Sécurité renforcée pour votre porte d'entrée.",
+        "price": 189
       },
       {
-        "icon": "⬆️",
-        "title": "Mise aux normes",
-        "description": "Passage à une serrure multipoints ou A2P pour une meilleure protection."
+        "icon": "🔐",
+        "title": "Serrure 5 points",
+        "description": "Pose d'une serrure 5 points pour une protection optimale. Recommandée pour les rez-de-chaussée et zones sensibles.",
+        "price": 249
+      },
+      {
+        "icon": "✅",
+        "title": "Serrure certifiée A2P",
+        "description": "Serrure testée et certifiée A2P par le CNPP. Reconnue par les assurances, elle garantit une résistance maximale à l'effraction.",
+        "price": 289
+      },
+      {
+        "icon": "🚪",
+        "title": "Serrure porte blindée",
+        "description": "Remplacement de serrure sur porte blindée toutes marques : Fichet, Picard, Tordjman. Intervention par des spécialistes.",
+        "price": 349
+      }
+    ]
+  },
+  "method": {
+    "title": "Notre méthode de changement de serrure à {zone}",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Diagnostic et conseil",
+        "description": "Décrivez-nous votre serrure actuelle et vos besoins de sécurité. Nous vous orientons vers les solutions les plus adaptées."
+      },
+      {
+        "number": 2,
+        "title": "Devis gratuit détaillé",
+        "description": "Nous vous proposons un devis précis incluant le prix de la serrure et de la pose. Aucun frais caché ni surprise."
+      },
+      {
+        "number": 3,
+        "title": "Intervention rapide",
+        "description": "Un technicien qualifié se déplace à {zone} avec la serrure choisie et tout le matériel nécessaire."
+      },
+      {
+        "number": 4,
+        "title": "Dépose de l'ancienne serrure",
+        "description": "Nous retirons soigneusement votre ancienne serrure en préservant l'état de votre porte."
+      },
+      {
+        "number": 5,
+        "title": "Pose et réglages",
+        "description": "Installation de votre nouvelle serrure avec réglage précis du mécanisme pour un fonctionnement optimal."
+      },
+      {
+        "number": 6,
+        "title": "Test et remise des clés",
+        "description": "Nous testons plusieurs fois le verrouillage/déverrouillage avant de vous remettre votre jeu de clés neuf."
       }
     ]
   },
   "advantages": {
-    "title": "Notre service changement de serrure à {zone}",
+    "title": "Pourquoi choisir {name} pour votre changement de serrure à {zone} ?",
     "items": [
-      "Large choix de serrures (3 à 5 points)",
-      "Marques reconnues : Fichet, Vachette, Bricard",
-      "Serrures certifiées A2P (assurance)",
-      "Pose professionnelle garantie",
+      "Large choix de serrures : 3, 5 et 7 points",
+      "Serrures certifiées A2P (agréées assurance)",
+      "Toutes marques : Fichet, Vachette, Bricard, Mul-T-Lock",
+      "Pose professionnelle garantie pièces et main d'œuvre",
+      "Intervention rapide à {zone}, même en urgence",
       "Devis gratuit et sans engagement",
-      "Intervention rapide à {zone}"
+      "Conseils personnalisés selon votre niveau de sécurité",
+      "Facture détaillée pour remboursement assurance"
     ]
   },
+  "brands": {
+    "title": "Marques de serrures que nous installons",
+    "items": ["Fichet", "Vachette", "Bricard", "Mul-T-Lock", "Picard", "Abloy", "JPM", "Mottura", "Pollux", "Keso", "Iseo", "Dom", "Anker", "Abus"]
+  },
+  "lockTypes": {
+    "title": "Types de serrures disponibles",
+    "items": [
+      {
+        "type": "Serrure à cylindre européen",
+        "description": "Le standard le plus répandu. Cylindre interchangeable pour faciliter les changements de clés."
+      },
+      {
+        "type": "Serrure multipoints",
+        "description": "De 3 à 7 points d'ancrage pour une sécurité renforcée de votre porte d'entrée."
+      },
+      {
+        "type": "Serrure A2P",
+        "description": "Certification du CNPP garantissant une résistance à l'effraction (1, 2 ou 3 étoiles)."
+      },
+      {
+        "type": "Serrure carénée",
+        "description": "Mécanisme protégé par un capot métallique pour plus de résistance et d'esthétique."
+      },
+      {
+        "type": "Serrure électronique",
+        "description": "Ouverture par code, badge ou smartphone. Idéale pour les professionnels et les locations."
+      },
+      {
+        "type": "Serrure connectée",
+        "description": "Contrôlez votre serrure à distance depuis votre téléphone. Compatible domotique."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "Combien coûte un changement de serrure ?",
+      "answer": "Le prix d'un changement de serrure varie selon le type de serrure installée. Pour un <strong>cylindre simple, comptez à partir de 89€</strong>. Une serrure 3 points démarre à 189€, une serrure 5 points à 249€, et une serrure certifiée A2P à partir de 289€. Ces prix incluent la fourniture et la pose."
+    },
+    {
+      "question": "Quelle est la différence entre un cylindre et une serrure complète ?",
+      "answer": "Le <strong>cylindre (ou barillet)</strong> est la partie où vous insérez la clé. Changer uniquement le cylindre est plus rapide et moins cher. <strong>La serrure complète</strong> inclut tout le mécanisme de verrouillage. Si votre serrure fonctionne bien et que vous voulez juste de nouvelles clés, le changement de cylindre suffit."
+    },
+    {
+      "question": "C'est quoi une serrure A2P et pourquoi c'est important ?",
+      "answer": "Une serrure <strong>A2P (Assurance Prévention Protection)</strong> est certifiée par le CNPP après des tests de résistance à l'effraction. Il existe 3 niveaux : A2P* (5 min), A2P** (10 min) et A2P*** (15 min). Cette certification est <strong>souvent exigée par les assurances</strong> et peut réduire votre prime."
+    },
+    {
+      "question": "Combien de temps dure un changement de serrure ?",
+      "answer": "Un changement de <strong>cylindre prend 15 à 30 minutes</strong>. Pour une serrure complète en applique, comptez 30 à 45 minutes. L'installation d'une serrure multipoints à encastrer peut prendre <strong>1 à 2 heures</strong> selon la configuration de votre porte."
+    },
+    {
+      "question": "Mon assurance prend-elle en charge le changement de serrure ?",
+      "answer": "Oui, en cas de <strong>cambriolage ou de tentative d'effraction</strong>, votre assurance habitation couvre généralement le remplacement de la serrure. Nous vous fournissons une <strong>facture détaillée</strong> et un rapport d'intervention à transmettre à votre assureur."
+    },
+    {
+      "question": "Serrure 3 points ou 5 points : que choisir ?",
+      "answer": "La <strong>serrure 3 points</strong> offre une bonne protection pour les étages. La <strong>serrure 5 points</strong> est recommandée pour les rez-de-chaussée, les zones à risque, ou si votre assurance l'exige. Au-delà, les serrures 7 points sont réservées aux besoins de haute sécurité."
+    },
+    {
+      "question": "Pouvez-vous changer la serrure d'une porte blindée ?",
+      "answer": "Oui, nos techniciens sont spécialisés dans le <strong>changement de serrures sur portes blindées</strong> toutes marques : Fichet, Picard, Tordjman, Bricard... Nous utilisons des serrures d'origine ou compatibles pour préserver la garantie et les performances de votre bloc-porte."
+    },
+    {
+      "question": "Proposez-vous des serrures électroniques ou connectées ?",
+      "answer": "Oui, nous installons des <strong>serrures électroniques</strong> (à code, badge, empreinte digitale) et des <strong>serrures connectées</strong> (pilotables par smartphone). Idéales pour les locations Airbnb, les bureaux ou ceux qui perdent souvent leurs clés !"
+    }
+  ],
   "cta": {
-    "title": "Besoin de changer votre serrure à {zone} ?",
-    "subtitle": "Demandez un devis gratuit pour le remplacement de votre serrure."
+    "title": "Besoin de changer votre serrure ?",
+    "subtitle": "Demandez un devis gratuit pour le remplacement de votre serrure. Conseils personnalisés et intervention rapide garantie !"
   }
 }
-

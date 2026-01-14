@@ -1,0 +1,16 @@
+# Logos et Favicon
+# 
+# Fichiers OBLIGATOIRES :
+# - logo.png (400×100) - Logo principal (header, fond transparent)
+# - favicon.ico (32×32) - Favicon navigateur
+# - og-image.jpg (1200×630) - Image partage réseaux sociaux
+#
+# Fichiers recommandés :
+# - logo-white.png (400×100) - Version blanche (pour fond sombre)
+# - logo-icon.png (100×100) - Icône seule (sans texte)
+# - apple-touch-icon.png (180×180) - Icône iOS
+#
+# Conseils :
+# - Utiliser PNG avec fond transparent pour les logos
+# - Logo lisible même en petit (header mobile)
+# - og-image.jpg doit contenir le nom de l'entreprise + ville
