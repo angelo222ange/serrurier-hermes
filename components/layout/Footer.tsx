@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
+import { OptimizedImage } from "@/components/ui/OptimizedImage";
 import { usePathname } from "next/navigation";
 import { siteConfig, services } from "@/config/site";
 import { getRegionFromSlug, getRegionConfig, getZoneBySlug } from "@/lib/cityConfig";
@@ -64,12 +64,13 @@ export function Footer({ citySlug: propCitySlug }: FooterProps) {
           {/* Colonne 1 - À propos */}
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              <Image
+              <OptimizedImage
                 src="/images/logos/serrurier-hermes-logo.webp"
                 alt={`Logo Serrurier Hermès`}
                 width={48}
                 height={48}
                 className="w-12 h-12"
+                imageType="logo"
               />
               <div>
                 <span className="font-bold text-lg block">Serrurier Hermès</span>

@@ -110,7 +110,7 @@ export function Tarifs({
                         itemScope
                         itemType="https://schema.org/PriceSpecification"
                       >
-                        <span className="text-gray-400 text-xs">dès</span>
+                        <span className="text-gray-500 text-xs">dès</span>
                         <span className="font-bold text-emerald-600">
                           <span itemProp="price">{item.price}</span>€
                         </span>

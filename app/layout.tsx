@@ -60,6 +60,20 @@ export const metadata: Metadata = {
   },
 };
 
+// CSS critique inline pour First Contentful Paint
+const criticalCSS = `
+  *,::before,::after{box-sizing:border-box;border:0 solid}
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+  body{margin:0;font-family:var(--font-inter),system-ui,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.5;color:#111827;background:#fff}
+  h1,h2,h3,h4,h5,h6{font-weight:700;line-height:1.2}
+  img{max-width:100%;height:auto;display:block}
+  a{color:inherit;text-decoration:none}
+  button{font-family:inherit;cursor:pointer}
+  .container{max-width:1280px;margin:0 auto;padding:0 1rem}
+  @media(min-width:640px){.container{padding:0 1.5rem}}
+  @media(min-width:1024px){.container{padding:0 2rem}}
+`;
+
 export default function RootLayout({
   children,
 }: {
@@ -68,6 +82,9 @@ export default function RootLayout({
   return (
     <html lang="fr" className={inter.variable}>
       <head>
+        {/* Critical CSS inline pour FCP rapide */}
+        <style dangerouslySetInnerHTML={{ __html: criticalCSS }} />
+        
         {/* Favicon & PWA - Utilise le logo du site */}
         <link rel="icon" type="image/webp" href="/images/logo-favicon-serrurier-hermes.webp" />
         <link rel="icon" type="image/webp" sizes="32x32" href="/images/logo-favicon-serrurier-hermes.webp" />
@@ -75,9 +92,11 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/images/logo-favicon-serrurier-hermes.webp" />
         <link rel="manifest" href="/manifest.json" />
         
-        {/* DNS Prefetch pour les ressources tierces */}
-        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+        {/* Preconnect aux ressources tierces critiques */}
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        
+        {/* Resource hints pour optimiser le chargement */}
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
       </head>
       <body className={`${inter.className} antialiased`}>
         <Header />

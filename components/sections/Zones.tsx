@@ -2,7 +2,7 @@
 
 import { useRef } from "react";
 import Link from "next/link";
-import Image from "next/image";
+import { OptimizedImage } from "@/components/ui/OptimizedImage";
 import { siteConfig, zones } from "@/config/site";
 
 interface ZoneData {
@@ -109,12 +109,12 @@ export function Zones({
                 {/* Image ou placeholder */}
                 {zone.image ? (
                   <>
-                    <Image
+                    <OptimizedImage
                       src={zone.image}
                       alt={`Serrurier ${zone.name}`}
                       fill
                       loading="lazy"
-                      sizes="(max-width: 640px) 200px, 240px"
+                      imageType="thumbnail"
                       className="object-cover group-hover:scale-110 transition-transform duration-300"
                     />
                     {/* Overlay subtil pour meilleure lisibilité */}

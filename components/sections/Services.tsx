@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+import { OptimizedImage } from "@/components/ui/OptimizedImage";
 import { siteConfig, services } from "@/config/site";
 
 interface ServicesProps {
@@ -87,12 +87,12 @@ export function Services({
               <meta itemProp="serviceType" content="Locksmith" />
               <meta itemProp="areaServed" content={displayCity} />
               {/* Background Image */}
-              <Image
+              <OptimizedImage
                 src={serviceImages[service.slug] || "/images/services/depannage-serrurier-urgence-nuit-hermes.webp"}
                 alt={service.name}
                 fill
                 loading="lazy"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                imageType="service"
                 className="object-cover transition-transform duration-500 group-hover:scale-110"
                 itemProp="image"
               />
@@ -123,7 +123,7 @@ export function Services({
                   itemType="https://schema.org/Offer"
                 >
                   <div className="flex items-baseline gap-1">
-                    <span className="text-gray-400 text-xs">À partir de</span>
+                    <span className="text-gray-500 text-xs">À partir de</span>
                     <span className="text-lg font-bold text-emerald-400">
                       <span itemProp="price">{servicePrices[service.slug] || 69}</span>€
                     </span>

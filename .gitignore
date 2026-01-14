@@ -41,3 +41,9 @@ coverage/
 # Misc
 *.log
 
+
+# Image backups (originaux sauvegardés avant optimisation)
+/public/images-backup/
+
+# Lighthouse reports
+lighthouse-report*.html

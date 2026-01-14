@@ -31,9 +31,11 @@ const nextConfig = {
   images: {
     unoptimized: true, // Pour static export
     formats: ['image/webp'],
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920],
-    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    deviceSizes: [400, 640, 768, 1024, 1280, 1920],
+    imageSizes: [16, 32, 48, 64, 96, 128, 200, 256, 384],
     minimumCacheTTL: 31536000, // 1 an
+    dangerouslyAllowSVG: true,
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
 
   // Trailing slash pour compatibilité hébergement
@@ -41,12 +43,6 @@ const nextConfig = {
 
   // Strict mode
   reactStrictMode: true,
-
-  // Optimisations expérimentales
-  // Note: optimizeCss nécessite le module 'critters' (npm install critters)
-  // experimental: {
-  //   optimizeCss: true,
-  // },
 
   // Minification SWC
   swcMinify: true,
@@ -56,21 +52,29 @@ const nextConfig = {
     removeConsole: isProduction ? { exclude: ['error', 'warn'] } : false,
   },
 
+  // Optimisations expérimentales
+  experimental: {
+    // Optimiser le chargement des CSS
+    optimizeCss: false, // Désactivé car nécessite critters
+    // Modern build targeting
+    // Réduit les polyfills inutiles pour les navigateurs modernes
+  },
+
   // Configuration Webpack optimisée
   webpack: (config, { dev, isServer }) => {
     // Exclure les répertoires de build du watcher
     if (dev) {
       config.watchOptions = {
         ...config.watchOptions,
-        ignored: ['**/node_modules', '**/.next', '**/out', '**/.git'],
+        ignored: ['**/node_modules', '**/.next', '**/out', '**/.git', '**/public/images-backup'],
       };
     }
     
     if (!dev && !isServer) {
-      // Cibler ES2020 pour éviter les polyfills inutiles
+      // Cibler ES2020 pour éviter les polyfills inutiles (navigateurs modernes uniquement)
       config.target = ['web', 'es2020'];
       
-      // Exclure les polyfills inutiles
+      // Exclure complètement les polyfills inutiles
       config.resolve.alias = {
         ...config.resolve.alias,
         'core-js': false,
@@ -78,19 +82,24 @@ const nextConfig = {
         'regenerator-runtime': false,
       };
       
-      // Optimisation du code splitting
+      // Optimisation agressive du code splitting
       config.optimization = {
         ...config.optimization,
+        // Tree shaking agressif
         usedExports: true,
         sideEffects: false,
         concatenateModules: true,
+        // Minification optimale
+        minimize: true,
+        // Code splitting optimisé
         splitChunks: {
           chunks: 'all',
           minSize: 20000,
-          maxSize: 100000, // 100KB max par chunk
-          maxAsyncRequests: 10,
-          maxInitialRequests: 3, // Limiter les requêtes initiales
+          maxSize: 80000, // Réduire la taille max des chunks pour un meilleur parallélisme
+          maxAsyncRequests: 15, // Augmenter pour permettre plus de parallélisme
+          maxInitialRequests: 5, // Augmenter légèrement pour un meilleur splitting
           cacheGroups: {
+            // Framework React/Next (le plus critique)
             framework: {
               name: 'framework',
               test: /[\\/]node_modules[\\/](react|react-dom|scheduler|next)[\\/]/,
@@ -98,31 +107,67 @@ const nextConfig = {
               enforce: true,
               reuseExistingChunk: true,
             },
+            // Bibliothèques tierces (groupées)
             lib: {
               test: /[\\/]node_modules[\\/]/,
               name: 'lib',
               priority: 20,
-              minChunks: 3,
+              minChunks: 2, // Réduire pour mieux splitter
               reuseExistingChunk: true,
             },
+            // Code partagé (commons)
             commons: {
               name: 'commons',
-              minChunks: 5,
+              minChunks: 3,
               priority: 10,
-              minSize: 30000,
+              minSize: 10000, // Réduire pour mieux splitter
               reuseExistingChunk: true,
             },
+            // Default
             default: {
-              minChunks: 5,
+              minChunks: 2,
               priority: 5,
-              minSize: 30000,
+              minSize: 10000,
               reuseExistingChunk: true,
             },
           },
         },
+        // Runtime chunk séparé pour meilleur caching
+        runtimeChunk: {
+          name: 'runtime',
+        },
       };
+
+      // Module concatenation pour réduire la taille
+      config.optimization.concatenateModules = true;
     }
+    
     return config;
+  },
+
+  // Headers pour meilleures performances
+  async headers() {
+    return [
+      {
+        source: '/:all*(svg|jpg|jpeg|png|webp|gif)',
+        locale: false,
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
+      {
+        source: '/_next/static/:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, immutable',
+          },
+        ],
+      },
+    ];
   },
 };
 

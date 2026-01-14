@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
-import Image from "next/image";
+import { OptimizedImage } from "@/components/ui/OptimizedImage";
 import { siteConfig } from "@/config/site";
 import { ReviewSchema } from "@/components/seo";
 
@@ -147,13 +147,14 @@ export function Reviews({
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8 sm:mb-10">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <Image
+              <OptimizedImage
                 src="/images/avis-google-rideau-metallique.webp"
                 alt="Google"
                 width={24}
                 height={24}
                 loading="lazy"
                 className="rounded"
+                imageType="thumbnail"
               />
               <span className="text-white/80 text-sm font-medium">Avis Google</span>
             </div>
@@ -229,22 +230,26 @@ export function Reviews({
                   <div>
                     <p className="font-medium text-white text-sm">{review.name}</p>
                     <div className="flex items-center gap-1.5 mt-0.5">
-                      <span className="text-xs text-white/50">Avis de</span>
+                      <span className="text-xs text-white/60">Avis de</span>
                       {/* Logo Google coloré */}
-                      <Image
+                      <OptimizedImage
                         src="/images/avis-google-rideau-metallique.webp"
                         alt="Google"
                         width={14}
                         height={14}
                         loading="lazy"
                         className="rounded-sm"
+                        imageType="thumbnail"
                       />
-                      <span className="text-xs text-white/50">Google</span>
+                      <span className="text-xs text-white/60">Google</span>
                     </div>
                   </div>
                 </div>
                 {/* Menu 3 points */}
-                <button className="text-white/40 hover:text-white/60 p-1">
+                <button 
+                  className="text-white/60 hover:text-white/80 p-1"
+                  aria-label="Options de l'avis"
+                >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z" />
                   </svg>
@@ -266,18 +271,18 @@ export function Reviews({
                     </svg>
                   ))}
                 </div>
-                <span className="text-white/40 text-xs">·</span>
-                <span className="text-white/40 text-xs">{review.date}</span>
+                <span className="text-white/50 text-xs">·</span>
+                <span className="text-white/50 text-xs">{review.date}</span>
               </div>
 
               {/* Texte de l'avis avec troncature */}
-              <p className="text-white/80 text-sm leading-relaxed mb-3">
+              <p className="text-white/90 text-sm leading-relaxed mb-3">
                 <TruncatedText text={review.text} maxLength={130} />
               </p>
 
               {/* Date de visite - Style Google */}
               {review.visitDate && (
-                <p className="text-white/40 text-xs">
+                <p className="text-white/50 text-xs">
                   Visité en {review.visitDate}
                 </p>
               )}

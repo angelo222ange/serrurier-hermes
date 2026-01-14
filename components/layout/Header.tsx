@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import Image from "next/image";
+import { OptimizedImage } from "@/components/ui/OptimizedImage";
 import { siteConfig, navigation, zones, services } from "@/config/site";
 import { getRegionFromSlug, getRegionConfig, getZoneBySlug, getCityParent } from "@/lib/cityConfig";
 
@@ -232,13 +232,14 @@ export function Header({ citySlug: propCitySlug }: HeaderProps = {}) {
           <div className="flex items-center justify-between h-16 md:h-18">
             {/* Logo */}
             <Link href={homeUrl} className="flex items-center gap-2 sm:gap-3">
-              <Image
+              <OptimizedImage
                 src="/images/logos/serrurier-hermes-logo.webp"
                 alt={`Logo ${siteConfig.name}`}
                 width={48}
                 height={48}
                 className="w-10 h-10 sm:w-12 sm:h-12"
                 priority
+                imageType="logo"
               />
               <div className="flex flex-col">
                 <span className="font-bold text-base sm:text-lg text-gray-900 leading-tight">

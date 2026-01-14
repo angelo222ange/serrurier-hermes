@@ -1,5 +1,5 @@
 import { siteConfig } from "@/config/site";
-import Image from "next/image";
+import { OptimizedImage } from "@/components/ui/OptimizedImage";
 
 interface Advantage {
   icon: React.ReactNode;
@@ -178,12 +178,13 @@ export function WhyUs({
               
               {/* Image en haut à droite */}
               <div className="absolute top-0 right-0 w-32 h-32 sm:w-40 sm:h-40 opacity-40 group-hover:opacity-50 transition-opacity overflow-hidden rounded-tl-2xl">
-                <Image
+                <OptimizedImage
                   src={advantage.image}
                   alt={advantage.title}
                   fill
                   className="object-cover"
-                  sizes="(max-width: 640px) 128px, 160px"
+                  imageType="thumbnail"
+                  loading="lazy"
                 />
               </div>
 

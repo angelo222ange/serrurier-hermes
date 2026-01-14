@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { OptimizedImage } from "@/components/ui/OptimizedImage";
 
 interface Brand {
   name: string;
@@ -55,11 +55,13 @@ export function Brands({
               className="flex-shrink-0 mx-4 sm:mx-8"
             >
               <div className="w-24 h-16 sm:w-32 sm:h-20 relative flex items-center justify-center bg-white rounded-lg p-3 shadow-sm">
-                <Image
+                <OptimizedImage
                   src={brand.logo}
                   alt={`Logo ${brand.name}`}
                   fill
                   className="object-contain p-2 grayscale hover:grayscale-0 transition-all duration-300"
+                  imageType="logo"
+                  loading="lazy"
                 />
               </div>
             </div>

@@ -1,7 +1,7 @@
 "use client";
 
 import { siteConfig } from "@/config/site";
-import Image from "next/image";
+import { OptimizedImage } from "@/components/ui/OptimizedImage";
 
 interface UrgenceItem {
   icon: React.ReactNode;
@@ -150,12 +150,13 @@ export function Urgences({
               {/* Background Image */}
               {item.backgroundImage && (
                 <div className="absolute inset-0">
-                  <Image
+                  <OptimizedImage
                     src={item.backgroundImage}
                     alt={item.title}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
-                    sizes="(max-width: 768px) 50vw, 33vw"
+                    imageType="service"
+                    loading="lazy"
                   />
                   {/* Dark Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-black/30 group-hover:from-black/70 group-hover:via-black/40 group-hover:to-black/20 transition-all duration-300"></div>

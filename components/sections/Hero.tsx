@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { OptimizedImage } from "@/components/ui/OptimizedImage";
 import { siteConfig } from "@/config/site";
 
 interface HeroProps {
@@ -64,14 +64,14 @@ export function Hero({
     <section className="relative min-h-[85vh] sm:min-h-[75vh] flex items-center overflow-hidden">
       {/* Background Image sans filtre */}
       <div className="absolute inset-0">
-        <Image
+        <OptimizedImage
           src={backgroundImage}
           alt={`Serrurier professionnel à ${displayCity}`}
           fill
           className="object-cover"
           priority
-          quality={90}
-          sizes="100vw"
+          quality={85}
+          imageType="hero"
           fetchPriority="high"
         />
       </div>
