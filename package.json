@@ -5,7 +5,7 @@
   "description": "Template Next.js pour sites de serrurerie",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && node scripts/render-city-pages.js",
+    "build": "next build",
     "start": "next start",
     "serve": "cd out && python3 -m http.server 8080",
     "preview": "npm run build && npm run serve",
