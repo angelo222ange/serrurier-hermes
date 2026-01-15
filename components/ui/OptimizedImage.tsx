@@ -22,7 +22,7 @@ interface OptimizedImageProps {
 
 /**
  * Composant Image optimisé avec support des versions responsives
- * Génère automatiquement les srcset pour les images optimisées
+ * Charge automatiquement les versions optimisées (sm/md/lg)
  */
 export function OptimizedImage({
   src,
@@ -34,30 +34,29 @@ export function OptimizedImage({
   loading = "lazy",
   className = "",
   sizes,
-  quality = 85,
+  quality = 75,
   imageType = "service",
   ...props
 }: OptimizedImageProps) {
   const [imgError, setImgError] = useState(false);
+  const [imgSrc, setImgSrc] = useState(src);
 
-  // Générer les srcset basés sur le type d'image
+  // Générer le srcset pour les images responsives
   const getSrcSet = () => {
-    if (!src || imgError) return undefined;
+    if (!src || imgError || src.includes('logo')) return undefined;
 
     const ext = src.substring(src.lastIndexOf("."));
     const baseSrc = src.substring(0, src.lastIndexOf("."));
 
-    // Vérifier si c'est une image responsive générée
-    if (baseSrc.endsWith("-sm") || baseSrc.endsWith("-md") || baseSrc.endsWith("-lg") || baseSrc.endsWith("-xl")) {
-      return undefined; // Ne pas générer de srcset pour les versions déjà dimensionnées
-    }
+    // Vérifier si c'est déjà une version responsive
+    if (baseSrc.match(/-(sm|md|lg)$/)) return undefined;
 
+    // Générer le srcset basé sur le type
     const srcSets = {
       hero: [
         `${baseSrc}-sm${ext} 640w`,
         `${baseSrc}-md${ext} 768w`,
         `${baseSrc}-lg${ext} 1280w`,
-        `${baseSrc}${ext} 1920w`,
       ],
       service: [
         `${baseSrc}-sm${ext} 400w`,
@@ -69,9 +68,7 @@ export function OptimizedImage({
         `${baseSrc}-md${ext} 300w`,
         `${baseSrc}-lg${ext} 400w`,
       ],
-      logo: [
-        `${baseSrc}${ext}`,
-      ],
+      logo: undefined,
     };
 
     return srcSets[imageType]?.join(", ");
@@ -83,27 +80,37 @@ export function OptimizedImage({
 
     const defaultSizes = {
       hero: "100vw",
-      service: "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw",
-      thumbnail: "(max-width: 768px) 50vw, 33vw",
-      logo: "128px",
+      service: "(max-width: 640px) 95vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 400px",
+      thumbnail: "(max-width: 640px) 50vw, (max-width: 768px) 33vw, 200px",
+      logo: "64px",
     };
 
     return defaultSizes[imageType];
   };
 
-  // Fallback en cas d'erreur
+  // Fallback en cas d'erreur - charger la version -sm
   const handleError = () => {
-    setImgError(true);
+    if (!imgError && !imgSrc.includes('-sm')) {
+      const ext = imgSrc.substring(imgSrc.lastIndexOf("."));
+      const baseSrc = imgSrc.substring(0, imgSrc.lastIndexOf("."));
+      const smallVersion = `${baseSrc}-sm${ext}`;
+      console.log(`Image error, trying smaller version: ${smallVersion}`);
+      setImgSrc(smallVersion);
+    } else {
+      setImgError(true);
+    }
   };
 
-  // Si erreur, afficher un placeholder
+  // Si erreur finale, afficher un placeholder minimal
   if (imgError) {
     return (
       <div
         className={`bg-gray-200 flex items-center justify-center ${className}`}
         style={fill ? { position: "absolute", inset: 0 } : { width, height }}
+        role="img"
+        aria-label={alt}
       >
-        <svg className="w-1/3 h-1/3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-1/3 h-1/3 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -120,7 +127,7 @@ export function OptimizedImage({
 
   return (
     <Image
-      src={src}
+      src={imgSrc}
       alt={alt}
       fill={fill}
       width={!fill ? width : undefined}
@@ -131,8 +138,8 @@ export function OptimizedImage({
       sizes={imageSizes}
       quality={quality}
       onError={handleError}
-      // Ajout du srcset personnalisé si disponible
       {...(srcSet && { srcSet })}
+      unoptimized={true}
       {...props}
     />
   );

@@ -29,10 +29,10 @@ const nextConfig = {
   
   // Images optimisées
   images: {
-    unoptimized: true, // Pour static export
+    unoptimized: true, // Pour static export - nécessaire
     formats: ['image/webp'],
-    deviceSizes: [400, 640, 768, 1024, 1280, 1920],
-    imageSizes: [16, 32, 48, 64, 96, 128, 200, 256, 384],
+    deviceSizes: [640, 768, 1024, 1280],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256],
     minimumCacheTTL: 31536000, // 1 an
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
@@ -58,6 +58,7 @@ const nextConfig = {
     optimizeCss: false, // Désactivé car nécessite critters
     // Modern build targeting
     // Réduit les polyfills inutiles pour les navigateurs modernes
+    optimizePackageImports: ['@/components', '@/lib'],
   },
 
   // Configuration Webpack optimisée

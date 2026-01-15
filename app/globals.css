@@ -122,13 +122,13 @@
            transition-all duration-200;
   }
 
-  /* Bouton téléphone (vert urgence) - TRÈS visible */
+  /* Bouton téléphone (vert urgence) - TRÈS visible + contraste amélioré */
   .btn-phone {
     @apply inline-flex items-center justify-center gap-2
-           rounded-xl bg-emerald-500 px-6 py-3.5
+           rounded-xl bg-emerald-600 px-6 py-3.5
            text-base font-bold text-white 
-           shadow-lg shadow-emerald-500/30 
-           hover:bg-emerald-600 hover:shadow-xl hover:shadow-emerald-500/40
+           shadow-lg shadow-emerald-600/30 
+           hover:bg-emerald-700 hover:shadow-xl hover:shadow-emerald-600/40
            active:scale-[0.98]
            transition-all duration-200;
   }
@@ -209,17 +209,17 @@
            shadow-sm text-sm font-medium text-gray-900;
   }
 
-  /* Prix highlight */
+  /* Prix highlight avec meilleur contraste */
   .price-tag {
     @apply inline-flex items-baseline gap-1;
   }
 
   .price-tag .from {
-    @apply text-sm text-gray-500;
+    @apply text-sm text-gray-700 font-medium;
   }
 
   .price-tag .amount {
-    @apply text-2xl sm:text-3xl font-bold text-emerald-600;
+    @apply text-2xl sm:text-3xl font-bold text-emerald-700;
   }
 
   /* Carrousel styles */

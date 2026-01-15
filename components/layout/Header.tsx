@@ -273,8 +273,9 @@ export function Header({ citySlug: propCitySlug }: HeaderProps = {}) {
               <a
                 href={phoneLink}
                 className="hidden sm:flex btn-phone-pulse"
+                aria-label={`Appeler le ${phone}`}
               >
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} 
                     d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" 
                   />
@@ -285,10 +286,11 @@ export function Header({ citySlug: propCitySlug }: HeaderProps = {}) {
               {/* Menu Mobile Button */}
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="lg:hidden p-2 -mr-2 text-gray-700 hover:text-gray-900 transition-colors"
+                className="lg:hidden p-2 -mr-2 text-gray-500 hover:text-gray-900 transition-colors"
                 aria-label={isMenuOpen ? "Fermer le menu" : "Ouvrir le menu"}
+                aria-expanded={isMenuOpen}
               >
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                   {isMenuOpen ? (
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                   ) : (
@@ -322,8 +324,9 @@ export function Header({ citySlug: propCitySlug }: HeaderProps = {}) {
             <button
               onClick={() => setIsMenuOpen(false)}
               className="p-2 -mr-2 text-gray-500 hover:text-gray-900"
+              aria-label="Fermer le menu"
             >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
               </svg>
             </button>
@@ -353,8 +356,9 @@ export function Header({ citySlug: propCitySlug }: HeaderProps = {}) {
             <a
               href={phoneLink}
               className="flex items-center justify-center gap-2 w-full btn-phone text-center"
+              aria-label={`Appeler le ${phone}`}
             >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} 
                   d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" 
                 />

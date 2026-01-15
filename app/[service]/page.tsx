@@ -218,7 +218,7 @@ export default function ServicePage({ params }: Props) {
                   {item.description}
                 </p>
                 {item.price && (
-                  <p className="text-emerald-600 font-bold">
+                  <p className="text-emerald-700 font-bold text-base">
                     Dès {item.price}€
                   </p>
                 )}

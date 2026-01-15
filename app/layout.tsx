@@ -9,7 +9,7 @@ import { ScrollToTopButton } from "@/components/ui/ScrollToTopButton";
 
 // Optimisation des polices avec next/font
 // - Preload automatique
-// - font-display: swap par défaut
+// - font-display: swap pour éviter FOIT
 // - Subset minimal pour réduire la taille
 const inter = Inter({
   subsets: ["latin"],
@@ -17,7 +17,9 @@ const inter = Inter({
   variable: "--font-inter",
   preload: true,
   // Uniquement les weights utilisés pour réduire la taille
-  weight: ["400", "500", "600", "700"],
+  weight: ["400", "600", "700"],
+  // Ajustement pour éviter le layout shift
+  adjustFontFallback: true,
 });
 
 // Viewport optimisé pour mobile
@@ -60,19 +62,23 @@ export const metadata: Metadata = {
   },
 };
 
-// CSS critique inline pour First Contentful Paint
+// CSS critique inline pour First Contentful Paint (minimisé et optimisé)
 const criticalCSS = `
-  *,::before,::after{box-sizing:border-box;border:0 solid}
-  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
-  body{margin:0;font-family:var(--font-inter),system-ui,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.5;color:#111827;background:#fff}
-  h1,h2,h3,h4,h5,h6{font-weight:700;line-height:1.2}
-  img{max-width:100%;height:auto;display:block}
-  a{color:inherit;text-decoration:none}
-  button{font-family:inherit;cursor:pointer}
-  .container{max-width:1280px;margin:0 auto;padding:0 1rem}
-  @media(min-width:640px){.container{padding:0 1.5rem}}
-  @media(min-width:1024px){.container{padding:0 2rem}}
-`;
+*,::before,::after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}
+html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,sans-serif;scroll-behavior:smooth}
+body{margin:0;line-height:inherit;font-family:var(--font-inter),system-ui,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;color:#111827;background:#fff}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:700;line-height:1.2}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;background:0 0;padding:0}
+.container{max-width:1280px;margin:0 auto;padding:0 1rem}
+@media(min-width:640px){.container{padding:0 1.5rem}}
+@media(min-width:1024px){.container{padding:0 2rem}}
+.btn-phone{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;border-radius:.75rem;background-color:#10b981;padding:.875rem 1.5rem;font-size:1rem;font-weight:700;color:#fff;box-shadow:0 10px 15px -3px rgba(16,185,129,.3);transition:all .2s}
+.btn-phone:hover{background-color:#059669;box-shadow:0 20px 25px -5px rgba(16,185,129,.4)}
+.btn-phone-pulse{animation:pulse-ring 2s cubic-bezier(.4,0,.6,1) infinite}
+@keyframes pulse-ring{0%,100%{box-shadow:0 0 0 0 rgba(16,185,129,.7)}50%{box-shadow:0 0 0 8px rgba(16,185,129,0)}}
+`.trim();
 
 export default function RootLayout({
   children,
@@ -85,18 +91,29 @@ export default function RootLayout({
         {/* Critical CSS inline pour FCP rapide */}
         <style dangerouslySetInnerHTML={{ __html: criticalCSS }} />
         
-        {/* Favicon & PWA - Utilise le logo du site */}
-        <link rel="icon" type="image/webp" href="/images/logo-favicon-serrurier-hermes.webp" />
-        <link rel="icon" type="image/webp" sizes="32x32" href="/images/logo-favicon-serrurier-hermes.webp" />
-        <link rel="icon" type="image/webp" sizes="16x16" href="/images/logo-favicon-serrurier-hermes.webp" />
-        <link rel="apple-touch-icon" href="/images/logo-favicon-serrurier-hermes.webp" />
-        <link rel="manifest" href="/manifest.json" />
+        {/* Preload image hero pour LCP rapide */}
+        <link
+          rel="preload"
+          as="image"
+          href="/images/services/depannage-serrurier-urgence-nuit-hermes-sm.webp"
+          imageSrcSet="/images/services/depannage-serrurier-urgence-nuit-hermes-sm.webp 640w, /images/services/depannage-serrurier-urgence-nuit-hermes-md.webp 768w, /images/services/depannage-serrurier-urgence-nuit-hermes-lg.webp 1280w"
+          imageSizes="100vw"
+          type="image/webp"
+        />
         
-        {/* Preconnect aux ressources tierces critiques */}
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        {/* Preload logo */}
+        <link
+          rel="preload"
+          as="image"
+          href="/images/logos/serrurier-hermes-logo.webp"
+          type="image/webp"
+        />
+        
+        {/* Preconnect aux ressources tierces (si nécessaire) */}
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         
         {/* Resource hints pour optimiser le chargement */}
-        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
       <body className={`${inter.className} antialiased`}>
         <Header />

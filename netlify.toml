@@ -1,127 +1,55 @@
-# ═══════════════════════════════════════════════════════════════
-# CONFIGURATION NETLIFY - Optimisation Web Vitals
-# ═══════════════════════════════════════════════════════════════
-
-[build]
-  publish = "out"
-  command = "npm run build"
-
-# Images WebP
-[[headers]]
-  for = "/*.webp"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-    Vary = "Accept-Encoding"
-    X-Content-Type-Options = "nosniff"
-
-# Images JPEG
-[[headers]]
-  for = "/*.jpg"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-    Vary = "Accept-Encoding"
-    X-Content-Type-Options = "nosniff"
-
-[[headers]]
-  for = "/*.jpeg"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-    Vary = "Accept-Encoding"
-    X-Content-Type-Options = "nosniff"
-
-# Images PNG
-[[headers]]
-  for = "/*.png"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-    Vary = "Accept-Encoding"
-    X-Content-Type-Options = "nosniff"
-
-# Images GIF
-[[headers]]
-  for = "/*.gif"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-    Vary = "Accept-Encoding"
-    X-Content-Type-Options = "nosniff"
-
-# Images SVG
-[[headers]]
-  for = "/*.svg"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-    Vary = "Accept-Encoding"
-    X-Content-Type-Options = "nosniff"
-
-# Favicon
-[[headers]]
-  for = "/*.ico"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-    Vary = "Accept-Encoding"
-    X-Content-Type-Options = "nosniff"
-
-# Dossier images
-[[headers]]
-  for = "/images/*"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-    Vary = "Accept-Encoding"
-    X-Content-Type-Options = "nosniff"
-
-# CSS
-[[headers]]
-  for = "/*.css"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-    Vary = "Accept-Encoding"
-    X-Content-Type-Options = "nosniff"
-
-# JavaScript
-[[headers]]
-  for = "/*.js"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-    Vary = "Accept-Encoding"
-    X-Content-Type-Options = "nosniff"
-
-# Next.js static assets
-[[headers]]
-  for = "/_next/static/*"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-    Vary = "Accept-Encoding"
-    X-Content-Type-Options = "nosniff"
-
-# Fonts WOFF2
-[[headers]]
-  for = "/*.woff2"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-    Vary = "Accept-Encoding"
-    X-Content-Type-Options = "nosniff"
-
-# Fonts WOFF
-[[headers]]
-  for = "/*.woff"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-    Vary = "Accept-Encoding"
-    X-Content-Type-Options = "nosniff"
-
-# Fonts TTF
-[[headers]]
-  for = "/*.ttf"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-    Vary = "Accept-Encoding"
-    X-Content-Type-Options = "nosniff"
-
-# Sécurité globale
 [[headers]]
   for = "/*"
   [headers.values]
     X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
     X-XSS-Protection = "1; mode=block"
     Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
 
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/_next/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600, must-revalidate"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[build.environment]
+  NODE_VERSION = "20"
+  NPM_FLAGS = "--legacy-peer-deps"
+
+# Redirects pour les URLs propres
+[[redirects]]
+  from = "/serrurier-:city"
+  to = "/ville/:city"
+  status = 200
+
+[[redirects]]
+  from = "/serrurier-:city/:service"
+  to = "/ville/:city/:service"
+  status = 200
+
+[[redirects]]
+  from = "/serrurier-:city/contact"
+  to = "/ville/:city/contact"
+  status = 200

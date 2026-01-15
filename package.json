@@ -11,7 +11,9 @@
     "preview": "npm run build && npm run serve",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "optimize-images": "node scripts/optimize-images.js"
+    "optimize-images": "node scripts/optimize-images.js",
+    "optimize-images-mobile": "node scripts/optimize-images-mobile.js",
+    "prebuild": "npm run optimize-images-mobile"
   },
   "dependencies": {
     "next": "^14.2.18",

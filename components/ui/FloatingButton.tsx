@@ -71,9 +71,9 @@ export function FloatingButton({ citySlug: propCitySlug }: FloatingButtonProps =
       className={`
         fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50
         flex items-center gap-2.5
-        bg-emerald-500 text-white
-        rounded-full shadow-2xl shadow-emerald-500/40
-        hover:bg-emerald-600 hover:scale-105 hover:shadow-emerald-500/50
+        bg-emerald-600 text-white
+        rounded-full shadow-2xl shadow-emerald-600/40
+        hover:bg-emerald-700 hover:scale-105 hover:shadow-emerald-600/50
         active:scale-95
         transition-all duration-300 ease-out
         ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}
@@ -84,7 +84,7 @@ export function FloatingButton({ citySlug: propCitySlug }: FloatingButtonProps =
       onMouseLeave={() => setIsExpanded(false)}
     >
       {/* Pulse animation ring */}
-      <span className="absolute inset-0 rounded-full animate-ping bg-emerald-400 opacity-30" />
+      <span className="absolute inset-0 rounded-full animate-ping bg-emerald-500 opacity-30" />
       
       {/* Icon */}
       <span className="relative flex items-center justify-center">
@@ -93,6 +93,7 @@ export function FloatingButton({ citySlug: propCitySlug }: FloatingButtonProps =
           fill="none" 
           stroke="currentColor" 
           viewBox="0 0 24 24"
+          aria-hidden="true"
         >
           <path 
             strokeLinecap="round" 
@@ -111,7 +112,7 @@ export function FloatingButton({ citySlug: propCitySlug }: FloatingButtonProps =
         `}
       >
         <span className="block text-sm sm:text-base">Urgence 24/7</span>
-        <span className="block text-xs font-medium text-emerald-100">
+        <span className="block text-xs font-medium text-emerald-50">
           {phone}
         </span>
       </span>

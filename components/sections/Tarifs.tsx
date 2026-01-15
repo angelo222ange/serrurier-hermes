@@ -103,15 +103,15 @@ export function Tarifs({
                       itemType="https://schema.org/Offer"
                       itemProp="itemListElement"
                     >
-                      <span className="text-gray-700 text-sm" itemProp="name">{item.name}</span>
+                      <span className="text-gray-700 text-sm font-medium" itemProp="name">{item.name}</span>
                       <span 
                         className="flex items-baseline gap-1 flex-shrink-0 ml-2"
                         itemProp="priceSpecification"
                         itemScope
                         itemType="https://schema.org/PriceSpecification"
                       >
-                        <span className="text-gray-500 text-xs">dès</span>
-                        <span className="font-bold text-emerald-600">
+                        <span className="text-gray-700 text-xs font-medium">dès</span>
+                        <span className="font-bold text-emerald-700">
                           <span itemProp="price">{item.price}</span>€
                         </span>
                         <meta itemProp="priceCurrency" content="EUR" />

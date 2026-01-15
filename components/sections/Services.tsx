@@ -123,8 +123,8 @@ export function Services({
                   itemType="https://schema.org/Offer"
                 >
                   <div className="flex items-baseline gap-1">
-                    <span className="text-gray-500 text-xs">À partir de</span>
-                    <span className="text-lg font-bold text-emerald-400">
+                    <span className="text-gray-300 text-xs font-medium">À partir de</span>
+                    <span className="text-lg font-bold text-white">
                       <span itemProp="price">{servicePrices[service.slug] || 69}</span>€
                     </span>
                     <meta itemProp="priceCurrency" content="EUR" />
