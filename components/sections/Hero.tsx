@@ -78,7 +78,7 @@ export function Hero({
 
       {/* Content - avec microdata pour LLM/SEO */}
       <div 
-        className="container relative z-10 pt-20 sm:pt-24 pb-16 sm:pb-20"
+        className="container relative z-10 pt-32 sm:pt-36 pb-16 sm:pb-20"
         itemScope
         itemType="https://schema.org/Service"
       >
@@ -86,7 +86,7 @@ export function Hero({
         <meta itemProp="areaServed" content={displayCity} />
         <div className="max-w-3xl">
           {/* Badge */}
-          <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm text-white text-sm font-semibold mb-6 animate-slide-in-left">
+          <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm text-white text-sm font-semibold mb-6 mt-4 sm:mt-6 animate-slide-in-left">
             {displayBadge}
           </span>
 

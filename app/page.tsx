@@ -53,6 +53,7 @@ export default function HomePage() {
         city="France"
         title="Serrurier Professionnel"
         subtitle="Intervention rapide 24h/24 et 7j/7. Ouverture de porte, changement de serrure, dépannage urgent partout en France."
+        backgroundImage="/images/zones/bordeaux/serrurier-hermes-depannage-urgence.webp"
         showReviews={true}
       />
 
