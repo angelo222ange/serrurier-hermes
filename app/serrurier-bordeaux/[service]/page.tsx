@@ -61,6 +61,18 @@ interface Props {
   params: { service: string };
 }
 
+// Force Next.js à générer les pages statiques au build
+export const dynamicParams = false;
+
+// Génération statique de toutes les pages de service pour Bordeaux
+export async function generateStaticParams() {
+  return services
+    .filter(s => s.hasPage)
+    .map(s => ({
+      service: s.slug,
+    }));
+}
+
 // Générer les métadonnées SEO
 export function generateMetadata({ params }: Props): Metadata {
   const zone = getZoneBySlug('bordeaux');
