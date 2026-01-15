@@ -60,7 +60,7 @@ export function Header({ citySlug: propCitySlug }: HeaderProps = {}) {
     const segments = pathname.split('/').filter(Boolean);
     // Normaliser le pathname (enlever le slash final)
     const normalizedPath = pathname.replace(/\/$/, '') || '/';
-    // Si on est sur une route de service générique
+    // Si on est sur une route de service générique (y compris /tarifs/)
     if (genericServiceRoutes.includes(normalizedPath)) {
       return true;
     }
@@ -78,6 +78,10 @@ export function Header({ citySlug: propCitySlug }: HeaderProps = {}) {
       // Si ce n'est pas une zone connue, c'est une page générique
       const isZone = zones.some(z => z.slug === secondSegment);
       return !isZone;
+    }
+    // Vérifier explicitement si on est sur /tarifs/ (avec ou sans slash)
+    if (normalizedPath === '/tarifs' || normalizedPath === '/tarifs/') {
+      return true;
     }
     return false;
   };

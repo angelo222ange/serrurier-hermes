@@ -1,3 +1,5 @@
+"use client";
+
 import { OptimizedImage } from "@/components/ui/OptimizedImage";
 import { siteConfig } from "@/config/site";
 
@@ -155,10 +157,15 @@ export function Hero({
           {showReviews && siteConfig.reviews && (
             <div className="mt-8 animate-slide-in-up stagger-4">
               <a
-                href={siteConfig.reviews.googleUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-3 px-4 py-3 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow group"
+                href="#reviews"
+                onClick={(e) => {
+                  e.preventDefault();
+                  const reviewsSection = document.getElementById('reviews');
+                  if (reviewsSection) {
+                    reviewsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                  }
+                }}
+                className="inline-flex items-center gap-3 px-4 py-3 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow group cursor-pointer"
               >
                 {/* Logo Google */}
                 <svg className="w-6 h-6" viewBox="0 0 24 24">

@@ -141,7 +141,7 @@ export function Reviews({
   };
 
   return (
-    <section className="section bg-[#0f0f0f] overflow-hidden">
+    <section id="reviews" className="section bg-[#0f0f0f] overflow-hidden">
       <div className="container">
         {/* Header */}
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8 sm:mb-10">
