@@ -95,8 +95,8 @@ export const regionConfigs = {
   },
   toulouse: {
     name: "Toulouse",
-    phone: "05 32 10 50 80",
-    phoneLink: "tel:+33532105080",
+    phone: "05 35 54 30 26",
+    phoneLink: "tel:+33535543026",
     colors: {
       primary: "#E30613",    // Rouge toulousain (brique)
       secondary: "#FFD700",  // Or occitan
