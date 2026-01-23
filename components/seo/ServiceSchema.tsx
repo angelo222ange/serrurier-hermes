@@ -32,7 +32,7 @@ export interface ServiceSchemaProps {
   /** Code postal */
   postalCode?: string;
   /** Région pour la config */
-  region?: "paris" | "bordeaux" | "montpellier";
+  region?: "paris" | "bordeaux" | "montpellier" | "toulouse";
   /** Note moyenne des avis */
   rating?: number;
   /** Nombre d'avis */

@@ -19,6 +19,7 @@ export interface Review {
   location?: string;
   service?: string;
   visitDate?: string;
+  avatarImage?: string;
 }
 
 // Type pour les données d'avis par région
@@ -136,7 +137,7 @@ export function getRandomMontpellierReviews(count: number = 10): Review[] {
 /**
  * Récupère les avis pour une région donnée
  */
-export function getReviewsByRegion(region: "paris" | "bordeaux" | "montpellier", zoneSlug?: string): Review[] {
+export function getReviewsByRegion(region: "paris" | "bordeaux" | "montpellier" | "toulouse", zoneSlug?: string): Review[] {
   switch (region) {
     case "paris":
       if (zoneSlug) {
@@ -153,6 +154,9 @@ export function getReviewsByRegion(region: "paris" | "bordeaux" | "montpellier",
         return getMontpellierReviews(zoneSlug);
       }
       return getRandomMontpellierReviews(10);
+    case "toulouse":
+      // For now, use default reviews for Toulouse until specific reviews are added
+      return getDefaultReviews("Toulouse");
     default:
       return getDefaultReviews("Paris");
   }
@@ -170,6 +174,7 @@ export function getDefaultReviews(city: string): Review[] {
       text: `Serrurier très professionnel, arrivé en 15 minutes à ${city}. Porte ouverte sans dégât. Prix conforme au devis. Je recommande !`,
       location: city,
       service: "Ouverture de porte",
+      avatarImage: "/images/avis-serrurier-hermes-toulouse.webp",
     },
     {
       name: "Sophie L.",
@@ -178,6 +183,7 @@ export function getDefaultReviews(city: string): Review[] {
       text: `Intervention rapide et efficace pour un changement de serrure à ${city}. Artisan poli et travail soigné. Merci !`,
       location: city,
       service: "Changement serrure",
+      avatarImage: "/images/avis-serrurier-hermes-toulouse-2.webp",
     },
     {
       name: "Pierre M.",
@@ -186,6 +192,7 @@ export function getDefaultReviews(city: string): Review[] {
       text: `Bloqué dehors à 23h à ${city}, ils sont venus en 20 min. Prix correct malgré l'heure tardive. Très satisfait.`,
       location: city,
       service: "Urgence nuit",
+      avatarImage: "/images/avis-client-serrurier-hermes-toulouse.webp",
     },
     {
       name: "Marie C.",

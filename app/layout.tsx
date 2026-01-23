@@ -2,10 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { siteConfig } from "@/config/site";
-import { Header } from "@/components/layout/Header";
-import { Footer } from "@/components/layout/Footer";
-import { FloatingButton } from "@/components/ui/FloatingButton";
-import { ScrollToTopButton } from "@/components/ui/ScrollToTopButton";
+import { ConditionalLayout } from "@/components/layout/ConditionalLayout";
 
 // Optimisation des polices avec next/font
 // - Preload automatique
@@ -86,7 +83,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="fr" className={inter.variable}>
+    <html lang="fr" className={inter.variable} suppressHydrationWarning>
       <head>
         {/* Critical CSS inline pour FCP rapide */}
         <style dangerouslySetInnerHTML={{ __html: criticalCSS }} />
@@ -115,12 +112,10 @@ export default function RootLayout({
         {/* Resource hints pour optimiser le chargement */}
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
-      <body className={`${inter.className} antialiased`}>
-        <Header />
-        {children}
-        <Footer />
-        <FloatingButton />
-        <ScrollToTopButton />
+      <body className={`${inter.className} antialiased`} suppressHydrationWarning>
+        <ConditionalLayout>
+          {children}
+        </ConditionalLayout>
       </body>
     </html>
   );

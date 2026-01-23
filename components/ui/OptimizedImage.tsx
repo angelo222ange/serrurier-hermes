@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 
 interface OptimizedImageProps {
   src: string;
@@ -38,8 +38,18 @@ export function OptimizedImage({
   imageType = "service",
   ...props
 }: OptimizedImageProps) {
+  // Use ref to track mounted state and avoid hydration mismatch
+  const mounted = useRef(false);
   const [imgError, setImgError] = useState(false);
   const [imgSrc, setImgSrc] = useState(src);
+
+  // Sync state when src prop changes
+  useEffect(() => {
+    mounted.current = true;
+    setImgSrc(src);
+    setImgError(false);
+    return () => { mounted.current = false; };
+  }, [src]);
 
   // Générer le srcset pour les images responsives
   const getSrcSet = () => {
@@ -90,11 +100,13 @@ export function OptimizedImage({
 
   // Fallback en cas d'erreur - charger la version -sm
   const handleError = () => {
+    // Only update state if component is mounted (prevents hydration mismatch)
+    if (!mounted.current) return;
+    
     if (!imgError && !imgSrc.includes('-sm')) {
       const ext = imgSrc.substring(imgSrc.lastIndexOf("."));
       const baseSrc = imgSrc.substring(0, imgSrc.lastIndexOf("."));
       const smallVersion = `${baseSrc}-sm${ext}`;
-      console.log(`Image error, trying smaller version: ${smallVersion}`);
       setImgSrc(smallVersion);
     } else {
       setImgError(true);

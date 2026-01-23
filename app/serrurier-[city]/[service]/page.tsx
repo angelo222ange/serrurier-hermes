@@ -32,7 +32,8 @@ import {
   zonesParisArrondissements, 
   zonesIDF, 
   zonesBordeaux, 
-  zonesMontpellier 
+  zonesMontpellier,
+  zonesToulouse,
 } from "@/config/site";
 
 // Import des contenus de chaque service
@@ -72,6 +73,7 @@ const allCityZones = [
   ...zonesIDF,
   ...zonesBordeaux,
   ...zonesMontpellier,
+  ...zonesToulouse,
 ];
 
 // Services avec page
@@ -470,6 +472,13 @@ export default function CityServicePage({ params }: Props) {
                       .replace(/ /g, '-')
                       .replace(/'/g, '-');
                     return `/images/zones/montpellier/depannage-rideau-metallique-${fileName}-montpellier.webp`;
+                  } else if (zoneSlug.includes('toulouse') || region === 'toulouse') {
+                    // Pour Toulouse
+                    const fileName = zoneName
+                      .toLowerCase()
+                      .replace(/ /g, '-')
+                      .replace(/'/g, '-');
+                    return `/images/zones/toulouse/${fileName}.webp`;
                   } else if (zoneSlug.match(/^paris-\d+$/)) {
                     // Pour Paris (arrondissements)
                     const arrondissement = zoneSlug.replace('paris-', '');

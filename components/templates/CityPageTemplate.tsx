@@ -40,6 +40,7 @@ export interface CityReview {
   text: string;
   location?: string;
   service?: string;
+  avatarImage?: string;
 }
 
 export interface FAQItem {
@@ -57,7 +58,7 @@ export interface CityConfig {
   /** Département ou région */
   department?: string;
   /** Région pour la configuration (paris, bordeaux, montpellier) */
-  region?: "paris" | "bordeaux" | "montpellier";
+  region?: "paris" | "bordeaux" | "montpellier" | "toulouse";
   /** Numéro de téléphone à afficher */
   phone: string;
   /** Lien téléphone (tel:+33...) */

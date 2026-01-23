@@ -1,11 +1,4 @@
-// Layout
-export { Header } from "@/components/layout/Header";
-export { Footer } from "@/components/layout/Footer";
-
-// UI
-export { FloatingButton } from "@/components/ui/FloatingButton";
-
-// Sections
+// Sections only - Layout and UI components should be imported from their own folders
 export { Hero } from "./Hero";
 export { Urgences } from "./Urgences";
 export { Services } from "./Services";

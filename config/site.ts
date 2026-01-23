@@ -93,6 +93,17 @@ export const regionConfigs = {
       background: "#F0F9FF",
     },
   },
+  toulouse: {
+    name: "Toulouse",
+    phone: "05 32 10 50 80",
+    phoneLink: "tel:+33532105080",
+    colors: {
+      primary: "#E30613",    // Rouge toulousain (brique)
+      secondary: "#FFD700",  // Or occitan
+      accent: "#F97316",     // Orange CTA
+      background: "#FFF9F5",
+    },
+  },
 } as const;
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -166,6 +177,34 @@ export const zonesMontpellier = [
   { name: "Grabels", slug: "grabels", postalCode: "34790", time: "20 min", image: "/images/zones/montpellier/Grabels-depannage-rideau-metallique.webp" },
   { name: "Saint-Jean-de-Védas", slug: "saint-jean-de-vedas", postalCode: "34430", time: "15 min", image: "/images/zones/montpellier/depannage-rideau-metallique-saint-jean-de-vedas-montpellier.webp" },
   { name: "Villeneuve-lès-Maguelone", slug: "villeneuve-les-maguelone", postalCode: "34750", time: "20 min", image: "/images/zones/montpellier/Villeneuve-les-Maguelone-depannage-rideau-metallique.webp" },
+] as const;
+
+// ─────────────────────────────────────────────────────────────────────────
+// ZONES D'INTERVENTION - TOULOUSE
+// ─────────────────────────────────────────────────────────────────────────
+export const zonesToulouse = [
+  { name: "Toulouse Centre", slug: "toulouse-centre", postalCode: "31000", isMain: true, time: "15 min", image: "/images/zones/toulouse/toulouse-centre.webp" },
+  { name: "Toulouse Nord", slug: "toulouse-nord", postalCode: "31200", time: "15 min", image: "/images/zones/toulouse/toulouse-nord.webp" },
+  { name: "Toulouse Sud", slug: "toulouse-sud", postalCode: "31400", time: "15 min", image: "/images/zones/toulouse/toulouse-sud.webp" },
+  { name: "Toulouse Est", slug: "toulouse-est", postalCode: "31500", time: "15 min", image: "/images/zones/toulouse/toulouse-est.webp" },
+  { name: "Toulouse Ouest", slug: "toulouse-ouest", postalCode: "31300", time: "15 min", image: "/images/zones/toulouse/toulouse-ouest.webp" },
+  { name: "Toulouse Sud-Est", slug: "toulouse-sud-est", postalCode: "31400", time: "20 min", image: "/images/zones/toulouse/toulouse-sud-est.webp" },
+  { name: "Blagnac", slug: "blagnac", postalCode: "31700", time: "15 min", image: "/images/zones/toulouse/blagnac.webp" },
+  { name: "Colomiers", slug: "colomiers", postalCode: "31770", time: "20 min", image: "/images/zones/toulouse/colomiers.webp" },
+  { name: "Tournefeuille", slug: "tournefeuille", postalCode: "31170", time: "20 min", image: "/images/zones/toulouse/tournefeuille.webp" },
+  { name: "Balma", slug: "balma", postalCode: "31130", time: "15 min", image: "/images/zones/toulouse/balma.webp" },
+  { name: "Muret", slug: "muret", postalCode: "31600", time: "25 min", image: "/images/zones/toulouse/muret.webp" },
+  { name: "Ramonville-Saint-Agne", slug: "ramonville-saint-agne", postalCode: "31520", time: "15 min", image: "/images/zones/toulouse/ramonville-saint-agne.webp" },
+  { name: "Saint-Orens-de-Gameville", slug: "saint-orens-de-gameville", postalCode: "31650", time: "20 min", image: "/images/zones/toulouse/saint-orens-de-gameville.webp" },
+  { name: "Cugnaux", slug: "cugnaux", postalCode: "31270", time: "20 min", image: "/images/zones/toulouse/cugnaux.webp" },
+  { name: "Plaisance-du-Touch", slug: "plaisance-du-touch", postalCode: "31830", time: "25 min", image: "/images/zones/toulouse/plaisance-du-touch.webp" },
+  { name: "L'Union", slug: "lunion", postalCode: "31240", time: "15 min", image: "/images/zones/toulouse/lunion.webp" },
+  { name: "Launaguet", slug: "launaguet", postalCode: "31140", time: "15 min", image: "/images/zones/toulouse/launaguet.webp" },
+  { name: "Aucamville", slug: "aucamville", postalCode: "31140", time: "15 min", image: "/images/zones/toulouse/aucamville.webp" },
+  { name: "Castanet-Tolosan", slug: "castanet-tolosan", postalCode: "31320", time: "20 min", image: "/images/zones/toulouse/castanet-tolosan.webp" },
+  { name: "Portet-sur-Garonne", slug: "portet-sur-garonne", postalCode: "31120", time: "20 min", image: "/images/zones/toulouse/portet-sur-garonne.webp" },
+  { name: "Saint-Jean", slug: "saint-jean", postalCode: "31240", time: "15 min", image: "/images/zones/toulouse/saint-jean.webp" },
+  { name: "Fonsorbes", slug: "fonsorbes", postalCode: "31470", time: "25 min", image: "/images/zones/toulouse/fonsorbes.webp" },
 ] as const;
 
 // ─────────────────────────────────────────────────────────────────────────

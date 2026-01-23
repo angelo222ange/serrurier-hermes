@@ -13,6 +13,7 @@ interface Review {
   location?: string;
   service?: string;
   visitDate?: string;
+  avatarImage?: string;
 }
 
 interface ReviewsProps {
@@ -45,6 +46,7 @@ const defaultReviews: Review[] = [
     text: "Serrurier très professionnel, arrivé en 15 minutes. Porte ouverte sans dégât. Prix conforme au devis. Je recommande vivement ce service !",
     location: "Centre-ville",
     service: "Ouverture de porte",
+    avatarImage: "/images/avis-serrurier-hermes-toulouse.webp",
   },
   {
     name: "Sophie Laurent",
@@ -54,6 +56,7 @@ const defaultReviews: Review[] = [
     text: "Intervention rapide et efficace pour un changement de serrure. Artisan poli et travail soigné. Merci !",
     location: "Quartier Nord",
     service: "Changement serrure",
+    avatarImage: "/images/avis-serrurier-hermes-toulouse-2.webp",
   },
   {
     name: "Pierre Martin",
@@ -62,6 +65,7 @@ const defaultReviews: Review[] = [
     visitDate: "décembre 2025",
     text: "Bloqué dehors à 23h, ils sont venus en 20 min. Prix correct malgré l'heure tardive. Très satisfait.",
     service: "Urgence nuit",
+    avatarImage: "/images/avis-client-serrurier-hermes-toulouse.webp",
   },
   {
     name: "Marie Chevalier",
@@ -223,10 +227,24 @@ export function Reviews({
               {/* Header de l'avis - Style Google exact */}
               <div className="flex items-start justify-between mb-3">
                 <div className="flex items-center gap-3">
-                  {/* Avatar avec initiale - Style Google */}
-                  <div className={`w-10 h-10 rounded-full ${getAvatarColor(review.name)} flex items-center justify-center text-white font-medium text-lg`}>
-                    {review.name.charAt(0).toUpperCase()}
-                  </div>
+                  {/* Avatar avec image ou initiale - Style Google */}
+                  {review.avatarImage ? (
+                    <div className="w-10 h-10 rounded-full overflow-hidden flex-shrink-0">
+                      <OptimizedImage
+                        src={review.avatarImage}
+                        alt={review.name}
+                        width={40}
+                        height={40}
+                        loading="lazy"
+                        className="w-full h-full object-cover"
+                        imageType="thumbnail"
+                      />
+                    </div>
+                  ) : (
+                    <div className={`w-10 h-10 rounded-full ${getAvatarColor(review.name)} flex items-center justify-center text-white font-medium text-lg`}>
+                      {review.name.charAt(0).toUpperCase()}
+                    </div>
+                  )}
                   <div>
                     <p className="font-medium text-white text-sm">{review.name}</p>
                     <div className="flex items-center gap-1.5 mt-0.5">

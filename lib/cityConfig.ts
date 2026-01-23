@@ -14,6 +14,7 @@ import {
   zonesIDF,
   zonesBordeaux,
   zonesMontpellier,
+  zonesToulouse,
   zones,
 } from "@/config/site";
 import { getNeighboringSlugs } from "@/config/neighbors";
@@ -32,6 +33,7 @@ export const allZones = {
   idf: zonesIDF,
   bordeaux: zonesBordeaux,
   montpellier: zonesMontpellier,
+  toulouse: zonesToulouse,
 };
 
 // Type pour les régions
@@ -62,6 +64,10 @@ export function getRegionFromSlug(slug: string): RegionKey {
   // Vérifier Montpellier
   const montpellierZone = zonesMontpellier.find(z => z.slug === slug);
   if (montpellierZone) return 'montpellier';
+  
+  // Vérifier Toulouse
+  const toulouseZone = zonesToulouse.find(z => z.slug === slug);
+  if (toulouseZone) return 'toulouse';
   
   // Par défaut Paris
   return 'paris';
@@ -96,6 +102,11 @@ export function getCityParent(citySlug: string): string {
     return '/serrurier-montpellier/';
   }
   
+  // Toulouse : toutes les villes → toulouse
+  if (region === 'toulouse') {
+    return '/serrurier-toulouse/';
+  }
+  
   // Par défaut, retour à l'accueil
   return '/';
 }
@@ -117,6 +128,7 @@ export function getZoneBySlug(slug: string) {
     ...zonesIDF,
     ...zonesBordeaux,
     ...zonesMontpellier,
+    ...zonesToulouse,
   ];
   
   return allZonesList.find(z => z.slug === slug);
@@ -136,6 +148,7 @@ export function getNeighborZones(slug: string, limit = 8): CityZone[] {
     ...zonesIDF,
     ...zonesBordeaux,
     ...zonesMontpellier,
+    ...zonesToulouse,
   ];
   
   // Mapper les slugs vers les objets complets
@@ -212,6 +225,9 @@ export function getReviewsForZone(zoneSlug: string, cityName: string): CityRevie
     
     case "montpellier":
       return getMontpellierReviews(zoneSlug) as CityReview[];
+    
+    case "toulouse":
+      return getDefaultReviews(cityName) as CityReview[];
     
     default:
       return getDefaultReviews(cityName) as CityReview[];
@@ -329,6 +345,7 @@ export function getAllCityConfigs(): CityConfig[] {
     ...zonesIDF,
     ...zonesBordeaux,
     ...zonesMontpellier,
+    ...zonesToulouse,
   ];
   
   return allZonesList
@@ -345,6 +362,7 @@ export function getAllZoneSlugs(): { slug: string }[] {
     ...zonesIDF,
     ...zonesBordeaux,
     ...zonesMontpellier,
+    ...zonesToulouse,
   ];
   
   return allZonesList.map(zone => ({ slug: zone.slug }));

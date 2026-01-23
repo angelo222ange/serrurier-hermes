@@ -159,7 +159,7 @@ export function Header({ citySlug: propCitySlug }: HeaderProps = {}) {
     // Si on a un citySlug (page de ville), on crée des liens contextuels
     if (citySlug) {
       const region = getRegionFromSlug(citySlug);
-      const regionName = region === 'paris' ? 'paris' : region === 'bordeaux' ? 'bordeaux' : 'montpellier';
+      const regionName = region === 'paris' ? 'paris' : region === 'bordeaux' ? 'bordeaux' : region === 'montpellier' ? 'montpellier' : region === 'toulouse' ? 'toulouse' : 'paris';
       
       // Gestion du lien Contact
       if (href === '/contact') {
@@ -206,6 +206,7 @@ export function Header({ citySlug: propCitySlug }: HeaderProps = {}) {
             ? 'bg-white/95 backdrop-blur-md shadow-md' 
             : 'bg-white'
         }`}
+        suppressHydrationWarning
       >
         {/* Bandeau de réassurance - Desktop */}
         <div className="hidden sm:block bg-gray-900 text-white py-1.5">

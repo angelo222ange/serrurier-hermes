@@ -29,7 +29,7 @@ export interface ZoneConfig {
   /** Département */
   department?: string;
   /** Région pour le Schema LocalBusiness */
-  region?: "paris" | "bordeaux" | "montpellier";
+  region?: "paris" | "bordeaux" | "montpellier" | "toulouse";
   /** Numéro de téléphone */
   phone: string;
   /** Lien téléphone */

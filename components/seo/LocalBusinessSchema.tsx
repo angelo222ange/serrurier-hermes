@@ -24,7 +24,7 @@ export interface LocalBusinessSchemaProps {
   /** Code postal */
   postalCode: string;
   /** Région pour la config */
-  region?: "paris" | "bordeaux" | "montpellier";
+  region?: "paris" | "bordeaux" | "montpellier" | "toulouse";
   /** Note moyenne des avis */
   rating?: number;
   /** Nombre d'avis */
@@ -49,6 +49,8 @@ function getGeoCoordinates(region: string, citySlug: string) {
     bordeaux: { lat: 44.8378, lng: -0.5792 },
     // Montpellier centre
     montpellier: { lat: 43.6108, lng: 3.8767 },
+    // Toulouse centre
+    toulouse: { lat: 43.6047, lng: 1.4442 },
   };
   
   // Ajuster légèrement les coordonnées par arrondissement parisien
@@ -144,7 +146,7 @@ export function LocalBusinessSchema({
       addressLocality: cityName,
       postalCode: postalCode,
       addressCountry: "FR",
-      addressRegion: region === "paris" ? "Île-de-France" : region === "bordeaux" ? "Nouvelle-Aquitaine" : "Occitanie",
+      addressRegion: region === "paris" ? "Île-de-France" : region === "bordeaux" ? "Nouvelle-Aquitaine" : region === "montpellier" ? "Occitanie" : region === "toulouse" ? "Occitanie" : "Occitanie",
     },
     // Coordonnées géographiques
     geo: {
