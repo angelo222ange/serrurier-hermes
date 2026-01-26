@@ -10,6 +10,23 @@ import { ScrollToTopButton } from "@/components/ui/ScrollToTopButton";
 const CUSTOM_LAYOUT_ROUTES = [
   "/serrurier-toulouse",
   "/ads/",
+  // Pages Val-de-Marne avec layout personnalisé
+  "/serrurier-vitry-sur-seine",
+  "/serrurier-creteil",
+  "/serrurier-champigny-sur-marne",
+  "/serrurier-saint-maur-des-fosses",
+  "/serrurier-maisons-alfort",
+  "/serrurier-ivry-sur-seine",
+  "/serrurier-fontenay-sous-bois",
+  "/serrurier-nogent-sur-marne",
+  "/serrurier-alfortville",
+  "/serrurier-charenton-le-pont",
+  "/serrurier-saint-mande",
+  "/serrurier-joinville-le-pont",
+  "/serrurier-le-perreux-sur-marne",
+  "/serrurier-bry-sur-marne",
+  "/serrurier-thiais",
+  "/serrurier-saint-maurice",
 ];
 
 export function ConditionalLayout({ children }: { children: React.ReactNode }) {
