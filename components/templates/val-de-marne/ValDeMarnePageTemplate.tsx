@@ -615,7 +615,7 @@ export default function ValDeMarnePageTemplate({ city }: ValDeMarnePageProps) {
                 </div>
                 <div className="border-l border-slate-600 pl-3">
                   <p className="font-bold text-white">4.9/5</p>
-                  <p className="text-xs text-white/50">127 avis</p>
+                  <p className="text-xs text-white/50">+1519 avis</p>
                 </div>
               </div>
               
