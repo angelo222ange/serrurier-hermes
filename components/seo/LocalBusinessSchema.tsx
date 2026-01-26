@@ -24,7 +24,7 @@ export interface LocalBusinessSchemaProps {
   /** Code postal */
   postalCode: string;
   /** Région pour la config */
-  region?: "paris" | "bordeaux" | "montpellier" | "toulouse";
+  region?: "paris" | "bordeaux" | "montpellier" | "toulouse" | "val-de-marne";
   /** Note moyenne des avis */
   rating?: number;
   /** Nombre d'avis */

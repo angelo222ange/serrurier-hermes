@@ -137,7 +137,7 @@ export function getRandomMontpellierReviews(count: number = 10): Review[] {
 /**
  * Récupère les avis pour une région donnée
  */
-export function getReviewsByRegion(region: "paris" | "bordeaux" | "montpellier" | "toulouse", zoneSlug?: string): Review[] {
+export function getReviewsByRegion(region: "paris" | "bordeaux" | "montpellier" | "toulouse" | "val-de-marne", zoneSlug?: string): Review[] {
   switch (region) {
     case "paris":
       if (zoneSlug) {

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-// Fonction helper pour générer les métadonnées - fichier séparé pour être utilisable côté serveur
+// Fonction helper pour générer les métadonnées
 export function generateValDeMarneMetadata(cityName: string, postalCode: string, phone: string): Metadata {
   return {
     title: `Serrurier ${cityName} 24h/24 - Intervention 15 min | Dès 69€`,

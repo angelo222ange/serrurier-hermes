@@ -104,6 +104,17 @@ export const regionConfigs = {
       background: "#FFF9F5",
     },
   },
+  "val-de-marne": {
+    name: "Val-de-Marne",
+    phone: "01 85 09 97 74",
+    phoneLink: "tel:+33185099774",
+    colors: {
+      primary: "#1E3A5F",    // Bleu nuit IDF
+      secondary: "#10B981",  // Vert émeraude
+      accent: "#F97316",     // Orange CTA
+      background: "#F8FAFC",
+    },
+  },
 } as const;
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -205,6 +216,28 @@ export const zonesToulouse = [
   { name: "Portet-sur-Garonne", slug: "portet-sur-garonne", postalCode: "31120", time: "20 min", image: "/images/zones/toulouse/portet-sur-garonne.webp" },
   { name: "Saint-Jean", slug: "saint-jean", postalCode: "31240", time: "15 min", image: "/images/zones/toulouse/saint-jean.webp" },
   { name: "Fonsorbes", slug: "fonsorbes", postalCode: "31470", time: "25 min", image: "/images/zones/toulouse/fonsorbes.webp" },
+] as const;
+
+// ─────────────────────────────────────────────────────────────────────────
+// ZONES D'INTERVENTION - VAL-DE-MARNE (94)
+// ─────────────────────────────────────────────────────────────────────────
+export const zonesValDeMarne = [
+  { name: "Créteil", slug: "creteil", postalCode: "94000", isMain: true, time: "15 min", image: "/images/zones/val de marne/serrurier-creteil.webp" },
+  { name: "Vitry-sur-Seine", slug: "vitry-sur-seine", postalCode: "94400", time: "15 min", image: "/images/zones/val de marne/serrurier-Vitry-sur-Seine.webp" },
+  { name: "Champigny-sur-Marne", slug: "champigny-sur-marne", postalCode: "94500", time: "15 min", image: "/images/zones/val de marne/serrurier-Champigny-sur-Marne.webp" },
+  { name: "Saint-Maur-des-Fossés", slug: "saint-maur-des-fosses", postalCode: "94100", time: "15 min", image: "/images/zones/val de marne/serrurier-Saint-Maur-des-Fossés.webp" },
+  { name: "Maisons-Alfort", slug: "maisons-alfort", postalCode: "94700", time: "15 min", image: "/images/zones/val de marne/serrurier-Maisons-Alfort.webp" },
+  { name: "Ivry-sur-Seine", slug: "ivry-sur-seine", postalCode: "94200", time: "15 min", image: "/images/zones/val de marne/serrurier-Ivry-sur-Seine.webp" },
+  { name: "Fontenay-sous-Bois", slug: "fontenay-sous-bois", postalCode: "94120", time: "15 min", image: "/images/zones/val de marne/serrurier-fontenay-sous-bois-94.webp" },
+  { name: "Nogent-sur-Marne", slug: "nogent-sur-marne", postalCode: "94130", time: "15 min", image: "/images/zones/val de marne/serrurier-nogent-sur-marne-94.webp" },
+  { name: "Alfortville", slug: "alfortville", postalCode: "94140", time: "15 min", image: "/images/zones/val de marne/serrurier-Alfortville.webp" },
+  { name: "Charenton-le-Pont", slug: "charenton-le-pont", postalCode: "94220", time: "15 min", image: "/images/zones/val de marne/serrurier-charenton-le-pont-94.webp" },
+  { name: "Saint-Mandé", slug: "saint-mande", postalCode: "94160", time: "15 min", image: "/images/zones/val de marne/serrurier-Saint-Mandé-vincennes.webp" },
+  { name: "Joinville-le-Pont", slug: "joinville-le-pont", postalCode: "94340", time: "15 min", image: "/images/zones/val de marne/serrurier-Joinville-le-Pont.webp" },
+  { name: "Le Perreux-sur-Marne", slug: "le-perreux-sur-marne", postalCode: "94170", time: "15 min", image: "/images/zones/val de marne/serrurier-Le-Perreux-sur-Marne.webp" },
+  { name: "Bry-sur-Marne", slug: "bry-sur-marne", postalCode: "94360", time: "20 min", image: "/images/zones/val de marne/serrurier-Bry-sur-Marne.webp" },
+  { name: "Thiais", slug: "thiais", postalCode: "94320", time: "20 min", image: "/images/zones/val de marne/serrurier-Thiais.webp" },
+  { name: "Saint-Maurice", slug: "saint-maurice", postalCode: "94410", time: "15 min", image: "/images/zones/val de marne/serrurier-saint-maurice-94.webp" },
 ] as const;
 
 // ─────────────────────────────────────────────────────────────────────────

@@ -37,7 +37,7 @@ export interface ServiceConfig {
   /** Code postal */
   postalCode?: string;
   /** Région pour le Schema LocalBusiness */
-  region?: "paris" | "bordeaux" | "montpellier" | "toulouse";
+  region?: "paris" | "bordeaux" | "montpellier" | "toulouse" | "val-de-marne";
   /** Numéro de téléphone */
   phone: string;
   /** Lien téléphone */

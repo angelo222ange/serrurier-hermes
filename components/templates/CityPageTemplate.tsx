@@ -58,7 +58,7 @@ export interface CityConfig {
   /** Département ou région */
   department?: string;
   /** Région pour la configuration (paris, bordeaux, montpellier) */
-  region?: "paris" | "bordeaux" | "montpellier" | "toulouse";
+  region?: "paris" | "bordeaux" | "montpellier" | "toulouse" | "val-de-marne";
   /** Numéro de téléphone à afficher */
   phone: string;
   /** Lien téléphone (tel:+33...) */
